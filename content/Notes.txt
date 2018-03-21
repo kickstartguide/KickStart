@@ -29,6 +29,4 @@ tutorials
 video tutorials
 
 P.S :: start numbering from (1) and continue.....
-odd :: description
-even :: links
-
+Description should always precede links
