@@ -1,12 +1,22 @@
-Computer/IT
-Mechanical
-Electrical
-Civil
-Chemical
-EC
-Auronotical
+21/03/18
 
+**Content**
+Computer/IT	-Ankita
+Mechanical	-Dhruv
+Electrical	-Aditya
+Civil		-Hrishikesh
+Chemical	-Shivangi
+EC		-Meshwa
+Auronotical	-
+
+**Features**
+1)Communication With Friends
+2)Fetch Locaion and provide institute
+3)Preferences
+
+**Resources**
 MOOCs
 Reference Books
 Videos
 Tutorials
+
