@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+ 
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script type="text/javascript" src="js/auth.js">
+  </script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script type="text/javascript" src="js/glog.js"></script>
+  <script type="text/javascript" src="js/flog.js"></script>
+
+  <meta name="google-signin-client_id" content="518074473208-jia1q27qrve1gj62hrgc6ft8d58hq6lh.apps.googleusercontent.com">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>KickStart_Login</title>
+  <link rel="stylesheet" href="css/authstyle.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/loading.css">
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<script>$(document).ready(function(){$('#page_effect').fadeIn(2000);});</script>
+<body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=1936565249929643';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <div id="page_effect" style="display:none;">
+  
+<section class="container1">
+
+      <div class="login" style="padding-left: 20;">
+      <h1>Login</h1>
+      <form method="post" action="login.html">
+        <div class="form-group" style="padding-left: -5px;">
+        <label for="email">Email address</label>
+          <input class="form-control" type="text" name="email"  id="email" placeholder="Email" required>
+          <br>
+        <label for="password">Password</label>
+        <input class="form-control" type="password" name="password"  id="password" placeholder="Password" required>
+        <br>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me.
+          </label>
+        </div>
+      </div>
+      </form>
+        <div style="padding-left: 35px;">
+          <p><button type="button" name="login" id="login" value="Login">Login &nbsp;<span class="ld ld-hourglass ld-spin-fast" style="font-size:12px;color:#c33538;"></span></button>
+          </p>
+    </div>
+      <div class="login-help">
+      <p>Forgot your password? <a id="forgot">Click here to reset it</a>.</p>
+      <p>Not a Member ? <a href="signup.html">Click here to Sign Up</a>.</p>
+
+      <div class="guest"><br><a href="home.html"><strong>Continue as a Guest</strong></a></div>
+    </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6" style="align-items: center;"><span class="g-signin2" data-onsuccess="onSignIn" style="display: inline-block;margin-left: 30px; height: 25px; width: 110px !important;"></span>
+        <span class="fb-login-button" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true" data-onsuccess="onSignInFacebook" style="display: inline-block; margin: auto; width: 200px !important;"></span>
+      </div>
+    </div>
+  
+  </div>
+
+
+
+    </section>
+   
+
+   
+  <script>$('#password').keypress(function(event){if(event.which == 13){$('#login').click();}});</script>
+  <script src="js/authstyle.js"></script>
+  <script src="js/authlogin.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

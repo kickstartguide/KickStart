@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
+  
+  <title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+
+  <style type="text/css">
+		.hidden{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+
+	
+<button type="button" id="modal" class="btn btn-info btn-lg hidden" data-toggle="modal" data-target="#myModal">Preferences</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      
+        <!-- Modal content-->
+      <div class="modal-content">
+        <div class="container">
+  		    <div class="row">
+  		      <div class="col-sm-12 col-md-12">	
+  				    <div class="alert alert-success" style="width: 50%;text-transform: uppercase;">Please Help us to find your best preferences.
+  					   <br><br>
+  					   <div class="alert alert-danger"">
+  					
+  					     Please note that your location might be required to communicate you with the people currently interested in similar fields and for finding the best  institutes near you.
+  				      </div>
+  				    </div>
+
+    				  <form method="post" action="login.html">
+                <div class="form-group">
+            	   <div class="section4 hidden">
+              		  <h3>Enter Your Location</h3>
+           	        <select class="form-control" type="dropdown" name="location"  id="location" required style="width: 50%;">
+            	       <option class="city" value="Ahmedabad">Ahmedabad</option>
+             		     <option class="city" value="Surat">Surat</option>
+             	  	   <option class="city" value="Baroda">Baroda</option>
+                     <option class="city" value="Gandhinagar">Gandhinagar</option>
+                    </select>
+                    <div class="modal-footer" style="width: 50%;">
+                	   <label class="btn btn-success next4">Skip</label>
+                		 <label class="btn btn-success next4">Next</label>
+                    </div>
+                  </div>
+
+                  <div class="section1">
+                    <h3>Select the discipline you want to persue</h3>
+                    <label for="eng">&nbsp;Engineering &nbsp;<input type="checkbox" class="disciplines" name="eng" value="Engineering"></label>
+                    <label for="med">&nbsp;Medical&nbsp;     <input type="checkbox" class="disciplines" name="med" value="Medical"></label>
+                    <label for="com">&nbsp;Commerce&nbsp;    <input type="checkbox" class="disciplines" name="com" value="Commerce"></label>
+                    <div class="modal-footer" style="width: 50%;">
+                	   <label class="btn btn-default next1">Skip</label>
+                  	 <label class="btn btn-success next1">Next</label>
+                    </div>
+                  </div>
+
+                  <div class="section2 hidden">
+                    <h3>Select the branch you are interested in</h3>
+                    <label for="comp">&nbsp;Computer &nbsp;<input type="checkbox" class="branches" name="comp" value="Computer"></label>
+                    <label for="it">&nbsp;It&nbsp;         <input type="checkbox" class="branches" name="it" value="IT"></label>
+                    <label for="ec">&nbsp;EC&nbsp;         <input type="checkbox" class="branches" name="ec" value="EC"></label>
+                    <div class="modal-footer" style="width: 50%;">
+                	   <label class="btn btn-default next2">Skip</label>
+                  	 <label class="btn btn-success next2">Next</label> 
+                    </div>
+                  </div>
+
+                  <div class="section3 hidden">
+                    <h3>Your Skill Level</h3>
+                    <select class="form-control" type="dropdown" name="skill"  id="skill" required style="width: 50%;">
+                      <option class="skill" value="Beginner">Beginner</option>
+                      <option class="skill" value="Intermediate">Intermediate</option>
+                      <option class="skill" value="Expert">Expert</option>
+                    </select>
+                    <div class="modal-footer" style="width: 50%;">
+                	   <label class="btn btn-success next3">Skip</label>
+                  	 <label class="btn btn-success next3">Next</label>
+                    </div>
+                  </div>
+                  <div class="section5 hidden">
+                    We are modifying your content.
+                    <div class="modal-footer" style="width: 50%;">
+                      <button type="button" class="btn btn-default" data-dismiss="modal" style="align-items: center;" onclick="getData()">OK</button>
+                    </div>
+                  </div>
+      			    </div>
+  		        </form>
+  	        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>	
+</body>
+
+<script>
+jQuery(function(){
+   jQuery('#modal').click();
+});
+
+$('.next1').click(function(){
+	$('.section1').addClass('hidden');
+	$('.section2').removeClass('hidden');
+});
+$('.next2').click(function(){
+	$('.section2').addClass('hidden');
+	$('.section3').removeClass('hidden');
+});
+$('.next3').click(function(){
+	$('.section3').addClass('hidden');
+	$('.section4').removeClass('hidden');
+});
+$('.next4').click(function(){
+	$('.section4').addClass('hidden');
+	$('.section5').removeClass('hidden');
+});
+
+</script>
+<script src="js/uploadData.js"></script>
+
+
+</html>

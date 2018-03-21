@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script src="js/jquery.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+  <script src="js/auth.js"></script>
+ 
+<title>KickStart</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/temp.css">
+
+
+</head>
+
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+
+
+	<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+    
+
+    <!-- navbar header -->
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+      </button>
+      <a href="" class="navbar-brand">
+        <img src="images/loader.png" style="position: fixed;overflow: hidden!important;  top: 1%;left: 1%; width: 11%;"></img></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+      <ul class="nav navbar-nav navbar-right navbar-pills text-center">
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#overview">Overview</a></li>
+        
+        <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Career Options <span class="caret"></span></a>
+        
+           <ul class="dropdown-menu bounceIn multi-level text-center" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut" role="menu" aria-labelledby="dropdownMenu">
+              
+              <li class="dropdown-submenu">
+                <a href="tech_events.php">Engineering</a>
+                
+                <ul class="dropdown-menu" style="padding: 0;;">
+                  <li class="dropdown-submenu">
+                    <a href="comp_events.php">Computer/IT</a>
+                    <!--<ul class="dropdown-menu" style="padding: 0;">
+                        <li><a>Data Science</a></li>
+               
+                    </ul>-->
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="civil_events.php">Mechanical</a>
+                    <ul class="dropdown-menu" style="padding: 0;">
+                        <!--<li><a>Data Science</a></li>-->
+                        
+                </ul>
+              </li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+  <li><a href="#doubt" class="smoothScroll">Any Question?</a></li>
+				<li><a href="#contact" class="smoothScroll">Contact Us</a></li>
+				<li><a href="#about" class="smoothScroll">About Us</a></li>
+				<li><a id="login" href="login.html" class="hidden smoothScroll">Login</a></li>
+        <li><p id="textelement" style="padding-left: 30px; padding-top: 15px; padding-right: 30px; text-transform: uppercase; "></p></li>
+          <li><button type="button" id="signout" class="hidden btn btn-default navbar-btn" style="margin-top: 15px; padding-top: 5px; height:30px!important;">Sign Out</button></li>
+          <script type="text/javascript">
+        var signout=document.getElementById("signout");
+signout.addEventListener("click",function(){
+  firebase.auth().signOut().then(function() {
+    alert("successfully SignOut");
+  // Sign-out successful.
+}).catch(function(error) {
+  alert("Error occur.Please Try Again.")
+  // An error happened.
+});
+},false);</script>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript">
+  firebase.auth().onAuthStateChanged(firebaseUser => {
+        if(!firebaseUser){
+           $('#login').removeClass('hidden');
+           $('#signup').removeClass('hidden');
+           $('#textelement').addClass('hidden');
+            $('#signout').addClass('hidden');
+            $('#doubt').addClass('hidden');
+           }
+           else
+           {
+            $('#login').addClass('hidden');
+           $('#signup').addClass('hidden');
+            $('#textelement').removeClass('hidden');
+            $('#signout').removeClass('hidden');
+            var user = firebase.auth().currentUser;
+            if(user!=null)
+            {var name=user.displayName;
+              document.getElementById("textelement").innerHTML = "Welcome " + name + " !" ;
+            console.log("Welcome " + name);
+
+            
+          }
+          }
+});
+</script>
+
+<section id="intro" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<h2 class="wow bounceIn" data-wow-delay="0.9s">Welcome To Our</h2>
+				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Professional Career Guidance</h1>
+				<br>
+	 <div class="input-group" style="margin-left: 75%;">
+               
+                <form style="width: 165%;" class="wow fadeInUp" data-wow-delay="1.9s">
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="What do you want to learn ?"></form>
+                
+            </div>
+
+
+		</div>
+	</div>
+</div>
+   
+</section>
+
+<!-- =========================
+    CareerOption SECTION   
+============================== -->
+
+<section id="CareerOption" class="parallax-section">
+	<div class="container">
+		 <div class="row">
+		 
+		 <h4>It is never too late to be what you might have been</h4>    
+        <div class="col-xs-8 col-xs-offset-2">
+		    <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    	<span id="search_concept">Filter by</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu"  role="menu">
+                      <div id="diff" style="text-align: center;">
+                        <br>
+                      <li><a href="#engineering">Engineering</a></li>
+                      <li><a href="#medical">Medical</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#all">Other</a></li>
+                      </div>
+                    </ul>
+                </div>
+                <form>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="What do you want to learn ?"></form>
+                <span class="input-group-btn" style="justify-content: justify;">
+                    <button class="btn btn-default" type="button"><span><i class="fa fa-search" aria-hidden="true"></i>
+</span></button>
+                </span>
+            </div>
+        </div>
+	</div>
+	<script>
+		$(document).ready(function(e){
+    $('.search-panel .dropdown-menu').find('a').click(function(e) {
+		e.preventDefault();
+		var param = $(this).attr("href").replace("#","");
+		var concept = $(this).text();
+		$('.search-panel span#search_concept').text(concept);
+		$('.input-group #search_param').val(param);
+	});
+});
+	</script>
+	<br>
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12 wow bounceIn">
+				<div class="section-title">
+					<h2>Career Options</h2>
+					<p>Choose your best career option</p>
+					
+				</div>
+			</div>
+		</div>
+			<!-- Testimonial Owl Carousel section
+			================================================== -->
+			<div class="row">
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="CareerOption-wrapper">
+						<a class="eng" href="engineering.html" onmouseenter="eeng()" onclick="eng()"><img src="images/engineering.jpg" s class="img-responsive" alt="CareerOption">
+							</a>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="CareerOption-wrapper">
+						<a class="med" href="#medical" onmouseenter="emed()" onclick="med()"><img src="images/medical.jpg"  class="img-responsive" alt="CareerOption">
+							</a>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="CareerOption-wrapper">
+						<a class="com" href="commerce.html" onclick="com()"><img src="images/Commerce.jpg"  class="img-responsive" alt="CareerOption">
+							</a>
+					</div>
+				</div>
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="CareerOption-wrapper">
+						<a class="arts" href="arts.html" onclick="arts()"><img src="images/arts.jpg" class="img-responsive" alt="CareerOption">
+							</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="item wow fadeInUp col-sm-offset-3 col-md-offset-3 col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="CareerOption-wrapper">
+						<a class="law" href="law.html" onclick="law()"><img src="images/law.jpg" class="img-responsive" alt="CareerOption">
+							</a>
+					</div>
+				</div>
+				
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="CareerOption-wrapper">
+						<a class="manage" href="management.html" onclick="manage()"><img src="images/management.jpg"  class="img-responsive" alt="CareerOption">
+							</a>
+					</div>
+				</div>
+			</div>
+			</div>
+					<script type="text/javascript">
+				function eng() {
+					
+            	 var hr = $(".eng").attr("href");
+              window.localStorage.setItem('link',hr);
+            }
+function med() {
+				
+               var hr = $(".med").attr("href");
+              window.localStorage.setItem('link',hr);
+            
+            }
+function arts() {
+              var hr = $(".arts").attr("href");
+              window.localStorage.setItem('link',hr);
+            window.open(hr);
+            }
+function law() {
+              var hr = $(".law").attr("href");
+              window.localStorage.setItem('link',hr);
+            window.open(hr);
+            }
+function manage() {
+              var hr = $(".manage").attr("href");
+              window.localStorage.setItem('link',hr);
+            window.open(hr);
+            }
+function com() {
+              var hr = $(".com").attr("href");
+              window.localStorage.setItem('link',hr);
+            window.open(hr);
+            }
+			</script>
+					
+		</div>
+	</div>
+</section>
+<section id="session" class="parallax-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <h2>Your History</h2>
+      <div class="cookie hidden">
+        
+          <a class="last" href="#"><p class="link1">Last session</p></a>
+          </div>
+          <script type="text/javascript">
+            if(localStorage.getItem('link')!=null)
+            {
+              $('.cookie').removeClass('hidden');
+               var li=window.localStorage.getItem('link');
+                    $('.last').attr("href",li);
+                    $('.link1').innerHTML=localStorage.getItem('link');
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+</section>
+<section id="doubt" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
+				<h2>Do you have any Questions?</h2>
+				<h3>Ask to us anytime.</h3>
+				<p>Feel free to contact us anytime. Ask us the questions you have in your mind and we will try to answe it!!</p>
+			</div>
+
+			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
+				<form action="#" method="post">
+					
+					<input name="Title" type="text" class="form-control" id="title" placeholder="Title">
+					<input name="Question" type="textarea" class="form-control" id="ques" placeholder="Write Your Question Here">
+					<div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
+						<input name="submit" type="submit" class="form-control btn-primary" value="SEND">
+					</div>
+					<div class="alert alert-success hidden" role="alert">Your Question is submitted successfully.</div>
+				</form>
+			</div>
+
+			<div class="col-md-1"></div>
+
+		</div>
+	</div>
+</section>
+
+<section id="faq" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<!-- Section title
+			================================================== -->
+			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
+				<div class="section-title">
+					<h2>Top Question-Answer Feeds</h2>
+				
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 sm" data-wow-delay="0.9s">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingOne">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          							What is the scope of BBA programme for science students?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      						<div class="panel-body">
+				<p>With around 15 lakh students appearing for board the idea of choosing a graduation degree with limited number of seats available sems bizarre. BBA is a degree possible for sudents of any stream and students can use grade 12 subjects to their benefit whle being placed. For instance,a student with strong mathematics can very well work with data analytics xompany after bba. </p>
+      						</div>
+   						 </div>
+ 					</div>
+  					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingTwo">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          							 Is colege a necessity for fashion designing?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      						<div class="panel-body">
+								<p>Yes its as important as studying ur boards.
+its an extremely professional and growing industry which requires professionals.
+a company won't hire u through online courses u take. if u want to own ur boutique then u might not. but its always good to join an institutions as fashion designing has lots to do with the market so marketing,merchandising,etc also u have to know about how fashion evolved its history, forecast etc so i'll suggest u tojoin an institution </p>
+      						</div>
+   						 </div>
+ 					</div>
+
+    				<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingThree">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          							Which sector has good scope in India:Animation,Multimedia or VFX
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      						<div class="panel-body">
+				<p>From my point of view multimedia is much better than two others because it has too many growing chances, it has vast career opportunity, having good chances & option to enhance our skills, personality. i will suggest MULTIMEDIA </p>
+      						</div>
+   						 </div>
+ 					</div>
+
+
+ 				 </div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- =========================
+    FOOTER SECTION   
+============================== -->
+<footer>
+	<br>
+	<footer class="footer1" style="background-color:;justify-content: justify;">
+<div class="container">
+
+<div class="row"><!-- row -->
+
+				<div class="col-lg-3 col-md-3 animated fadeInLeft">
+            	<img src="images/loader.png" style="width: 60%;">
+            	<br><br>
+                
+            </div>
+            
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Useful links</h1>
+                                
+                                <ul>
+                                	<li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQs </a></li>
+                                   
+                                
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Career Options</h1>
+                                
+                                <ul>
+ 									<li><a  href="#"><i class="fa fa-angle-double-right"></i>  Engineering </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Medical </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Commerse </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Arts </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Law </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Management </a></li>
+                                   
+                                    
+                                </ul>
+                    
+							</li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column center -->
+                
+                   
+                    
+                        <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                        	<li class="widget-container widget_recent_news"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Contact Detail </h1>
+                                
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">KickStart Career</h2>
+                                <div class="input-group">
+                
+                <form>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search here.."></form>
+                <span class="input-group-btn" style="justify-content: justify;">
+                    <button class="btn btn-default" type="button"><span><i class="fa fa-search" aria-hidden="true"></i>
+</span></button>
+                </span>
+            </div>
+            <br>
+                                <p><b>Helpline Numbers </b>
+
+    <b style="color: white;">(8AM to 10PM):</b>  +91-9601369815, +91-9924677710  </p>
+    
+    <p><b>Folow Us on :</b></p>
+    
+                                </div>
+                                
+                                <div class="social-icons">
+                                
+                                	<ul class="nomargin">
+                                    
+                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div>
+                    		</li>
+                          </ul>
+                       </div>
+                </div>
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="copyright">
+
+					© 2018, KickStart, All rights reserved
+
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+				<div class="design">
+
+					 <a href="#">Thanks for visiting our site. </a> |  <a target="_blank" href="http://www.webenlance.com">Career Guidance & courses provided by KickStart</a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+</footer>
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

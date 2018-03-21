@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script type="text/javascript" src="js/auth.js">
+  </script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>KickStart_SignUp</title>
+  <script  src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/authstyle.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/loading.css">
+
+ <script type="text/javascript">
+/*
+var usersRef = firebase.database().ref("users/");
+var newClientKey=usersRef.push().key;
+var prefvalues = firebase.database().ref("users/"+newClientKey+"/");
+var a=30;
+prefvalues.set ({
+      name:prahar,
+      email:pandyaprahar401@gmail.com
+      field: Engineering,
+      location: a,
+      subfield:2,
+      name:3
+   
+});
+
+var ref = firebase.database().ref();
+
+ref.on("value", function(snapshot) {
+   console.log(snapshot.val());
+}, function (error) {
+   console.log("Error: " + error.code);
+});*/
+  </script>-->
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+<section class="container1">
+  <img src="images/Capture.png" width="50%">
+  <br>
+    <div class="login">
+      <h1>Sign Up</h1>
+      <form method="post" action="login.html">
+        <h6>Username
+          <input type="text" id="username" placeholder="Username" title="Enter Your Name">
+        </h6>
+
+        <h6>Email
+          <input type="text" name="email" id="email" value="" placeholder="Email"  required pattern="[^ @]+@[^ @]+.[a-z]+" title="example@xyz.com">
+        </h6>
+        <h6>Password
+          <input type="password" name="password" id="password"  placeholder="Password" required>
+        </h6>
+        <h6>Confirm Password
+          <input type="password" name="password1" id="password1"  placeholder="Confirm Password">
+        </h6>
+        
+        <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer
+          </label>
+        </p>
+       <p><br>
+       </p>
+       <p>
+       <div>
+       	<button class="submit" name="signup" type="button" id="signup">Sign Up &nbsp;<span class="ld ld-hourglass ld-spin-fast" style="font-size:12px;color:#cde5ef;"></span></button>
+       </div> 
+        </p>
+      </form>
+    </div>
+
+
+    <div class="login-help">
+      <p>Already user ? <a href="login.html">Click here to login.</a>.</p>
+    </div>
+  </section>
+
+<script src="js/bootstrap.min.js"></script>
+
+  <script>$("#password1").keypress(function(event){if(event.which===13){$("#signup").click();}});</script>
+  <script src="js/authstyle.js"></script>
+  <script type="text/javascript" src="js/authsignup.js"></script>
+
+</body>
+</html>
