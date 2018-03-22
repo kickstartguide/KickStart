@@ -1,5 +1,6 @@
 21/03/18
 creator prahar
+
 **Content**
 Computer/IT	-Ankita
 Mechanical	-Dhruv
@@ -10,16 +11,27 @@ EC		-Meshwa
 Auronotical	-
 
 **Features**
-1)Communication With Friends
-2)Fetch Locaion and provide institute
-3)Preferences
+--)Communication With Friends
+--)Fetch Locaion and provide institute
+--)Preferences
+--)OTP Verification
+--)Question-Answers
+--)Admin Login
+--)Cookies
+
+**Front-end work**
+-->Google,fb button
+-->signup button
+-->career option images
+-->search icon in search tab
+-->firebase mail modification 
+
 
 **Resources**
 MOOCs
 Reference Books
 Videos
 Tutorials
-
 
 **order to be maintained for content**
 
@@ -30,3 +42,4 @@ video tutorials
 
 P.S :: start numbering from (1) and continue.....
 Description should always precede links
+

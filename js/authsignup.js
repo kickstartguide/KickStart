@@ -11,6 +11,7 @@ document.getElementById("signup").addEventListener("click", function(){
         st[i].style.opacity=1;
         }
 
+      
       if (email.value=null) {
           alert("Please Enter email");
         }
@@ -45,7 +46,7 @@ document.getElementById("signup").addEventListener("click", function(){
         // [START_EXCLUDE]
         alert('Email Verification Sent!');
         // [END_EXCLUDE]
-        window.open('preference.html');
+        window.open('preference.html',"_self");
       });
 
          firebase.auth().onAuthStateChanged(function(user) {
@@ -89,16 +90,17 @@ document.getElementById("signup").addEventListener("click", function(){
       // [END sendemailverification]
     
 
+function writeUserData(userId, name, email, imageUrl) {
+  firebase.database().ref("users/" + userId).set({
+    
+    
+    "city":city,
+    "disciplines":disciplines,
+    "branches":branches,
+    "skill level":skillLevel
+  });
+}
             },false);
-      // Sign in with email and pass.
-        
-        
-      // [START createwithemail]
       
-      
-      // [START sendemailverification]
-       
-      // [END createwithemail]
-  
 
 
