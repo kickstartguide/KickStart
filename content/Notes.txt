@@ -19,16 +19,27 @@ Auronotical	-
 --)Admin Login
 --)Cookies
 
-**Resources**
-MOOCs
-Reference Books
-Videos
-Tutorials
-
-
 **Front-end work**
 -->Google,fb button
 -->signup button
 -->career option images
 -->search icon in search tab
 -->firebase mail modification 
+
+
+**Resources**
+MOOCs
+Reference Books
+Videos
+Tutorials
+
+**order to be maintained for content**
+
+MOOC
+Book resources 
+tutorials
+video tutorials
+
+P.S :: start numbering from (1) and continue.....
+Description should always precede links
+
