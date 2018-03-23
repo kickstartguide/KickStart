@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 
-  <script src="js/jquery.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script type="text/javascript" src="js/auth.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
-  <script src="js/auth.js"></script>
- 
+
 <title>KickStart</title>
 <meta name="description" content="">
 <meta name="author" content="">
@@ -58,23 +58,30 @@
            <ul class="dropdown-menu bounceIn multi-level text-center" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut" role="menu" aria-labelledby="dropdownMenu">
               
               <li class="dropdown-submenu">
-                <a href="tech_events.php">Engineering</a>
+                <a href="">Engineering</a>
                 
-                <ul class="dropdown-menu" style="padding: 0;;">
+                <ul class="dropdown-menu">
                   <li class="dropdown-submenu">
-                    <a href="comp_events.php">Computer/IT</a>
-                    <!--<ul class="dropdown-menu" style="padding: 0;">
-                        <li><a>Data Science</a></li>
-               
-                    </ul>-->
+                    <a href="">Computer / IT</a>
                   </li>
                   <li class="dropdown-submenu">
-                    <a href="civil_events.php">Mechanical</a>
-                    <ul class="dropdown-menu" style="padding: 0;">
-                        <!--<li><a>Data Science</a></li>-->
-                        
-                </ul>
-              </li>
+                    <a href="">Mechanical</a>
+                  </li>
+               <li class="dropdown-submenu">
+                    <a href="">Electrical</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">Civil</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">Chemical</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">EC</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">Auronotical</a>
+                </li>
           </ul>
         </li>
       </ul>
@@ -83,8 +90,22 @@
 				<li><a href="#contact" class="smoothScroll">Contact Us</a></li>
 				<li><a href="#about" class="smoothScroll">About Us</a></li>
 				<li><a id="login" href="login.html" class="hidden smoothScroll">Login</a></li>
-        <li><p id="textelement" style="padding-left: 30px; padding-top: 15px; padding-right: 30px; text-transform: uppercase; "></p></li>
-          <li><button type="button" id="signout" class="hidden btn btn-default navbar-btn" style="margin-top: 15px; padding-top: 5px; height:30px!important;">Sign Out</button></li>
+
+         <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"
+                id="textelement" style="text-transform: uppercase; "></a>
+           <ul class="dropdown-menu bounceIn multi-level text-center" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut" role="menu" aria-labelledby="dropdownMenu">
+              
+              <li class="dropdown-submenu">
+                <a href="" id="signout" class="hidden">Sign Out</a>
+        </li>
+        <li class="dropdown-submenu">
+                <a href="preference.html" id="" class="">Preferences</a>
+        </li>
+      </ul>
+  </li>
+        
+          
           <script type="text/javascript">
         var signout=document.getElementById("signout");
 signout.addEventListener("click",function(){
@@ -107,19 +128,23 @@ signout.addEventListener("click",function(){
            $('#login').removeClass('hidden');
            $('#signup').removeClass('hidden');
            $('#textelement').addClass('hidden');
+           $('.caret').addClass('hidden');
             $('#signout').addClass('hidden');
-            $('#doubt').addClass('hidden');
+            $('#doubt .container').addClass('authstyle');
+           
            }
            else
            {
+             $('.authstyle_element').addClass('hidden');
             $('#login').addClass('hidden');
            $('#signup').addClass('hidden');
             $('#textelement').removeClass('hidden');
+            $('.caret').removeClass('hidden');
             $('#signout').removeClass('hidden');
             var user = firebase.auth().currentUser;
             if(user!=null)
             {var name=user.displayName;
-              document.getElementById("textelement").innerHTML = "Welcome " + name + " !" ;
+              document.getElementById("textelement").innerHTML = name +" <span class='caret'></span>";
             console.log("Welcome " + name);
 
             
@@ -316,9 +341,18 @@ function com() {
     </div>
 </section>
 <section id="doubt" class="parallax-section">
-	<div class="container">
-		<div class="row">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 col-sm-12">
+      <div class="alert alert-danger authstyle_element">You Must First Login<br><br>
+        <a href="login.html" class="btn btn-danger">Login</a></div>
+	     </div>
+      <div class="col-md-4"></div>
 
+</div>
+<br><br>
+       <div class="container">
+        <div class="row">
 			<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
 				<h2>Do you have any Questions?</h2>
 				<h3>Ask to us anytime.</h3>

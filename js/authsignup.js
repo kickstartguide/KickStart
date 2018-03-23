@@ -5,13 +5,16 @@ document.getElementById("signup").addEventListener("click", function(){
       var auth = firebase.auth();
       var user = firebase.auth().currentUser;
       var name = document.getElementById('username').value;
-      var st=document.getElementsByClassName("login");
-        for(var i=0;i<st.length;i++)
-        {
-        st[i].style.opacity=1;
-        }
 
-      if (email.value=null) {
+      var st=document.getElementsByClassName("login");
+        
+      for(var i=0;i<st.length;i++)
+      {
+        st[i].style.opacity=1;
+      }
+
+      
+        if (email.value=null) {
           alert("Please Enter email");
         }
         else if (password.value=null) {
@@ -35,70 +38,42 @@ document.getElementById("signup").addEventListener("click", function(){
           return;
         }
 
-       firebase.auth().createUserWithEmailAndPassword(email, password)
-      .then(function(){
+       firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
+        var name = document.getElementById('username').value;
         var user = firebase.auth().currentUser;
         
-
         firebase.auth().currentUser.sendEmailVerification().then(function() {
-        // Email Verification sent!
-        // [START_EXCLUDE]
         alert('Email Verification Sent!');
-        // [END_EXCLUDE]
-        window.open('preference.html');
-      });
-
-         firebase.auth().onAuthStateChanged(function(user) {
-        if(user)
-        {
-          var emailVerified = user.emailVerified;
-          user.updateProfile({
-            displayName: document.getElementById('username').value 
-        }).then(function () {
-            console.log("Updated");
-        }, function (error) {
-            console.log("Error happened");
+        window.open('preference.html',"_self");
         });
-        }
-        if (!emailVerified) {
-
-          alert("Please Verify your email.");
           
-        }
+          var emailVerified = user.emailVerified;
+          
+          //var name=document.getElementById('username').value;
+          
+          firebase.auth().currentUser.updateProfile({
+            displayName : name
 
+            }).then(function () {
+              
+            }).catch(function(error) {
+            
+            });
         
-});
-      })
-
-       .catch(function(error) {
-        // Handle Errors here.
+        if (!emailVerified) {
+          alert("Please Verify your email.");
+        }
+      }).catch(function(error) {
         var errorCode = error.code;
         var errorMessage = error.message;
-        // [START_EXCLUDE]
         if (errorCode == 'auth/weak-password') {
           alert('The password is too weak.');
         } else {
           alert(errorMessage);
         }
         console.log(error);
-        // [END_EXCLUDE]
-      });
+      });      
+},false);
       
-
-      // [END sendemailverification]
-      // [END sendemailverification]
-    
-
-            },false);
-      // Sign in with email and pass.
-        
-        
-      // [START createwithemail]
-      
-      
-      // [START sendemailverification]
-       
-      // [END createwithemail]
-  
 
 
