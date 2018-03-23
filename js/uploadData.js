@@ -32,6 +32,7 @@ var getData = function()
 			skillLevel=skillTag[i].value;
 	}
 
+<<<<<<< HEAD
 firebase.auth().onAuthStateChanged(function(user) {
 	var user = firebase.auth().currentUser;
   if (user) {
@@ -49,9 +50,49 @@ prefvalues.set ({
 		"skill level":skillLevel
 });
 
+=======
+	var usersRef = firebase.database().ref("users/" + userId);
+	usersRef.push
+	({
+		"city":city,
+		"disciplines":disciplines,
+		"branches":branches,
+		"skill level":skillLevel
+	});
+	window.open("login.html","_self");
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
 }
 });
 }
+var getDiscipline = function()
+{
+
+	$('.section1').addClass('hidden');
+	$('.section2').removeClass('hidden');
+	var disciplineTag = document.querySelectorAll(".disciplines");
+	
+	var disciplines = new Array();
+
+	
+
+	for (var i = disciplineTag.length - 1; i >= 0; i--) {
+		if(disciplineTag[i].checked)
+			disciplines.push(disciplineTag[i].value);
+	}
+
+	for(var i=disciplines.length - 1 ; i>=0 ; i--)
+	{
+		if(disciplines[i]=="Engineering")
+		{
+			$('.med').addClass('hidden');
+		}
+		else if(disciplines[i]=="Medical")
+		{
+			$('.eng').addClass('hidden');
+		}
+	}
+}	
+
 var getDiscipline = function()
 {
 

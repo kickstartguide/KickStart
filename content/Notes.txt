@@ -18,6 +18,17 @@ Auronotical	-
 --)Question-Answers
 --)Admin Login
 --)Cookies
+<<<<<<< HEAD
+=======
+
+**Front-end work**
+-->Google,fb button
+-->signup button
+-->career option images
+-->search icon in search tab
+-->firebase mail modification 
+
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
 
 **Resources**
 MOOCs
@@ -25,6 +36,7 @@ Reference Books
 Videos
 Tutorials
 
+<<<<<<< HEAD
 **What We Provide**
 Pre-Admission Orientation For Profffesional Cources.
 Get Answers Quickly From Our Experts.
@@ -51,3 +63,15 @@ History Section
 Question-Answer Section
 Preference Section
 Features
+=======
+**order to be maintained for content**
+
+MOOC
+Book resources 
+tutorials
+video tutorials
+
+P.S :: start numbering from (1) and continue.....
+Description should always precede links
+
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa

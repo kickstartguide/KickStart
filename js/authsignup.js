@@ -14,7 +14,11 @@ document.getElementById("signup").addEventListener("click", function(){
       }
 
       
+<<<<<<< HEAD
         if (email.value=null) {
+=======
+      if (email.value=null) {
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
           alert("Please Enter email");
         }
         else if (password.value=null) {
@@ -44,7 +48,24 @@ document.getElementById("signup").addEventListener("click", function(){
         
         firebase.auth().currentUser.sendEmailVerification().then(function() {
         alert('Email Verification Sent!');
+<<<<<<< HEAD
         window.open('preference.html',"_self");
+=======
+        // [END_EXCLUDE]
+        window.open('preference.html',"_self");
+      });
+
+         firebase.auth().onAuthStateChanged(function(user) {
+        if(user)
+        {
+          var emailVerified = user.emailVerified;
+          user.updateProfile({
+            displayName: document.getElementById('username').value 
+        }).then(function () {
+            console.log("Updated");
+        }, function (error) {
+            console.log("Error happened");
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
         });
           
           var emailVerified = user.emailVerified;
@@ -72,8 +93,30 @@ document.getElementById("signup").addEventListener("click", function(){
           alert(errorMessage);
         }
         console.log(error);
+<<<<<<< HEAD
       });      
 },false);
+=======
+        // [END_EXCLUDE]
+      });
+      
+
+      // [END sendemailverification]
+      // [END sendemailverification]
+    
+
+function writeUserData(userId, name, email, imageUrl) {
+  firebase.database().ref("users/" + userId).set({
+    
+    
+    "city":city,
+    "disciplines":disciplines,
+    "branches":branches,
+    "skill level":skillLevel
+  });
+}
+            },false);
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
       
 
 
