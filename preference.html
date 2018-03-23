@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <script type="text/javascript" src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
-  <script src="js/auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script type="text/javascript" src="js/auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
   
-  <title></title>
+  <title>Preferences</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	
 
@@ -16,43 +17,50 @@
 		.hidden{
 			display: none;
 		}
+    .back{
+      background-color: #b8d1f9;
+      display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 100vh;
+    }
+    .back1{
+      background-color: #efefef;
+    }
 	</style>
 </head>
 <body>
 
-	
-<button type="button" id="modal" class="btn btn-info btn-lg hidden" data-toggle="modal" data-target="#myModal">Preferences</button>
+  <section class="back">
+    <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2 back1"> 
+              <div class="alert alert-success" style="text-transform: uppercase;">Please Help us to find your best preferences.
+               <br><br>
+               <div class="alert alert-danger"">
+            
+                 Please note that your location might be required to communicate you with the people currently interested in similar fields and for finding the best  institutes near you.
+                </div>
+              </div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-      
-        <!-- Modal content-->
-      <div class="modal-content">
-        <div class="container">
-  		    <div class="row">
-  		      <div class="col-sm-12 col-md-12">	
-  				    <div class="alert alert-success" style="width: 50%;text-transform: uppercase;">Please Help us to find your best preferences.
-  					   <br><br>
-  					   <div class="alert alert-danger"">
-  					
-  					     Please note that your location might be required to communicate you with the people currently interested in similar fields and for finding the best  institutes near you.
-  				      </div>
-  				    </div>
-
-    				  <form method="post" action="login.html">
+              <form method="post" action="login.html">
                 <div class="form-group">
-            	   <div class="section4 hidden">
-              		  <h3>Enter Your Location</h3>
-           	        <select class="form-control" type="dropdown" name="location"  id="location" required style="width: 50%;">
-            	       <option class="city" value="Ahmedabad">Ahmedabad</option>
-             		     <option class="city" value="Surat">Surat</option>
-             	  	   <option class="city" value="Baroda">Baroda</option>
+                 <div class="section4 hidden">
+                    <h3>Enter Your Location</h3>
+                    <select class="form-control" type="dropdown" name="location"  id="location" required >
+                     <option class="city" value="Ahmedabad">Ahmedabad</option>
+                     <option class="city" value="Surat">Surat</option>
+                     <option class="city" value="Baroda">Baroda</option>
                      <option class="city" value="Gandhinagar">Gandhinagar</option>
                     </select>
-                    <div class="modal-footer" style="width: 50%;">
-                	   <label class="btn btn-success next4">Skip</label>
-                		 <label class="btn btn-success next4">Next</label>
+                    <div class="modal-footer">
+                     <label class="btn btn-success next4">Skip</label>
+                     <label class="btn btn-success next4">Next</label>
                     </div>
                   </div>
 
@@ -62,59 +70,69 @@
                     <label for="med">&nbsp;Medical&nbsp;     <input type="checkbox" class="disciplines" name="med" value="Medical"></label>
                     <label for="com">&nbsp;Commerce&nbsp;    <input type="checkbox" class="disciplines" name="com" value="Commerce"></label>
                     <div class="modal-footer" style="width: 50%;">
-                	   <label class="btn btn-default next1">Skip</label>
-                  	 <label class="btn btn-success next1">Next</label>
+                     <label class="btn btn-default next1">Skip</label>
+                     <label class="btn btn-success next1" onclick="getDiscipline()">Next</label>
                     </div>
                   </div>
 
                   <div class="section2 hidden">
+                    <div class="eng">
                     <h3>Select the branch you are interested in</h3>
                     <label for="comp">&nbsp;Computer &nbsp;<input type="checkbox" class="branches" name="comp" value="Computer"></label>
                     <label for="it">&nbsp;It&nbsp;         <input type="checkbox" class="branches" name="it" value="IT"></label>
                     <label for="ec">&nbsp;EC&nbsp;         <input type="checkbox" class="branches" name="ec" value="EC"></label>
                     <div class="modal-footer" style="width: 50%;">
-                	   <label class="btn btn-default next2">Skip</label>
-                  	 <label class="btn btn-success next2">Next</label> 
+                     <label class="btn btn-default next2">Skip</label>
+                     <label class="btn btn-success next2">Next</label> 
                     </div>
+                  </div>
+                  </div>
+
+                  <div class="section2 hidden">
+                    <div class="med">
+                    <h3>Select the branch you are interested in</h3>
+                    <label for="comp">&nbsp;MBBS &nbsp;<input type="checkbox" class="branches" name="comp" value="Computer"></label>
+                    <label for="it">&nbsp;MDS&nbsp;         <input type="checkbox" class="branches" name="it" value="IT"></label>
+                    <label for="ec">&nbsp;Dentist&nbsp;         <input type="checkbox" class="branches" name="ec" value="EC"></label>
+                    <div class="modal-footer" style="width: 50%;">
+                     <label class="btn btn-default next2">Skip</label>
+                     <label class="btn btn-success next2">Next</label> 
+                    </div>
+                  </div>
                   </div>
 
                   <div class="section3 hidden">
                     <h3>Your Skill Level</h3>
-                    <select class="form-control" type="dropdown" name="skill"  id="skill" required style="width: 50%;">
+                    <select class="form-control" type="dropdown" name="skill"  id="skill" required>
                       <option class="skill" value="Beginner">Beginner</option>
                       <option class="skill" value="Intermediate">Intermediate</option>
                       <option class="skill" value="Expert">Expert</option>
                     </select>
                     <div class="modal-footer" style="width: 50%;">
-                	   <label class="btn btn-success next3">Skip</label>
-                  	 <label class="btn btn-success next3">Next</label>
+                     <label class="btn btn-success next3">Skip</label>
+                     <label class="btn btn-success next3">Next</label>
                     </div>
                   </div>
                   <div class="section5 hidden">
                     We are modifying your content.
                     <div class="modal-footer" style="width: 50%;">
-                      <button type="button" class="btn btn-default" data-dismiss="modal" style="align-items: center;" onclick="getData()">OK</button>
+                      <button href="home.html" type="button" class="btn btn-default" data-dismiss="modal" style="align-items: center;" onclick="getData()">OK</button> 
                     </div>
                   </div>
-      			    </div>
-  		        </form>
-  	        </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>	
+  </section>
+
+
+        
+    
 </body>
 
 <script>
-jQuery(function(){
-   jQuery('#modal').click();
-});
 
-$('.next1').click(function(){
-	$('.section1').addClass('hidden');
-	$('.section2').removeClass('hidden');
-});
 $('.next2').click(function(){
 	$('.section2').addClass('hidden');
 	$('.section3').removeClass('hidden');

@@ -313,7 +313,15 @@ border-bottom: #C33538 solid 1px;
     }
 
 }
-
+.authstyle{
+  opacity: 0.5;
+}
+.authstyle_element{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  opacity: 1!important; 
+}
 #intro {
     background: url('../images/intro-bg.jpg') 100% 80% fixed !important;
     -webkit-background-size: cover!important;

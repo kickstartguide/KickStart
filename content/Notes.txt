@@ -1,5 +1,6 @@
 21/03/18
 creator prahar
+
 **Content**
 Computer/IT	-Ankita
 Mechanical	-Dhruv
@@ -10,9 +11,13 @@ EC		-Meshwa
 Auronotical	-
 
 **Features**
-1)Communication With Friends
-2)Fetch Locaion and provide institute
-3)Preferences
+--)Communication With Friends
+--)Fetch Locaion and provide institute
+--)Preferences
+--)OTP Verification
+--)Question-Answers
+--)Admin Login
+--)Cookies
 
 **Resources**
 MOOCs
@@ -20,3 +25,29 @@ Reference Books
 Videos
 Tutorials
 
+**What We Provide**
+Pre-Admission Orientation For Profffesional Cources.
+Get Answers Quickly From Our Experts.
+Location Based Provide Best Institute For Learning.
+Track Your  History And provide guidance in your favaurite cource.
+Various Moocs,Videos,Books,Tutorials Provided.
+Our Contents have been verified by python script.
+Provide Smooth Guidance From Beginner To Expert.
+Our User can communicate with each other. 
+Simple & Attractive User Interface.
+Provide Full Security On Your Account.
+
+**Front-end work**
+-->Google,fb button
+-->signup button
+-->career option images
+-->search icon in search tab
+-->firebase mail modification
+-->Loading Gif After Login & Signup 
+-->Loading Screen
+
+**Things Left to do in main screen**
+History Section
+Question-Answer Section
+Preference Section
+Features
