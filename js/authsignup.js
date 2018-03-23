@@ -5,14 +5,24 @@ document.getElementById("signup").addEventListener("click", function(){
       var auth = firebase.auth();
       var user = firebase.auth().currentUser;
       var name = document.getElementById('username').value;
+
       var st=document.getElementsByClassName("login");
-        for(var i=0;i<st.length;i++)
-        {
+        
+      for(var i=0;i<st.length;i++)
+      {
         st[i].style.opacity=1;
-        }
+      }
 
       
+<<<<<<< HEAD
+        if (email.value=null) {
+=======
+<<<<<<< HEAD
+        if (email.value=null) {
+=======
       if (email.value=null) {
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
+>>>>>>> 35632582743a903dbe962ecdb5a5dc40c5ac3991
           alert("Please Enter email");
         }
         else if (password.value=null) {
@@ -36,15 +46,18 @@ document.getElementById("signup").addEventListener("click", function(){
           return;
         }
 
-       firebase.auth().createUserWithEmailAndPassword(email, password)
-      .then(function(){
+       firebase.auth().createUserWithEmailAndPassword(email, password).then(function(){
+        var name = document.getElementById('username').value;
         var user = firebase.auth().currentUser;
         
-
         firebase.auth().currentUser.sendEmailVerification().then(function() {
-        // Email Verification sent!
-        // [START_EXCLUDE]
         alert('Email Verification Sent!');
+<<<<<<< HEAD
+        window.open('preference.html',"_self");
+=======
+<<<<<<< HEAD
+        window.open('preference.html',"_self");
+=======
         // [END_EXCLUDE]
         window.open('preference.html',"_self");
       });
@@ -59,29 +72,43 @@ document.getElementById("signup").addEventListener("click", function(){
             console.log("Updated");
         }, function (error) {
             console.log("Error happened");
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
+>>>>>>> 35632582743a903dbe962ecdb5a5dc40c5ac3991
         });
-        }
-        if (!emailVerified) {
-
-          alert("Please Verify your email.");
           
-        }
+          var emailVerified = user.emailVerified;
+          
+          //var name=document.getElementById('username').value;
+          
+          firebase.auth().currentUser.updateProfile({
+            displayName : name
 
+            }).then(function () {
+              
+            }).catch(function(error) {
+            
+            });
         
-});
-      })
-
-       .catch(function(error) {
-        // Handle Errors here.
+        if (!emailVerified) {
+          alert("Please Verify your email.");
+        }
+      }).catch(function(error) {
         var errorCode = error.code;
         var errorMessage = error.message;
-        // [START_EXCLUDE]
         if (errorCode == 'auth/weak-password') {
           alert('The password is too weak.');
         } else {
           alert(errorMessage);
         }
         console.log(error);
+<<<<<<< HEAD
+      });      
+},false);
+=======
+<<<<<<< HEAD
+      });      
+},false);
+=======
         // [END_EXCLUDE]
       });
       
@@ -101,6 +128,8 @@ function writeUserData(userId, name, email, imageUrl) {
   });
 }
             },false);
+>>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
+>>>>>>> 35632582743a903dbe962ecdb5a5dc40c5ac3991
       
 
 
