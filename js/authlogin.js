@@ -48,7 +48,7 @@ document.getElementById("login").addEventListener("click", function(){
            }
           else if(emailVerified)
             {
-           window.location="home.html";
+           window.location="Home.html";
            }
        }
 });

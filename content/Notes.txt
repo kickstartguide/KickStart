@@ -18,10 +18,6 @@ Auronotical	-
 --)Question-Answers
 --)Admin Login
 --)Cookies
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 **Front-end work**
 -->Google,fb button
@@ -30,8 +26,6 @@ Auronotical	-
 -->search icon in search tab
 -->firebase mail modification 
 
->>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
->>>>>>> 35632582743a903dbe962ecdb5a5dc40c5ac3991
 
 **Resources**
 MOOCs
@@ -39,40 +33,6 @@ Reference Books
 Videos
 Tutorials
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 35632582743a903dbe962ecdb5a5dc40c5ac3991
-**What We Provide**
-Pre-Admission Orientation For Profffesional Cources.
-Get Answers Quickly From Our Experts.
-Location Based Provide Best Institute For Learning.
-Track Your  History And provide guidance in your favaurite cource.
-Various Moocs,Videos,Books,Tutorials Provided.
-Our Contents have been verified by python script.
-Provide Smooth Guidance From Beginner To Expert.
-Our User can communicate with each other. 
-Simple & Attractive User Interface.
-Provide Full Security On Your Account.
-
-**Front-end work**
--->Google,fb button
--->signup button
--->career option images
--->search icon in search tab
--->firebase mail modification
--->Loading Gif After Login & Signup 
--->Loading Screen
-
-**Things Left to do in main screen**
-History Section
-Question-Answer Section
-Preference Section
-<<<<<<< HEAD
-Features
-=======
-Features
-=======
 **order to be maintained for content**
 
 MOOC
@@ -83,5 +43,3 @@ video tutorials
 P.S :: start numbering from (1) and continue.....
 Description should always precede links
 
->>>>>>> 4edebbf87bd6b8254d2c9e0ba9bbeb418bc473aa
->>>>>>> 35632582743a903dbe962ecdb5a5dc40c5ac3991
