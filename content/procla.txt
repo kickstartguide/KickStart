@@ -7,6 +7,7 @@ Address: 208 Sarjan II, Above Punjab National Bank,, New C.G.Road, Chandkheda, G
 Contact No.:079 3043 6279
 more details: iantindia.com
 link: https://www.google.co.in/maps/place/IANT/@23.113244,72.5801055,15z/data=!4m8!1m2!2m1!1sprogramming+classes+in+chandkheda!3m4!1s0x395e83ca9e593e87:0xa1b52c9a45efaec5!8m2!3d23.1092645!4d72.5842915
+LL: 23.109284, 72.584291
 Reviews: 4(6)
 
 
@@ -15,6 +16,7 @@ Address: 15 & 16, First Floor, Sarjan-I Complex, Near Sakar School Char Rasta, N
 Contact No:079 4801 1110
 More details: caddcentre.com
 link: https://www.google.co.in/maps/place/CADD+Centre+Chandkheda/@23.113244,72.5801055,15z/data=!4m8!1m2!2m1!1sprogramming+classes+in+chandkheda!3m4!1s0x395e83bff6d2b24b:0x4999727b515bc920!8m2!3d23.1089309!4d72.5905216
+LL: 23.109174, 72.590597
 Reviews: 4.6(51)
 
 
@@ -24,6 +26,7 @@ Address: 517, Palladium Business Hub,, Opp. 4D Square Mall, Near VGEC College, M
 Contact no.: 084604 93525
 More details: teksunlab.com
 Link: https://www.google.co.in/maps/place/Teksun+Lab+Pvt+Ltd+-+Embedded,+IT+Training+%26+JOB+Provider/@23.1041102,72.5589014,13z/data=!4m8!1m2!2m1!1sprogramming+classes+in+chandkheda!3m4!1s0x395e83b818128b8b:0x4d5c857ebd7a0c21!8m2!3d23.1041102!4d72.5939203
+23.104338, 72.593939
 Reviews: 4.9(41)
 
 
@@ -33,10 +36,36 @@ Address: 3rd Floor, Vrajendra Complex, Sudarshan Society, Near Devendra Bus Stop
 Contact No.: 098795 58787
 More details: itaahmedabad.com
 Link: https://www.google.co.in/maps/place/ITS+Data-Solutions+Pvt.+Ltd+-+Oracle+Authorised+Center,+Oracle+Gold+Partner/@23.0296296,72.4925442,13z/data=!4m8!1m2!2m1!1sprogramming+classes+in+chandkheda!3m4!1s0x395e84f53fffffff:0x61b0381a7522ed6!8m2!3d23.0522379!4d72.5532768
+23.054430, 72.553570
 Reviews: 4.6(132)
 
 
 
+______________Alpha Training Center
+Address: 401, Vitthal Complex, Opp. Sakar School,, New C.G Road, Chandkheda,, Nigam Nagar, Chandkheda, Ahmedabad, Gujarat 382424
+Cont No.: 079 2329 0209
+More de:
+Link:https://www.google.co.in/maps/place/Alpha+Training+Center/@23.0758637,72.4910781,12z/data=!4m8!1m2!2m1!1sbest+programming+classes+in+Chandkheda!3m4!1s0x395e83b566d1cd77:0xda35c8cfa9da32bd!8m2!3d23.1091362!4d72.591058
+23.117866, 72.600426
+Reviews:5(4)
+
+
+
+Jamsab Computers Pvt Ltd
+https://www.google.co.in/maps/place/Jamsab+Computers+Pvt+Ltd/@23.0758329,72.4907344,12z/data=!4m8!1m2!2m1!1sbest+programming+classes+in+Chandkheda!3m4!1s0x395e8483636cf2df:0x818675f404ee1b45!8m2!3d23.058591!4d72.556119
+23.066010, 72.561974
+
+ARENA ANIMATION
+https://www.google.co.in/maps/place/ARENA+ANIMATION/@23.0849614,72.397522,11z/data=!4m8!1m2!2m1!1sbest+programming+classes+in+Chandkheda!3m4!1s0x395e849daaaaaaab:0xc20cc05ecad61f26!8m2!3d23.0590172!4d72.5558331
+23.074854, 72.568840
+
+TOPS Technologies Testing PHP .Net Java iOS Android Training
+https://www.google.co.in/maps/place/TOPS+Technologies+Testing+PHP+.Net+Java+iOS+Android+Training/@23.075802,72.4903908,12z/data=!4m8!1m2!2m1!1sbest+programming+classes+in+Chandkheda!3m4!1s0x395e849d49d045c1:0x3a063ec1d4ba6d5b!8m2!3d23.059903!4d72.5363929
+23.079276, 72.535881
+
+Infobit Technologies
+https://www.google.co.in/maps/place/Infobit+Technologies/@23.075802,72.4903908,12z/data=!4m8!1m2!2m1!1sbest+programming+classes+in+Chandkheda!3m4!1s0x395e846070f354d5:0xa1177bb889a74fc7!8m2!3d23.041617!4d72.5696
+23.048320, 72.593216	
 
 
 MANINAGAR
@@ -47,6 +76,7 @@ Address: 106/130, Prime Square Complex, Lala Lajpat Rai Marg, Krishna Baug Char 
 Contact No.: 079 3023 1051
 More details: niitmaninagar.com
 link: https://www.google.co.in/maps/place/NIIT+MANINAGAR/@22.9940439,72.5937302,15z/data=!4m8!1m2!2m1!1sprogramming+classes+in+maninagar!3m4!1s0x395e85e6110dc343:0x68e62d6f32907293!8m2!3d22.9974149!4d72.6054022
+22.997670, 72.605415
 Reviews: 4.6(107)
 
 
@@ -55,6 +85,7 @@ Address: 401, Amruta Arcade 4th Floor, Maninagar Char Rasta, Nr Rly Station Mani
 Contact No.: 099748 63333
 More details: tops-int.com
 Link: https://www.google.co.in/maps/place/TOPS+Technologies/@22.9940439,72.5937302,15z/data=!4m8!1m2!2m1!1sprogramming+classes+in+maninagar!3m4!1s0x395e85c2fc005927:0x918e69150ca1c935!8m2!3d22.9971588!4d72.6089423
+22.997335, 72.608989
 Reviews: 4.1(126)
 
 
@@ -65,6 +96,7 @@ Address: Yogeshwar Avenue, Bhairavnath Rd, Daxini Society, Maninagar, Opposite S
 Contact No.: 093767 60202
 More details: prakshal.com
 Link: https://www.google.co.in/maps/place/Prakshal+IT+Academy/@22.9940439,72.5937302,15z/data=!4m8!1m2!2m1!1sprogramming+classes+in+maninagar!3m4!1s0x395e85e72f45826d:0x388fbdf53f32a4af!8m2!3d22.9947249!4d72.6120761
+22.995673, 72.612484
 Reviews: 4.6(19)
 
 
@@ -77,6 +109,7 @@ Address: 26 Satyam Mall,, Prem-chand nagar road, vastrapur, Suryapooja Block B, 
 Contact No.: 099040 80166
 More details: geniuscomputer.in
 Link: https://www.google.co.in/maps/place/Genius+Computer/@23.0296335,72.5253753,17z/data=!3m1!4b1!4m10!1m4!2m3!1sprogramming+classes+in+satellite!5m1!4e2!3m4!1s0x395e84c9462ad5e7:0xbc71b9c01ddc4b84!8m2!3d23.0296335!4d72.527564
+23.029759, 72.527557
 Reviews: 4.6(15)
 
 
@@ -85,6 +118,7 @@ Address: Office No. 806, Shivalik High Street , Behind Keshavbaug Party Plot, Ne
 Contact No.: 075679 40992
 More details: corextrime.com
 Link: https://www.google.co.in/maps/place/CoreXtrime/@23.0296335,72.5253753,17z/data=!4m10!1m4!2m3!1sprogramming+classes+in+satellite!5m1!4e2!3m4!1s0x395e834be4483139:0xb8b56215c4a51482!8m2!3d23.0300155!4d72.5288052
+23.030275, 72.528932
 Reviews: 4.9(20)
 
 
