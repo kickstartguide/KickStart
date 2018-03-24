@@ -6,7 +6,22 @@ var places= ["chandkheda","maninagar"];
 
 function initMap() 
 {
+  firebase.auth().onAuthStateChanged(function(user) {
+  var user = firebase.auth().currentUser;
+  if (user) {
+    
+    var userId = user.uid;
+
+var ref = firebase.database().ref("users/"+userId+"/");
+ref.on("value", function(snapshot) {
+    var i=snapshot.val().city;
+    console.log(i);
+},  function (error) {
+    alert("Error: " + error.code);
+});
+}});
   
+
   map = new google.maps.Map(mapOnDoc, mapInitializer);
   for (var i = places.length - 1; i >= 0; i--) 
   {
