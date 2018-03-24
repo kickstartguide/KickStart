@@ -1,0 +1,233 @@
+﻿Electronics and Communication
+*Signal processing:
+Signal processing concerns the analysis, synthesis, and modification of signals, which are broadly defined as functions conveying, "information about the behavior or attributes of some phenomenon", such as sound, images, and biological measurements. For example, signal processing techniques are used to improve signal transmission fidelity, storage efficiency, and subjective quality, and to emphasize or detect components of interest in a measured signal.
+
+      *****      MOOC!!!!!
+    (1)http://nptel.ac.in/courses/117102060/
+    (2)https://onlinecourses.nptel.ac.in/noc18_ec02/preview
+    (3)https://ocw.mit.edu/courses/find-by-topic/#cat=engineering&subcat=electricalengineering&spec=signalprocessing
+    
+         ****   Books!!!!!
+    
+    (4)Steven W. Smith.
+(5)http://www.dspguide.com/pdfbook.htm
+    (6)This book describes individual treatments of the biggest topics of cyclostationarity in man-made signals encountered in communication, telemetry, radar…, by featuring selected articles that survey the latest developments in various specific areas.
+    (7)http://www.ece.ucdavis.edu/~gardner/doc/Cyclostationarity.pdf
+    
+    
+    (8)Digital filters, together with signal processing, are being employed in the new technologies and information systems, and implemented in different areas and applications. This book presents advanced developments, covering different cases studies.
+    (9)http://www.intechopen.com/books/digital-filters-and-signal-processing
+    
+    (10)The exponential development of computer power over the last few decades, transformed signal processing in an essential tool for a wide range of domains such as telecommunications. This book provides highlights of the current research in the area
+    (11)http://cp.literature.agilent.com/litweb/pdf/5952-8898E.pdf
+    
+    (12)Author: Sophocles J. Orfanidis, 2007
+    In this edition the emphasis is on real-time adaptive signal processing, eigenvector methods of spectrum estimation, and parallel processor implementations of optimum filtering and prediction algorithms, and including several new developments.
+    (13)http://www.ece.rutgers.edu/~orfanidi/osp2e/
+    
+    
+    
+
+          ***      Tutorials!!!!
+
+    (14)https://www.tutorialspoint.com/digital_signal_processing/index.htm
+    (15)https://dspguru.com/dsp/tutorials/
+    (16)https://www.engineersgarage.com/tutorials/digital-signal-processing-tutorial-3
+    (17)http://101science.com/dsp.htm
+    
+    
+    *****VIDEOS:
+    (18)Careers in Signal Processing: complete details of signal processing by IEEE signal processing unit 
+    (19)https://www.youtube.com/playlist?list=PLcZOnmyqlalboVita4LlxDdgrq4l9NF9e
+    (20)Signal processing 101
+    (21)https://www.youtube.com/playlist?list=PLJ-OcUCIty7evBmHvYRv66RcuziszpSFB
+    (22)Digital Signal processing(DSP), learn signal processing from basic
+    (23)https://www.youtube.com/playlist?list=PL0s3O6GgLL5fE_5tWc4YaHKmsXBkhoLYv
+    
+    *Telecommunication engineering:
+    Telecommunications engineering is an engineering discipline centered on electrical and computer engineering which seeks to support and enhance telecommunication systems.The work ranges from basic circuit design to strategic mass developments. A telecommunication engineer is responsible for designing and overseeing the installation of telecommunications equipment and facilities, such as complex electronic switching systems, and other plain old telephone service facilities, optical fiber cabling, IP networks, and microwave transmission systems. 
+    ******MOOC!!!
+    (24)https://www.certify-tco.org/samples/
+    (25)https://www.teracomtraining.com/online-courses.htm
+    
+    (26)https://www.udemy.com/telecom-management-network-model/?siteID=SAyYsTvLiGQ-rR6EcNvZCNjBs.TpeOnY_w&LSNPUBID=SAyYsTvLiGQ 
+    
+    
+    
+    
+    *****Books:
+    (27)Lutz Lampe
+    Andrea M. Tonello
+    Theo G. Swart
+    (28)http://www.engineeringbookspdf.com/power-line-communications-principles-standards-and-applications-from-multimedia-to-smart-grid-by-lutz-lampe-and-andrea-m-tonello-and-theo-g-swart/
+    
+    
+    (29)Author/s: Moshe Zukerman
+    Publisher: City University of Hong Kong, 2012
+    This book aims to bestow the basic knowledge of stochastic models which are applied on the telecommunications research areas. These study areas which are also referred as teletraffic includes, traffic modelling, traffic management and resource provisioning.
+    (30)http://www.ee.cityu.edu.hk/~zukerman/classnotes.pdf
+    
+    (31)Author/s: Reiner Thoma, et al.
+    Publisher: InTech, 2013
+    UWB or the Ultra-Wideband Radio represents a new radio-access philosophy which exploiting vast GHz of bandwidth. It helps in processing communication with high data rate over short distances and it promises innovative radar sensing plus localization applications.
+    (32)http://www.intechopen.com/books/ultra-wideband-radio-technologies-for-communications-localization-and-sensor-applications
+    
+    
+    (33)Author/s: Jesus Hamilton Ortiz
+    Publisher: InTech, 2012
+    The book is a reader’s guide through basics of the fast growing networks to its advanced levels and concepts. It also explains the future expectations from the Telecommunications Networks. The book helps the reader in identifying and examining the most pressing research issues in Telecommunications.
+    (34)http://www.intechopen.com/books/telecommunications-networks-current-status-and-future-trends
+    
+      ******    Tutorials!!!!
+    (35)http://complextoreal.com/tutorials/
+    (36)https://googleweblight.com/i?u=https://www.telecommunications-tutorials.com/&hl=en-IN
+    (37)https://www.worldwidelearn.com/online-training/telecommunications-training.htm
+    
+    
+    
+    ******VIDEOS!!!!
+    (38)Gardy Toussaint
+    
+    (39)https://www.youtube.com/playlist?list=PLelIjLZxUYb4mHzOwfGhtz6Qu00A1ioe0
+    (40)Anointed
+    
+(41)https://www.youtube.com/playlist?list=PL4kGOEVZUNVUyh-jkXw5cjtgGYZ4S16Sr
+    (42)martez752
+
+(43)https://www.youtube.com/playlist?list=PLc5cqs7dgjxxu6B1hu9tKcPNCAViY7HDy
+    
+    *Control Engineering:
+    Control engineering or control systems engineering is an engineering discipline that applies automatic control theory to design systems with desired behaviors in control environments. The discipline of controls overlaps and is usually taught along with electrical engineering at many institutions around the world.
+    *******MOOC!!!!
+    (44)http://nptel.ac.in/courses/108101037/#
+    (45)https://www.edx.org/course/introduction-control-system-design-first-mitx-6-302-0x
+    
+    BOOKs!!!
+    (46)Complete notes on control engineering.
+    (47)http://www.a-zshiksha.com/forum/viewtopic.php?f=147&t=61568#p61766
+    (48)Top ebooks available.
+    
+    (49)http://www.erexams.com/2017/03/control-system-books-free-pdf-download.html?m=1
+    (50)Derek Atherton
+    (51)https://www.google.co.in/url?url=https://kosalmath.files.wordpress.com/2010/08/control-engineering-matlab.pdf&rct=j&sa=U&ved=2ahUKEwia3tDAkP3ZAhUECiwKHeUQA0kQFjAAegQICRAB&q=pdf+books+on+control+engineering&usg=AOvVaw3WEnO7VDJy6c2HCpJ_JChQ
+    
+    (52)I.J Nagrath and M.Gopal
+    
+    (53)http://www.naatelugukadalu.in/2017/07/control-systems-engineering-pdf-free.html?m=1
+    
+    Tutorials:
+    (55)http://www.electronics-tutorial.net/control-systems/
+    (55)https://www.tutorialspoint.com/control_systems/control_systems_quick_guide.htm
+    (56)http://ecetutorials.com/control-systems/
+    
+    
+    *****VIDEOS!!!!
+    (57)NPTEL
+    (58)https://www.youtube.com/playlist?list=PLxn52v8fxX5l5tGzU1NAxRDkgqxK0k5UZ
+    (59)Engineering Funda
+    
+    (60) https://www.youtube.com/playlist?list=PLgwJf8NK-2e43et6qbo4IqYSJCv-6kN90
+    (61)Diler Zangana
+    
+    (62)https://www.youtube.com/playlist?list=PLC29F89C1C0D9B8FF
+    (63)Easy engineering classes
+    
+    (64)https://www.youtube.com/playlist?list=PLV8vIYTIdSnbvRNepz74GGafF-777qYw4
+    
+    *  Instrumentation engineering:
+    Instrumentation engineering is the branch of engineering that specialises on the principle and operation of measuring instruments that are used in fields of design, configuration of automated systems in electrical, pneumatic domains, etc.
+    
+    
+    ******MOOC!!!!!
+    (65)https://study.com/instrumentation_technologies_courses.html
+    (66)https://ocw.tudelft.nl/courses/electronic-instrumentation/
+
+    
+    ******Books:
+
+(67)Author/s: IDC Technologies
+
+Publisher: Bookboon, 2013
+
+This book is a manual that aims to describe the management, planning and execution of on automating and automated safety systems. It especially considers the latest international standards of the industry process. It is a brilliant guide for the project managers and engineers involved in hazardous processes.
+(68)http://www.scribd.com/doc/184454422/Overview-of-Safety-Instrumented-Systems
+
+(69)Publisher: Range Commanders Council, 2007
+
+The book aims to provide the instrumentation engineer the required background to understand the operation of an instrumentation system. The subsystems and the topics covers signal sources – conditioning, data collection – formatting, telemetering, et. al.
+(70)http://www.wsmr.army.mil/RCCsite/Documents/121-13_Instrumentation%20Engineers%20Handbook/121-13_Instrumentation_Engineers_Handbook.pdf
+    (71)Author/s: Igor Minin
+    
+    Publisher: InTech, 2011
+    
+    The engineers, scientists, and applied physicists involved in the area of microsensors. The aim of the book is the continuous and timely dissemination of new and innovative research and developments in microsensors.
+
+(72)http://www.intechopen.com/books/microsensors
+    (73)Author/s: Milind Kr Sharma
+    
+    Publisher: InTech, 2010
+    
+    Contents: High Temperature Superconducting Maglev Measurement System; Metrology for non-stationary dynamic measurements; Nano-metrology based on the Laser Interferometers; Inductive Telemetric Measurement Systems for Remote Sensing; etc.
+    (74)http://www.intechopen.com/books/advances-in-measurement-systems
+    
+    
+    *********TUTORIALS:
+    (75)http://search.monstercrawler.com/monster7/search/web?fcoid=417&fcop=topnav&fpid=27&q=instrumentation+online+course&gclid=Cj0KCQiAoY7VBRDtARIsAHWoO-Jky8BE15byBZjEvcaRsh-vTzXyj200vRV-HijfQIZvxOLX-4WQp54aAsOrEALw_wcB
+    (76)https://www.google.co.in/url?url=http://www.cpdee.ufmg.br/~palhares/DJ_Dunn_physical_models.pdf&rct=j&gcjeid=16&sa=U&ved=2ahUKEwjIkNXGmf3ZAhVIneAKHVk3BNgQFjAAegQICBAB&q=tutorials+on+instrumwntation+engineering&usg=AOvVaw1UG6QBzfwS1Dtvp3pl35z6
+    (77)https://www.wiziq.com/tutorials/instrumentation
+    *******VIDEOS:
+       (78) Gate academy
+    (79)https://www.youtube.com/playlist?list=PLgzsL8klq6DJAcy2u9qRDvekPY42tzIiw
+    (80)MrluckyKid88
+    (81)https://www.youtube.com/playlist?list=PLF3392DC1CDC72398
+    
+    (82)Bibi John
+    (83)https://www.youtube.com/playlist?list=PLWlqwHY9NmUBh24m0K_oNGTFD9x130NGZ
+    
+    (84)THE GATE ACADEMY
+    (85) https://www.youtube.com/playlist?list=PLPq2PKgitBOI6D1HBFwbIhOd009X0zNP5
+    
+    
+    
+    VLSI design:
+    
+    
+    Very-large-scale integration (VLSI) is the process of creating an integrated circuit (IC) by combining thousands of transistors into a single chip. VLSI began in the 1970s when complex semiconductor and communication technologies were being developed. The microprocessor is a VLSI device.
+    MOOC!!!!
+    (86)https://www.fairandlovelyfoundation.in/course-detail/NIIT-652
+    
+    (87)http://nptel.ac.in/courses/117101105/
+    (88)https://www.fairandlovelyfoundation.in/course-detail/NIIT-1992
+    Books!!!!!
+    
+    (89)This note covers the following topics: Fabrication, MOSFET, SPICE MODEL, Inverters, Interconnect Analysis, Super Buffer Design, Combination Circuit Design, Sequential Logic Circuits , Dynamic Logic Circuits , Semiconductor Memories, Low-Power CMOS Logic Circuits.
+    (90)http://www.freebookcentre.net/electronics-ebooks-download/Introduction-to-VLSI-Circuits-Design.html
+    
+    (91)This book provides some recent advances in design nanometer VLSI chips. The selected topics try to present some open problems and challenges with important topics ranging from design tools, new post-silicon devices, GPU-based parallel computing, emerging 3D integration, and antenna design. The book consists of two parts, with chapters such as: VLSI design for multi-sensor smart systems on a chip, Three-dimensional integrated circuits design for thousand-core processors, Parallel symbolic analysis of large analog circuits on GPU platforms, Algorithms for CAD tools VLSI design, A multilevel memetic algorithm for large SAT-encoded problems, etc. 
+    
+    (92)https://www.researchgate.net/publication/234007956_VLSI_Design
+    (93)Author/s: Esteban Tlelo-Cuautle and Sheldon X.-D. Tan
+    
+    This book provides some recent advances in design nanometer VLSI chips, ranging from design tools, new post-silicon devices, GPU-based parallel computing, emerging 3D integration, and antenna design.
+    (94)http://www.intechopen.com/books/vlsi-design
+    (95)Author/s: Zhongfeng Wang
+    
+    This book is intended to cover a wide range of VLSI design topics by providing a historical perspective as well as design methodologies of VLSI systems.
+    (96)http://www.intechopen.com/books/vlsi
+    Tutorials!!!!
+    (97)https://www.tutorialspoint.com/vlsi_design/index.htm
+    (98)http://www.academia.edu/4781908/My_Tutorials_on_VLSI_Design
+    (99)http://www.vlsi-expert.com/p/vlsi-basic.html?m=1
+    
+    
+    VIDEOS!!!!
+     (100)  NPTEL
+    
+    (101)https://www.youtube.com/playlist?list=PLC8DAE992478433DD
+    (102)Abdullah Saleh
+    
+    (103)https://www.youtube.com/playlist?list=PLd6kDeGePeyqXpRBAr5KSbWqjnanmPTFm  
+    (104)nptelhrd
+    
+    (105)https://www.youtube.com/playlist?list=PLbMVogVj5nJTDr6KqQXNcxCvooSMnBuXj
+    
