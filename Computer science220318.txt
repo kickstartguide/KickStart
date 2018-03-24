@@ -1,0 +1,728 @@
+﻿Computer science & IT
+Programming Languages : A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks. The term programming language usually refers to high-level languages, such as BASIC, C, C++, COBOL, Java, FORTRAN, Ada, and Pascal.
+C 
+C is a high-level and general-purpose programming language that is ideal for developing firmware or portable applications. Originally intended for writing system software, C was developed at Bell Labs by Dennis Ritchie for the Unix Operating System in the early 1970s.
+C++ 
+Objects. C++ introduces object-oriented programming (OOP) features to C. It offers classes, which provide the four features commonly present in OOP (and some non-OOP) languages: abstraction, encapsulation, inheritance, and polymorphism.
+Java
+It is an object oriented language. Its syntax is common as C and C++. It was released in 1995 as a part of Sun Microsystems' Java platform. Java programs are compiled to bytecode (class file) that can run on any Java Virtual Machine (JVM), making Java a platform independent programming language.
+Python
+Python is a general purpose programming language created in the late 1980s, and named after Monty Python, that's used by thousands of people to do things from testing microchips at Intel, to powering Instagram, to building video games with the PyGame library.
+Artificial Intelligence
+Artificial intelligence (AI) is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans. 
+Deep Learning
+Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, semi-supervised or unsupervised.
+Data Science
+Data science, also known as data-driven science, is an interdisciplinary field of scientific methods, processes, algorithms and systems to extract knowledge or insights from data in various forms, either structured or unstructured, similar to data mining.
+Machine Learning
+Machine learning is a field of computer science that gives computer systems the ability to "learn" (i.e., progressively improve performance on a specific task) with data, without being explicitly programmed.
+Computer Graphics
+Photoshop
+Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for macOS and Windows. Photoshop was created in 1988 by Thomas and John Knoll.
+Adobe Illustrator
+Adobe Illustrator is a vector graphics editor developed and marketed by AdobeSystems. The latest version, Illustrator CC 2018, is the 22nd generation in the product line.
+Corel
+CorelDraw is a vector graphics editor developed and marketed by Corel Corporation. It is also the name of Corel's Graphics Suite, which bundles CorelDraw with bitmap-image editor Corel Photo-Paint as well as other graphics-related programs.
+After Effects
+Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed by Adobe Systems and used in the post-production process of film making and television production.
+Network Security
+Cisco
+Cisco Certified Network Professional (CCNP) is an intermediate-level certification in the Cisco certified professional program. This certification is aimed at full-time network or system administrators, or those who work with local and/or wide-area network (LAN/WAN)infrastructure.
+Wireshark
+Wireshark is a free and open source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education.
+Ethical Hacking & Cyber Security
+Ethical hacking is testing the IT resources for a good cause and the betterment of technology. Ethical hackers are none other than computer security experts and researchers who focus on penetration testing and weaknesses in the organization's information systems they associated.
+Database
+Sql/PlSql
+SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.
+Sql Server
+SQL Server is Microsoft's relational database management system (RDBMS). It is a full-featured database primarily designed to compete against competitors Oracle Database (DB) and MySQL.
+Database Management
+Database Management System: The software which is used to manage database is called Database Management System (DBMS). For Example, MySQL, Oracle etc. are popular commercial DBMS used in different applications.
+Web Development
+HTML
+Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.
+CSS
+Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language.
+JavaScript
+Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language.
+PHP
+PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. It is originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Group.
+.NET framework
+.NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library and provides language interoperability across several programming languages.
+MOOCs 
+Programming Languages
+C
+https://alison.com/course/introduction-to-c-programming
+https://alison.com/course/c-programming-fundamentals-of-numbers-variables-and-arrays
+https://alison.com/course/c-programming-using-pointers-constants-and-strings
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010
+https://onlinecourses.nptel.ac.in/noc18-cs10
+https://onlinecourses.nptel.ac.in/noc18_cs25
+C++
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014
+https://www.edx.org/course/introduction-c-microsoft-dev210x-6
+Java
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010
+https://www.udemy.com/java-programming-basics/
+https://www.edx.org/course/introduction-java-programming-part-1-hkustx-comp102-1x-6
+https://www.codecademy.com/learn/learn-java
+Python
+https://onlinecourses.nptel.ac.in/noc18_cs21
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011
+https://alison.com/course/introduction-to-programming-with-python
+https://www.udemy.com/python-oops-beginners/
+Artificial Intelligence
+Deep Learning
+https://in.udacity.com/course/deep-learning--ud730
+https://www.udemy.com/deep-learning-prerequisites-the-numpy-stack-in-python/
+https://www.edx.org/course/deep-learning-explained-microsoft-dat236x-1
+paid:
+https://www.udemy.com/deeplearning
+Data Science
+https://in.udacity.com/course/intro-to-data-science--ud359
+https://alison.com/course/data-science-course-regression-and-clustering-models-alison
+https://www.edx.org/course/data-science-essentials-microsoft-dat203-1x-6
+paid:
+https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on
+Machine Learning
+https://in.udacity.com/course/intro-to-machine-learning--ud120
+https://alison.com/course/data-analytics-introduction-to-machine-learning
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006
+https://onlinecourses.nptel.ac.in/noc18_cs26
+https://www.edx.org/course/machine-learning-gtx-cs7641x-0
+paid:
+https://www.udemy.com/machine-learning-and-artificial-intelligence-with-python
+Computer Graphics
+Photoshop
+https://www.udemy.com/learn-adobe-photoshop-from-scratch
+https://alison.com/course/adobe-photoshop-cs6-essential-tools
+https://www.udemy.com/graphic-design-for-beginners (paid)
+Adobe Illustrator
+https://www.udemy.com/useful-tricks-and-tips-in-adobe-illustrator
+https://www.edx.org/course/adobe-illustrator-aprende-a-crear-presentaciones-de-impacto
+https://www.udemy.com/graphic-design-for-beginners (paid)
+https://www.udemy.com/adobe-illustrator-training (paid)
+Corel
+https://www.coreldraw.com/en/pages/800382.html
+https://www.udemy.com/graphic-design-for-beginners (paid)
+After Effects
+https://www.udemy.com/15-advance-mograph-elements-with-after-effect (paid)
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012
+https://www.udemy.com/become-a-motion-graphic-designer-using-after-effects (paid)
+Network Security
+Cisco
+https://www.udemy.com/cisco-ccna-getting-started
+https://www.udemy.com/chrisbryantfreeccnpswitchvideobootcamp
+Wireshark
+https://www.udemy.com/free-wireshark-course
+https://www.edx.org/course/computer-networks-internet-kironx-fhlcnx
+https://www.udemy.com/wireshark (paid)
+Ethical Hacking & Cyber Security
+https://www.udemy.com/computer-hacking-fundamentals
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-857-network-and-computer-security-spring-2014
+https://alison.com/course/introduction-to-computer-network-security
+https://onlinecourses.nptel.ac.in/noc18_cs24
+https://www.edx.org/course/cyber-security-basics-a-hands-on-approach
+Database
+Sql/PlSql
+https://www.udemy.com/introduction-to-databases-and-sql-querying
+https://alison.com/course/databases-dml-statements-and-sql-server-administration
+https://www.codecademy.com/learn/learn-sql
+https://www.udemy.com/oracle-plsql-fundamentals-vol-i-ii (paid)
+Sql Server
+https://www.udemy.com/microsoft-sql-server-an-introduction
+https://alison.com/course/databases-dml-statements-and-sql-server-administration
+https://www.edx.org/course/developing-sql-databases-microsoft-dat215-1x-3
+Database Management
+https://www.udemy.com/database-design-and-management
+https://onlinecourses.nptel.ac.in/noc18_cs15
+https://www.edx.org/course/managing-sql-server-operations-microsoft-dat247x-1
+Web Development
+HTML
+https://www.w3schools.com/css/default.asp
+https://www.freecodecamp.org/map-aside#nested-collapseHTML5andCSS
+https://www.codecademy.com/learn/learn-html
+https://in.udacity.com/course/html-and-css-syntax--ud001
+CSS
+https://www.w3schools.com/css/default.asp
+https://www.freecodecamp.org/map-aside#nested-collapseHTML5andCSS
+https://www.codecademy.com/learn/learn-css
+https://in.udacity.com/course/html-and-css-syntax--ud001
+JavaScript
+https://www.w3schools.com/js/default.asp
+https://www.khanacademy.org/computing/computer-programming
+https://www.freecodecamp.org/map-aside#nested-collapseBasicJavaScript
+https://www.edx.org/course/javascript-introduction-w3cx-js-0x-0
+https://www.codecademy.com/learn/introduction-to-javascript
+https://in.udacity.com/course/intro-to-javascript--ud803
+PHP
+https://www.w3schools.com/php/default.asp
+https://www.udemy.com/code-dynamic-websites
+https://www.udemy.com/php-mysql-tutorial
+https://www.udemy.com/learn-ajax-with-php
+.NET framework
+https://www.udemy.com/design-patterns-csharp-dotnet (paid)
+https://www.udemy.com/introduction-to-aspnet-core
+https://www.udemy.com/dot-net-for-beginners/?src=sac&kw=.net
+Books
+Programming Languages
+C
+The C Programming Language (2nd Ed.) by Dennis M. Ritchie.
+The C Programming Language (2nd Ed.) is one of the best-selling programming books published in the last fifty years, "K&R" has been called everything from the "bible" to "a landmark in computer science" and it has influenced generations of programmers. Available now for all leading ebook platforms, this concise and beautifully written text is a "must-have" reference for every serious programmer’s digital library. 
+ 
+ 
+
+http://www2.cs.uregina.ca/~hilder/cs430-833/Reference%20Materials/The%20C%20Programming%20Language.pdf
+Programming in ANSI C  by  Ray Dawson
+The author Ray Dawsons very pleased by the way the book has been received by students, members of the teaching staff, and by software professionals in industry. On the whole the "no nonsense" approach of getting to the point without introducing hundreds of pages of basic information on how to program has been well received.
+https://dspace.lboro.ac.uk/dspace-jspui/bitstream/2134/10054/6/Programming-in-ANSI-C.pdf
+An Introduction to the C Programming Language and Software Design  by Tim Bailey
+The intention of this text is to cover topics on the C programming language and introductory software design in sequence. Ample cross-referencing and indexing is provided to make the text a serviceable reference, but more complete works are recommended. In particular, for the practicing programmer, the best available tutorial and reference is Kernighan and Ritchie [KR88] and the best in-depth reference is Harbison and Steele [HS95, HS02]. The inﬂuence of these two works on this text is readily apparent throughout.
+http://www-personal.acfr.usyd.edu.au/tbailey/ctext/ctext.pdf
+
+C++
+The C++ programming language----- Bjarne Stroustrup
+7) This booked is framed by Bjarne Stroustrup, the creator of widely used C++ programming languageand first published in October 1985. This book demonstrates key techniques that make C++ effective and teaches the fundamental concepts necessary for mastery. Except where illustrating technicalities, examples are taken from the domain of systems software. A companion, The Annotated C++ Language Standard, presents the complete language definition together with annotations to make it more comprehensible.
+8) https://is.muni.cz/www/408176/38744863/The_C__Programming_Language__Stroustrup_.pdf
+Object Oriented programming with C++------ E. Balagurusamy
+9) This book is written by the well-known Indian author E. Balagurusamy. It aims to provide an introduction to the C++ programming language. It highlights the characteristics of the Object-oriented Concept and has practitioner’s approach.
+10) http://www.primeuniversity.edu.bd/070513/vc/eBook/download/BalaguruswamyObjectOrientedProgrammingWithC++Fourth%20Edition.pdf
+The Rook’s Guide to C++---- Jeremy Hansen 
+11) This book is written by Jeremy Hansen and was first published in 2013. This Creative Commons-licensed textbook written by Norwich University students and faculty aims to provide an introduction to the C++ programming language. This book,will favor older techniques, pre-C++11. When C++11 features are discussed, they will be pointed out as such.
+12) https://www.onlineprogrammingbooks.com/rooks-guide-c/
+Fundamentals of Programming C++----- Richard L. Halterman
+ 13) “Fundamentals of Programming C++”, written by Richard L. Halterman. This potentially makes the reader familiar of how  C++ program allows a computer to assume the role of a financial calculator, while another transforms the machine into a worthy chess opponent with its quirky Problem statements.
+14) https://www.onlineprogrammingbooks.com/free-download-fundamentals-of-programming-c/
+python
+learning to program with python---- Richard L. Halterman
+15) This book does not attempt to cover all the facets of the Python programming language. Experienced programmers should look elsewhere for books that cover Python in much more detail. The focus here is on introducing programming techniques and developing good habits. To that end, our approach avoids some of the more esoteric features of Python and concentrates on the programming basics that transfer directly to other imperative programming languages such as Java, C#, and C++. We stick with the basics and explore more advanced features of Python only when necessary to handle the problem at hand.The code in this book is based on Python 3 
+16) https://www.cs.uky.edu/~keen/115/Haltermanpythonbook.pdf
+A Python Book----- Dave Kuhlman
+17) This document is a self­learning document for a course in Python programming.  This course contains (1) a part for beginners, (2) a discussion of several advanced topics that are of interest to Python programmers, and (3) a Python workbook with  lots of exercises.
+18) http://www.davekuhlman.org/python_book_01.pdf
+Think Python ---- Allen Downey 
+19) Think Python is an introduction to Python programming for beginners. It starts with basic concepts of programming, and is carefully designed to define all terms when they are first used and to develop each new concept in a logical progression. Larger pieces, like recursion and object-oriented programming are divided into a sequence of smaller steps and introduced over the course of several chapters.
+20) http://www.greenteapress.com/thinkpython/thinkpython.pdf
+Cracking Codes with Python ---- Al Sweigart 
+21) Cracking Codes with Python teaches complete beginners how to program in the Python programming language. The book features the source code to several ciphers and hacking programs for these ciphers.After a crash course in Python programming basics, you’ll learn to make, test, and hack programs that encrypt text with classical ciphers like the transposition cipher and Vigenère cipher
+22) https://www.onlineprogrammingbooks.com/cracking-codes-python/
+Java
+Java-The complete reference---- Herbert Schildt
+23) This book is a comprehensive guide to the Java language, describing its syntax, keywords, and fundamental programming principles. Significant portions of the Java API library are also examined. The book is divided into four parts, each focusing on a different aspect of the Java programming environment.
+Part I presents an in-depth tutorial of the Java language.
+Part II examines key aspects of Java’s standard API library.
+Part III looks at three important Java technologies: Java Beans, Swing, and servlets.
+Part IV contains two chapters that show examples of Java in action.
+24) http://iiti.ac.in/people/~tanimad/JavaTheCompleteReference.pdf
+Thinking in Java -----Bruce Eckel
+25) Thinking in Java has earned raves from programmers worldwide for its extraordinary clarity, careful organization, and small, direct programming examples. From the fundamentals of Java syntax to its most advanced features, Thinking in Java is designed to teach, one simple step at a time.
+26) http://vergil.chemistry.gatech.edu/resources/programming/pdf/TIJ2.pdf
+Introduction to Programming Using Java -----David J. Eck
+27) Introduction to Programming Using Java is a free introductory computer programming textbook that uses Java as the language of instruction. It is suitable for use in an introductory programming course and for people who are trying to learn programming on their own. There are no prerequisites beyond a general familiarity with the ideas of computers and programs. There is enough material for a full year of college-level programming. Chapters 1 through 7 can be used as a textbook in a one-semester college-level course or in a year-long high school course.
+28) http://www.iitk.ac.in/esc101/share/downloads/javanotes5.pdf
+Advanced Java Programming ---- Uttam K. Roy
+29) Advanced Java Programming is a textbook specially designed for undergraduate and postgraduate students of Computer Science, Information Technology, and Computer Applications (BE/BTech/BCA/ME/M.Tech/MCA). Divided into three parts, the book provides an exhaustive coverage of topics taught in advanced Java and other related subjects. It first introduces important language features such as Reflection, JNI, template, AWT and swing, Security etc. The second part primarily focuses on core network programming concepts such as sockets, RMI, Mail, XML-RPC etc. The state-of-the-art concepts such as SOAP, Applet, Servlet, JSP, JDBC, Hibernate, JMS, J2EE, JNDI, CORBA, JSF etc. have been discussed in the last part. The content is enhanced with numerous illustrations, examples, program codes, and screenshots. With its lucid presentation and inclusion of numerous real-world examples and codes, the book will be equally useful for Java professionals.
+30) https://freeebookdownload.blogspot.in/2016/06/advanced-java-programming_23.html
+Artificial Intelligence
+Deep Learning
+Deep Learning---- Ian Goodfellow,  Yoshua Bengio,  Aaron Courville
+31) "Written by three experts in the field, Deep Learning is the only comprehensive book on the subject." -- Elon Musk, cochair of OpenAI; cofounder and CEO of Tesla and SpaceX. The text offers mathematical and conceptual background, covering relevant concepts in linear algebra, probability theory and information theory, numerical computation, and machine learning. 
+32) http://www.deeplearningbook.org/front_matter.pdf
+33) This short ebook is your guide to the basic techniques. You’ll see that deep learning is within your grasp—you don’t need to be an expert to get started. Get through the topics like Machine learning vs. deep learning , Convolutional neural networks (CNNs) and a lot more.
+34) https://in.mathworks.com/campaigns/products/offer/deep-learning-with-matlab.html
+Data Science
+ Data Science from Scratch: First Principles with Python ----- Joel Grus 
+35) Joel Grus popular book “Data Science from Scratch: First Principles with Python“ is a type of learning that is perhaps slower than other types of learning, but fuller in that all of the micro decisions involved become intimate. The implementation is owned from head to tail. 
+36) http://www.zhanjunlang.com/resources/tutorial/Data%20Science%20from%20Scratch%20First%20Principles%20with%20Python.pdf
+Introduction to Data Science-----  Jeffrey M. Stanton
+37) In this Introduction to Data Science eBook, a series of data problems of increasing complexity is used to illustrate the skills and capabilities needed by data scientists. The open source data analysis program known as "R" and its graphical user interface companion "R-Studio" are used to work with real data examples to illustrate both the challenges of data science and some of the techniques used to address those challenges. 
+38) https://storage2.ischool.syr.edu/media.ischool.syr.edu/oldmedia/documents/2012/3/DataScienceBook1_1.pdf
+Foundation of Datascience----- Avrim Blum
+39) This book is written by Avrim Blum, John Hopcroft, and Ravindran Kannan.The emphasis of the chapter, as well as the book in general, is to get across the mathematical foundations rather than dwell on particular applications that are only briefly described. The mathematical areas most relevant to dealing with high-dimensional data are ma- trix algebra and algorithms.
+40) https://www.cs.cornell.edu/jeh/book.pdf
+Machine Learning
+Pattern recognisation and machine learning-----Christopher Bishop
+41) This new textbook reflects these recent developments while providing a comprehensive introduction to the fields of pattern recognition and machine learning. It is aimed at advanced undergraduates or first year PhD students, as well as researchers and practitioners, and assumes no previous knowledge of pattern recognition or machine learning concepts. Knowledge of multivariate calculus and basic linear algebra is required, and some familiarity with probabilities would be helpful though not essential as the book includes a self-contained introduction to basic probability theory
+42) http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf
+Bayesian Reasoning and Machine Learning-----David Barber
+43) This book concentrates on the probabilistic aspects of information processing and machine learning. Certainly no claim is made as to the correctness or that this is the only useful approach. Indeed, one might counter that this is unnecessary since “biological organisms don’t use probability theory”. Whether this is the case or not, it is undeniable that the framework of graphical models and probability has helped with the explosion of new algorithms and models in the machine learning community. One should also be clear that Bayesian viewpoint is not the only way to go about describing machine learning and information processing.
+ 44) http://web4.cs.ucl.ac.uk/staff/D.Barber/textbook/090310.pdf
+Machine Learning A Probabilistic Approach-----David Barber
+45) This book is intended as a (non-rigorous) introduction to machine learning, probabilistic graphical models and their applications. Formal proofs of theorems are generally omitted. These notes are formed from the basis of lectures given to both undergraduate and graduate students at Aston University, Edinburgh University, and EPF Lausanne.
+46) https://pdfs.semanticscholar.org/7bc7/54bc548f32b9ac53df67e3171e8e4df66d15.pdf
+Understanding Machine Learning: From Theory to Algorithms ---- Shai Shalev-Shwartz and Shai Ben-David 
+47) The first goal of book by by Shai Shalev-Shwartz and Shai Ben-David  is to provide a rigorous, yet easy to follow, introduction to the main concepts underlying machine learning: What is learning? How can a machine learn? How do we quantify the resources needed to learn a given concept? Is learning always possible? Can we know if the learning process succeeded or failed?
+48) https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/understanding-machine-learning-theory-algorithms.pdf
+Computer Graphics
+Photoshop
+THE ADOBE PHOTOSHOP CS6 BOOK----- SCOTT  KELBY
+49) This book is designed , so that  you can turn right to the technique you want to learn, and start there. It explain everything as the author go, step-by-step, so if you want to learn how to remove dust spots from a RAW image, just turn to page 84, and in a couple of minutes, you’ll know.
+50) http://ptgmedia.pearsoncmg.com/images/9780321823748/samplepages/0321823745.pdf
+The Adobe Photoshop Lightroom CC Book----- SCOTT  KELBY
+51) This book is for Lightroom CC or Lightroom 6 users—either one (they both released with the exact same features). No matter which version you have, you’re covered (so, if you bought Lightroom 6, and you see the words “Lightroom CC” in the book, you know not to let that freak you out)
+52) http://ptgmedia.pearsoncmg.com/images/9780133979794/samplepages/9780133979794.pdf
+An Introduction to Adobe Photoshop”-------Steve Bark from BookBoon 
+53) “An Introduction to Adobe Photoshop”, by Steve Bark from BookBoon. This is the first in a series of books on Adobe Photoshop. Together, they will give the reader a good foundation in some of the major features of this ground breaking and industry changing program. This book is designed to place your feet firmly on the path to understanding and will guide you to the knowledge that will enable you to progress into a fast and productive Photoshop user.
+54) https://www.onlineprogrammingbooks.com/free-ebook-an-introduction-to-adobe-photoshop/
+An Idiot’s Guide to Photoshop, Part 4: Advanced Features and Fun Photo Effects ----- Christian Bonilla 
+ 55) Free eBook, “An Idiot’s Guide to Photoshop, Part 4: Advanced Features and Fun Photo Effects”, from MakeUseOf.com. In this guide, we’ll show you how to make use of some amazing features that came with CS5, such as Content-Aware and Puppet Warp, along with some tools thatcame before CS5. Also, we will show you how to create a basic animation in Photoshop and how to use it to create a morphing effect.
+56)https://www.onlineprogrammingbooks.com/an-idiots-guide-to-photoshop-part-4-advanced-features-and-fun-photo-effects/
+
+Adobe Illustrator
+57) It’s a reference/guide to Adobe illustrator cs6.
+58) https://help.adobe.com/archive/en/illustrator/cs6/illustrator_reference.pdf
+Teach yourself ILLUSTRATOR 7 in 24 hours ----Mordy Golding 
+59)Teach yourself ILLUSTRATOR 7 in 24 hours by Mordy Golding is a book that provides you a voyage through the world of Illustrator7 precisely and quickly. 
+60) http://www.fcekg.com/downloads/illustrator.pdf
+Corel
+61) This is a guide to all Corel Coorporation products.
+62) http://product.corel.com/help/CorelDRAW/540229932/Main/EN/User-Guide/CorelDRAW-X7.pdf
+63) This guide to the techniques of using CorelDRAW contains step-by-step detailed tutorials that teach how to use the product's features to create the sample images displayed. Readers can learn to create special effects: etched glass, realistic fire, stained glass, embossed images, photo-collages, 3D images and metallic colouring.
+64) http://www.rohaniterbaru.com/coreldraw-studio-techniques-english.pdf
+
+After Effects
+Adobe After Effects CC Classroom in a Book (2014 Release) Book-----Brie Gyncild
+65) Adobe After Effects CC Classroom in a Book (2015 release) is part of the official training series for Adobe graphics and publishing software, developed with the support of Adobe product experts. The lessons are designed to let you learn at your own pace. If you’re new to Adobe After Effects, you’ll learn the fundamental concepts and features you’ll need to master the program
+66) http://31.210.87.4/ebook/pdf/Adobe_After_Effects_CC_Classroom_in_a_Book_2015_release.pdf
+creating motion graphics with after effects----- Trish and Chris Meyer 
+67)Trish and Chris Meyer share over 17 years of hard-earned, real-world film and video production experience inside this critically acclaimed text. More than a step-by-step review of the features in AE, readers will learn how the program thinks so that they can realize their own visions more quickly and efficiently. This full-color book is packed with tips, gotchas, and sage advice that will help users thrive no matter what projects they might encounter.
+68) https://www.safaribooksonline.com/library/view/creating-motion-graphics/9780240814155/
+Network Security
+Cisco
+CCENT/ CCNA ICND1 100-105 ----- WENDELL ODOM 
+69) This book, and the similar CCNA Routing and Switching ICND2 200-105 Official Cert Guide, go beyond what you would find in a simple technology book. These books give you a study system designed to help you not only learn facts but also to develop the skills need to pass the exams. To do that, in the technology chapters of the book, about three-quarters of the chapter is about the technology, and about one-quarter is for the related study features. 
+70) http://ptgmedia.pearsoncmg.com/images/9781587205804/samplepages/9781587205804.pdf
+CCNA Cyber Ops SECFND ---- OMAR SANTOS
+71) This book maps to the topic areas of the 210-250 SECFND exam and uses a number of features to help you understand the topics and prepare for the exam. This book uses several key methodologies to help you discover the exam topics on which you need more review, to help you fully understand and remember those details, and to help you prove to yourself that you have retained your knowledge of those topics.
+72) http://dl.hellodigi.ir/dl.hellodigi.ir/dl/book/CCNA%20Cyber%20Ops%20SECFND%20%23210-250%20Official%20Cert%20Guide.pdf
+CCNA Routing and Switching ----- WENDELL ODOM 
+73) This book (and the related CCENT/CCNA ICND1 100-105 Official Cert Guide) goes beyond what you would find in a simple technology book. It gives you a study system designed to help you not only learn facts but also to develop the skills you need to pass the exams. To do that, in the technology chapters of the book, about three-quarters of the chapter is about the technology, and about one-quarter is for the related study features.
+74) http://ptgmedia.pearsoncmg.com/images/9781587205989/samplepages/9781587205989.pdf
+
+Wireshark
+Wireshark Network Analysis ---  Laura Chappell 
+75) This book is packed with basic through advanced techniques, tips and tricks to analyze a variety of network types. It is designed to get you from point A to point Z (or perhaps I should say point 0x00 to point 0xFF) as fast as possible with a solid understanding of the processes, protocols, and putrid things that occur under our noses (or under our feet or over our heads).
+76) https://juliorestrepo.files.wordpress.com/2015/04/wireshark-network-analysis-second-edition.pdf
+Practical Packet Analysis---- Chris Sanders
+77) The first half of this book gives you the prerequisite knowledge you will need to understand packet analysis and Wireshark. The second half of the book is devoted entirely to practical cases that you could easily encounter in day-to-day network management.
+78) http://repository.root-me.org/R%C3%A9seau/EN%20-%20Practical%20packet%20analysis%20-%20Wireshark.pdf
+Wireshark for Security Professionals--- Jeff T Parker and Jessey Bullock
+79) This book hopes to meet three goals: Broaden the information security professional’s skill set through Wireshark. Provide learning resources, including labs and exercises, to apply what you learn. Demonstrate how Wireshark  helps with real-life scenarios through Lua scripting.
+80) https://danwin1210.me/uploads/F3thinker%20%21-%20Hacking%202017/19.%20Wireshark%20for%20Security%20Professionals%202016.pdf
+
+Ethical Hacking & Cyber Security
+The Basics of Hacking and Penetration Testing -----Patrick Engebretson 
+81) This book is meant to be a very gentle yet thorough guide to the world of hacking and penetration testing. It is specifically aimed at helping you master the basic steps needed to complete a hack or penetration test without overwhelming you. By the time you finish this book, you will have a solid understanding of the penetration testing process and you will be comfortable with the basic tools needed to complete the job.
+82) https://doc.lagout.org/security/Syngress.The.Basics.of.Hacking.and.Penetration.Testing.Aug.2011.pdf
+The Hacker Playbook: Practical Guide to Penetration Testing ----peter kim
+83) This book assumes that you have some knowledge of common security tools, have used a little Metasploit, and keep up somewhat with the security industry. You don’t have to be a penetration tester to take full advantage of the book; but it helps if your passion is for security. This book will help you evolve your security knowledge and better understand how you need to protect your own environment.
+84) https://doc.lagout.org/security/The-Hacker-Playbook-Practical-Guide-To-Penetration-Testing-2014.pdf
+CEH Certified Ethical Hacker Study Guide Book by Kimberly Graves
+85) Certified Ethical Hacker Study Guide is designed to be a study tool for experienced security professionals seeking the information necessary to successfully pass the certification exam. The study guide can be used either in conjunction with a more complete study program, computer-based training courseware, or classroom/lab environment, or as an exam review tool for those want to brush up before taking the exam. It isn’t our goal to give away the answers, but rather to identify those topics on which you can expect to be tested.
+86) http://index-of.es/Hack/Kimberly_Graves-CEH_Certified_Ethical_Hacker_Study_Guide-Sybex(2010).pdf
+
+Database
+Sql/PlSql
+Introducing Microsoft SQL Server 2014---- Ross Mistry and Stacia Misner 
+87) In this book, the authors explain how SQL Server 2014 incorporates in-memory technology to boost performance in online transactional processing (OLTP) and data-warehouse solutions. They also describe how it eases the transition from on-premises solutions to the cloud with added support for hybrid environments.
+88) https://www.onlineprogrammingbooks.com/introducing-microsoft-sql-server-2014/
+SQL Server Analysis Services Succinctly---- Stacia Misner
+89) SQL Server Analysis Services Succinctly: Design, develop, and deploy business intelligence solutions, by Stacia Misner, teaches how to implement a business intelligence solution through SQL Server Analysis Services.
+90) https://www.onlineprogrammingbooks.com/sql-server-analysis-services-succinctly/
+Sql Server
+Microsoft SQL Server 2012 Internals------ Kalen Delaney
+91) This book is intended to be read by anyone who wants a deeper understanding of what SQL Server does behind the scenes. The focus of this book is on the core SQL Server engine—in particular, the query processor and the storage engine. I expect that you have some experience with both the SQL Server engine and with the T-SQL language. You don’t have to be an expert in either, but it helps if you aspire to become an expert and would like to find out all you can about what SQL Server is actually doing when you submit a query for execution.
+92) https://ptgmedia.pearsoncmg.com/images/9780735658561/samplepages/9780735658561.pdf
+Microsoft® SQL Server ® 2012 T-SQL Fundamentals--- Itzik Ben-Gan
+93) This book walks you through your first steps in T-SQL (also known as Transact-SQL), which is the Microsoft SQL Server dialect of the ISO and ANSI standards for SQL. You’ll learn the theory behind T-SQL querying and programming and how to develop T-SQL code to query and modify data, and you’ll get an overview of programmable objects.
+94) https://the-eye.eu/public/Books/IT%20Various/microsoft_sql_server_2012_t-sql_fundamentals.pdf
+Querying Microsoft® SQL Server® 2012 ----- Itzik Ben-Gan 
+95) This Training Kit is designed for information technology (IT) professionals who need to query data in Microsoft SQL Server 2012 and who also plan to take Exam 70-461, “Querying Microsoft SQL Server 2012.” It is assumed that before you begin using this Training Kit, you have a foundation-level understanding of using Transact-SQL (T-SQL) to query data in SQL Server 2012 and have some experience using the product. Although this book helps prepare you for the 70-461 exam, you should consider it as one part of your exam preparation plan. Meaningful, real-world experience with SQL Server 2012 is required to pass this exam.
+96) http://files.hii-tech.com/book/SQL2012/Microsoft.Press.Training.Kit.Exam.70-461.Nov.2012.pdf
+Database Management
+FUNDAMENTALS OF Database Systems----- Ramez Elmasri
+97) This book introduces the fundamental concepts necessary for designing, using, and implementing database systems and database applications. Our presentation stresses the fundamentals of database modeling and design, the languages and models provided by the database management systems, and database system implementation techniques
+98) http://iips.icci.edu.iq/images/exam/databases-ramaz.pdf
+Database Management----Pratt and Adamski
+99) Ideal for introducing students to any discipline of database management, at either the graduate or undergraduate level. This text provides a solid, in-depth overview of essential database concepts with a special emphasis on the relational model.
+100) https://www.cs.indiana.edu/classes/a348/spr2013/pach1.pdf
+Database Systems: A Practical Approach to Design, Implementation and Management with Learning SQL - A Step-by-Step Guide Using Oracle---- Thomas Connolly , Carolyn Begg
+101) This fourth edition continues to offer the reader an excellent and comprehensive treatment of the essentials of what is a truly cross-disciplinary subject, while also providing in-depth treatment of selected areas. This book is suitable for all students of civil, mechanical, chemical, environmental and building services engineering.The fourth edition retains the underlying philosophy of the previous editions - guiding the reader from the general to the particular, from fundamentals to specialist applications - for a range of flow conditions from bounded to free surface and steady to time dependent.
+102) http://people.stfx.ca/x2011/x2011asx/5th%20Year/Database/Database%20Management%20Textbook.pdf
+
+Web Development
+HTML
+Pro HTML5 Programming. ------- Jen Simmons, Chris O’Connor and Dylan Wooters, with Peter Lubbers 
+103)  With this book, developers will learn how to use the latest cutting-edge HTML5 web technology—available in the most recent versions of modern browsers—to build web applications with unparalleled functionality, speed, and responsiveness.
+104) https://www.onlineprogrammingbooks.com/pro-html5-programming/
+Thinking in HTML ------Aravind Shenoy
+105) Thinking in HTML: Learn to write intuitive HTML and build your sites on solid foundations provides you with everything you need to know to get to grips with HTML and to begin building your own web pages. Explore how HTML code structures a web page and use and adapt the examples for yourself to begin building your own web pages today.
+
+106) https://www.onlineprogrammingbooks.com/thinking-in-html/
+
+Html and Css design and build websites---------Jon Duckett
+105) Many books teaching HTML and CSS are dry and only written for those who want to become programmers, which is why this book takes an entirely new approach. Introduces HTML and CSS in a way that makes them accessible to everyone hobbyists, students, and professionals and it s full–color throughout. Utilizes information graphics and lifestyle photography to explain the topics in a simple way that is engaging. Boasts a unique structure that allows you to progress through the chapters from beginning to end or just dip into topics of particular interest at your leisure
+106) http://www.wufai.edu.tw/%E7%B6%B2%E9%A0%81%E6%8A%80%E8%A1%93%E4%B8%AD%E5%BF%83/datasheet/HTML%20and%20CSS%20design%20and%20build%20websites.pdf
+the definitive guide to html5 -----adam freeman
+107) The author has split this book into five parts. This part, Part I, contains the information you need to get ready to use this book and a refresher in basic HTML, CSS, and JavaScript. If you haven’t done any web development recently, you will find these chapters bring you up to speed. 
+Part II covers the HTML elements, including those that are new or modified in HTML5.
+Part III covers Cascading Style Sheets(CSS)
+Part IV describes the Document Object Model(DOM)
+Part V contains information about advanced HTML5 features, such as Ajax, multimedia, and the Canvaselement.
+108) ftp://ftp.micronet-rostov.ru/linux-support/books/programming/HTML-CSS/[Apress]%20-%20The%20Definitive%20Guide%20to%20HTML5%20-%20[Freeman].pdf
+CSS
+Thinking in CSS -----Aravind Shenoy
+109) Thinking in CSS is a focused guide designed to help you understand the basics of CSS, how it works, and how to start creating modern websites. Start using CSS and get to grips with one of the most foundational but important languages in web design.
+110) https://www.onlineprogrammingbooks.com/thinking-in-css/
+css :the missing manual------David McFarland
+111) CSS lets you create professional websites, but learning  its finer points can be tricky—even for seasoned web developers. This fully updated edition provides the most modern and effective tips, tricks, and tutorial-based instruction on CSS available today. Learn how to use new tools such as Flexbox and Sass to build web pages that  look great and run fast on any desktop or mobile device. Ideal for casual and experienced designers alike.
+112) http://nadin.miem.edu.ru/images_2015/css-the-missing-manual.pdf
+CSS Cookbook------- Christopher Schmitt 
+113) O’Reilly Media’s  “CSS Cookbook Third Edition”. This cookbook offers hundreds of practical examples for using CSS to format your web pages, and includes code samples you can use right away. You’ll find exactly what you need, from determining which aspects of CSS meet the specific needs of your site to methods for resolving differences in the way browsers display it.
+114) https://www.onlineprogrammingbooks.com/free-ebook-css-cookbook-third-edition/
+JavaScript
+Eloquent javascript------ Marijn Haverbeke 
+115) This is a book about instructing computers by Marijn Haverbeke.This book contains roughly three parts. The first 12 chapters discuss the JavaScript language itself. The next seven chapters are about web browsers and the way JavaScript is used to program them. Finally, two chapters are devoted to Node.js, another environment to program JavaScript in.
+116) http://eloquentjavascript.net/Eloquent_JavaScript.pdf
+JavaScript: The Good Parts----Douglas Crockford
+117) Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole-a subset you can use to create truly extensible and efficient code.
+118) https://7chan.org/pr/src/OReilly_JavaScript_The_Good_Parts_May_2008.pdf
+The JavaScript Way ----- Baptiste Pesquet
+119) The JavaScript Way is primarily designed for beginners. It is divided into three main parts. The first one teaches the basics of programming with JavaScript. The second one explains how to use JavaScript to create interactive web pages. The third one deals with web application development on both the client and server sides. Each part depends on the previous ones, but there’s no other prerequisite to reading.
+120) https://www.onlineprogrammingbooks.com/the-javascript-way/
+
+PHP
+PHP Succinctly------------José Roberto Olivas Mendoza 
+121) In PHP Succinctly, author José Roberto Olivas Mendoza guides newcomers through PHP’s basics, which includes deployment, programming themes such as variables, decision making, arrays, functions, and databases, and the creation of a functional webpage that will connect to a database. By the end, you’ll be ready to join the vast community of PHP users around the world
+122) https://www.onlineprogrammingbooks.com/php-succinctly/
+The Joy of PHP - Alan Forbes 
+123) This book is for the developer who has just come across PHP and is wondering what the
+big deal is, and also for the non-programmer who is just starting out— and doesn’t
+know where to begin.
+124) https://datenpdf.com/download/the-joy-of-php-alan-forbes-html-element-php_pdf
+“PHP: The Right Way”-----Josh Lockhart 
+125) “PHP: The Right Way”, by Josh Lockhart, is an easy-to-read, quick reference for PHP best practices, accepted coding standards, and links to authoritative tutorials around the Web. It aims to introduce new PHP developers and to rethink seasoned pros with fresh ideas.
+126) https://www.onlineprogrammingbooks.com/php-the-right-way/
+.NET framework
+Skype Bots Succinctly------ Ed Freitas 
+127) In Skype Bots Succinctly, author Ed Freitas gives readers an in-depth exploration of the features in the Microsoft Bot Framework for Skype. Knowing how to use SDKs that allow developers to interact with Skype as a platform has become a valuable tool. By the end of the book, you will be able to develop bots using LUIS, QnA Maker Service, and Scorables.
+128) https://www.onlineprogrammingbooks.com/skype-bots-succinctly/
+Entity Framework Core cookbook ------  Ricardo Peres
+ 129) Entity Framework Core is a complete rewrite from the “classic” Entity Framework, building on the new multiplatform .NET Core framework and adding the ability to connect to nonrelational data sources while keeping the features that made Entity Framework Code First so popular. In Entity Framework Core Succinctly, join Ricardo Peres to explore this new version of the O/RM, from getting set up to avoiding common traps.
+130) https://www.onlineprogrammingbooks.com/entity-framework-core-succinctly/
+Cryptography in .NET Succinctly ----- Dirk Strauss 
+131) In Cryptography in .NET Succinctly, Dirk Strauss will take readers through generating cryptographic signatures, hashing and salting passwords, and when and how to use symmetric vs. asymmetric encryption.
+132) https://www.onlineprogrammingbooks.com/cryptography-net-succinctly/
+
+Video Tutorials
+Programming Languages
+C
+133) Robert bucky : With Bucky’s videos one will just fall for C-programming. They are quite simple and amazing. 
+134) https://www.youtube.com/watch?v=2NWeucMKrLI&list=PL6gx4Cwl9DGAKIXv8Yr6nhGJ9Vlcjyymq
+135) programming Knowledge: A platform get expertise in c-programming without any prerequisites through this informative video tutorials. 
+136) https://www.youtube.com/watch?v=CCZE4zuOwZM&list=PLS1QulWo1RIZlA5oGczk8kY7Eenytc33s
+137) The bad tutorials: Don’t give a thought over their name , They serve good video tutorials on C-programming language. 
+138) https://www.youtube.com/watch?v=iXEw_0hlM9A&list=PL_RGaFnxSHWoGzOXqtKeM71OLpvZbuU0P
+C++
+139) Learning Lad: In this c++ programming video tutorials / lecture for beginners video series, you will learn introduction you to cpp language, its history, features, where it is used, why we have to study it. 
+140) https://www.youtube.com/user/LearningLad/playlists
+141) The new boston: A platform to expertise in c++ -programming without any prerequisites through this informative video tutorials.
+142) https://www.youtube.com/watch?v=tvC1WCdV1XU&list=PLAE85DE8440AA6B83
+143) Programming Knowledge: This video tutorials delivers the complete knowledge of C++ programming language parsing through the basic concepts. 
+144) https://www.youtube.com/user/ProgrammingKnowledge/playlists
+Java
+145) Programming Knowledge: This video tutorials delivers the complete knowledge of Python programming language parsing through the basic concepts. 
+146) https://www.youtube.com/watch?v=41qgdwd3zAg&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n
+147) The new boston: A platform to expertise in python -programming without any prerequisites through this informative video tutorials.
+148) https://www.youtube.com/user/thenewboston/playlists _
+Sentdex:
+149) With Sentdex’s videos one will just fall for Python and it’s applications. They are quite simple and amazing. 
+150) https://www.youtube.com/user/sentdex/playlists
+
+Python
+151) Programming Knowledge: This video tutorials delivers the complete knowledge of Python programming language parsing through the basic concepts. 152) https://www.youtube.com/watch?v=41qgdwd3zAg&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n
+153) The new boston: A platform to expertise in python -programming without any prerequisites through this informative video tutorials.
+154) https://www.youtube.com/user/thenewboston/playlists _
+155) Sentdex: With Sentdex’s videos one will just fall for Python and it’s applications. They are quite simple and amazing. 
+156) https://www.youtube.com/user/sentdex/playlists
+Artificial Intelligence
+Deep Learning
+157) Deep Learning boston: Just go through this amazing tutorials and explore the depth of deep learning
+158) https://www.youtube.com/channel/UCeqlHZDmUEQQHYqnei8doYg/playlists
+159) DeepLearning.TV is all about Deep Learning, the field of study that teaches machines to perceive the world. Starting with a series that simplifies Deep Learning, the channel features topics such as How To’s, reviews of software libraries and applications, and interviews with key individuals in the field.
+160) https://www.youtube.com/channel/UC9OeZkIwhzfv-_Cb7fCikLQ/playlists
+Data Science
+161) Edureka:this tutorial specially curates content on trending topics in the areas of Big Data and Hadoop, DevOps, Blockchain, Artificial Intelligence, Angular, Data Science. 
+162) https://www.youtube.com/user/edurekaIN/playlists
+
+Machine Learning
+163) Sentdex: Learn about machine learning, finance, data analysis, robotics, web development, game development and more through this video tutorials.
+164) https://www.youtube.com/user/sentdex/playlists
+165) Analytics university: In this video you will be introduced to Machine Learning. You will learn how machine learning is used by social networking sites like Google and Facebook that we use on a daily basis.
+166) https://www.youtube.com/watch?v=MXZxn_hmnLA&list=PLUgZaFoyJafheHtl5be26kKzne06-WSnO
+Computer Graphics
+Photoshop
+167) MisterNinjaBoy: Adobe Photoshop Tutorial For Beginners, teaching the Basics Of Photoshop 2017 new. Photoshop Tutorial for Beginners, going over many important aspects when first starting graphic design! 
+168) https://www.youtube.com/watch?v=pFyOznL9UvA&list=PL3eZfsRk6nF3S5bvJ753D-HBdLiowHz-c
+169) Photoshop Tutorials: This Photoshop tutorial covers how to create a cool space text effect using nebula images. We'll be working with adjustment layers, filters, masks and much more.
+170) https://www.youtube.com/user/NewWorldOps/playlists
+171) Photoshop Tutorials|Photo effects: From this tutorials some tips that you can use while designing magazine cover and also some tips about using font and colors in photoshop 
+172) https://www.youtube.com/user/DhruvalModi/playlists
+Adobe Illustrator
+173) Tasty Tuts:This channel offers a wide range of videos for every user. The videos cover design and digital arts producing fun and creative projects. Learn by example with simple and comprehensive video tuts.
+174) https://www.youtube.com/user/TastyTuts/playlists
+175) GFX Mentor: Learn Graphic Design in Urdu / Hindi from   Imran Ali Dina who will teach every detail of Graphics. Started with Adobe Illustrator and have plans for other softwares in future. 
+176) https://www.youtube.com/channel/UCP3AIk974-PeB9bg1Mc7wug/playlists
+Corel
+177) CorelDraw tips: This website offers video tutorials that will help you learn and master the techniques in making graphics with CorelDraw. 
+178) https://www.youtube.com/user/alexisgalvez/playlists
+
+179) Graphics Box: This channel shares tips and tricks about graphic design from beginner to advanced. Software being used are CorelDRAW, Adobe Illustrator, and adobe Photoshop. 
+180) https://www.youtube.com/channel/UCnhrdTC16p_3pniLLO-NiZA/playlists
+After Effects
+181) After effect series tutorials: This tutorials enlists the adorable adobe after effect graphics and animations videos.
+182) https://www.youtube.com/channel/UCOi5hBrqjJX0BiK3CqYWXsQ/playlists
+183) Surfaced Studio: In this tutorial learn how to use Adobe After Effects, Premiere Pro, HitFilm, Blender and many other amazing tools & techniques - without getting bored out of your mind! 
+184) https://www.youtube.com/user/SurfacedStudio/playlists
+Network Security
+Cisco
+185) Cisco Students: This video tutorial will deliver complete reference of packet tracing through visualization. 
+186) https://www.youtube.com/watch?v=VqMeJ-WH4E0
+Wireshark
+187) Joseph Delgadillo: This tutorials bring forth the concept of Linux Networking for system admin
+188) https://www.youtube.com/watch?v=aDs2iAiv2ug&list=PLYmlEoSHldN498gmB-W-z3PEN5bevM53B
+189) The new boston: This channel has tons of sweet wireshark related tutorials that will pull a beginner to be a professional in the field of networking.
+190)  https://www.youtube.com/user/thenewboston/playlists
+Ethical Hacking & Cyber Security
+191) Masters in Ethical Hacking: This tutorials deliver hacking tools and cracks to implement a ethical hack.
+192) https://www.youtube.com/channel/UCAKbr5-LO1jB5hEtac4DwQA/playlists
+193) Tutorials point: These are simple to understand Text and Video tutorials at zero cost and cover the topic of cyber security.
+194) https://www.youtube.com/watch?v=oKgnYe_6uh8&list=PLWPirh4EWFpEK7BXbMvKDYuHhA4AiYLDb
+Database
+Sql/PlSql
+195) Manish Sharma: RebellionRider aims to provide all kinds of easy to understand tutorial videos on SQL, SQL Developer, PL/SQL and Oracle Database. You can find here videos based on Oracle Database 10g, Oracle Database 11g and Oracle Database 12c. 
+196) https://www.youtube.com/user/TheCodeMakers/playlists
+197) Tek classes: This Oracle 11g Online training at tekclasses.com gives the in-depth knowledge on real-time work experience.
+198) https://www.youtube.com/channel/UCxgKiI_D-LLG-52RUu95Vng/playlists
+Sql Server
+199) kudvenkat : This video tutorials teaches the concepts of Microsoft .NET technologies and SQL Server.
+200) https://www.youtube.com/user/kudvenkat/playlists
+201) Wise owl tutorials: through this video tutorial learn useful techniques in Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Microsoft Project, Microsoft SQL Server, Reporting Services, Microsoft Access, ASP.NET, VB.NET and more!
+202) https://www.youtube.com/user/WiseOwlTutorials/playlists
+
+Database Management
+203) MySirG.com: This video tutorials provide rich stuff of knowledge regarding Dbms.
+204) https://www.youtube.com/user/saurabhexponent1/playlists
+
+Web Development
+HTML
+205) EJ media: This tutorial  aims  to provide easy to understand tutorials on computer programming
+206) https://www.youtube.com/channel/UC-JQzTHQrVA8j-tamvy66fw/playlists
+207) The Bad Tutorials: The Bad Tutorials is dedicated to making tutorials, that are fun to watch and easy to follow, on programming.
+208) https://www.youtube.com/user/madhurbhatia89/playlists
+209) Quentin Watt Tutorials:This video tutorials work out on the concept of web development.
+210) https://www.youtube.com/user/QuentinWatt/playlists
+CSS
+211) EJ media: This tutorial  aims  to provide easy to understand tutorials on computer programming
+212) https://www.youtube.com/channel/UC-JQzTHQrVA8j-tamvy66fw/playlists
+213) W3Schools: This  tutorials and references are related  web development topics such as HTML, CSS, JavaScript, PHP, SQL, and JQuery.
+214) https://www.youtube.com/channel/UCv9bWHC0DIn-Xb7ALNoOGWQ/playlists
+JavaScript
+215) The new boston: The new boston: This channel has tons of sweet javaScipt related tutorials that will pull a beginner to be a professional in the field of web development. 
+216) https://www.youtube.com/user/thenewboston/playlists
+217) kudvenkat : This video tutorials teaches the concepts of Microsoft .NET technologies and javascript.
+218) https://www.youtube.com/user/kudvenkat/playlists
+PHP
+219) programming Knowledge: A platform get expertise in php without any prerequisites through this informative video tutorials.
+220) https://www.youtube.com/user/ProgrammingKnowledge/playlists
+221) The new boston: Programming Knowledge: This video tutorials delivers the complete knowledge of php parsing through the basic concepts.
+222) https://www.youtube.com/user/thenewboston/playlists
+223) mmtuts: Online computer courses in programming and multimedia skills for people who wants to learn web development or video production. The courses include video editing, HTML, CSS, JavaScript, Bootstrap, and PHP tutorials.
+224) https://www.youtube.com/user/TheCharmefis/playlists
+
+.NET framework
+225) kudvenkat : This video tutorials teaches the concepts of Microsoft .NET technologies and SQL Server.
+226) https://www.youtube.com/user/kudvenkat/playlists
+
+Tutorials
+Programming Languages
+C
+227) Programming Tutorials - C, C++, OpenGL, STL:With the tutorials of www.cprogramming.com one can easily traverse his/her journey from beginner to professional.
+
+228) https://www.cprogramming.com/tutorial.html
+229) Hackr.io is a community to find and share the best online courses & tutorials. So learn sharing along with coding in ‘C’! 
+230) https://hackr.io/tutorials/learn-
+231) Java tutorials: With Java tutorials start learning Java from basic questions like what is Java tutorial, Core Java, where it is used, what type of applications are created in Java, why use java and Java platforms etc. This Java tutorial helps you to learn Java with easy and simple examples.
+232) https://www.javatpoint.com/java-tutorial
+233) Prural Sight: This C Programming Language tutorial is designed to give you everything you need to become a productive C programmer.
+234) https://www.pluralsight.com/courses/c-lang-fundamentals?aid=7010a000002BWq6AAG&promo=&oid=&utm_source=non_branded&utm_medium=digital_paid_search_google&utm_campaign=APAC_Dynamic&utm_content=&gclid=EAIaIQobChMIq8jYwJTh2QIVwxwrCh2nwQRjEAMYASAAEgIUtPD_BwE
+235) W3School :This C tutorial series will help you to get started in C programming language. By learning C, you will understand basic programming concepts.
+236) https://www.w3schools.in/c-tutorial/
+237) Lynda : Want to learn to code in C? Watch Lynda C tutorials, which are a complete reference for programming in C and C++, from using loops, functions, and arrays to exploring the standard library.
+238) https://www.lynda.com/C-training-tutorials/1249-0.html
+C++
+239) Hackr.io is a community to find and share the best online courses & tutorials. So learn sharing along with coding in ‘C++’! 
+240) https://hackr.io/tutorials/learn-c-plus-plus 
+241) Tutorial points : This tutorial has been prepared for the beginners to help them understand the basic to advanced concepts related to C++.
+ 242) https://www.tutorialspoint.com/cplusplus/index.htm
+243) Java Tutorials : This C++ tutorial includes all topics of C++ such as first example, control statements, objects and classes, inheritance, constructor, destructor, this, static, polymorphism, abstraction, abstract class, interface, namespace, encapsulation, arrays, strings, exception handling, File IO, etc.
+244) https://www.javatpoint.com/cpp-tutorial
+
+245) W3School : This C++ tutorial series will help you to get started learning C++ Programming Language from basics. It is important to understand the concepts of C before learning C++, and the basic Knowledge of C Programming Languaage will help you to understand C++ Programming quickly.
+246) https://www.w3schools.in/cplusplus-tutorial/
+
+Java
+245) tutorial points: This tutorial has been prepared for the beginners to help them understand the basic to advanced concepts related to Java Programming language.
+246) https://www.tutorialspoint.com/java/index.htm
+247) Java points: This Java tutorial helps you to learn Java with easy and simple examples. Start learning Java from basic questions like what is Java tutorial, Core Java, where it is used, what type of applications are created in Java, why use java and Java platforms etc.
+248) https://www.javatpoint.com/java-tutorial
+249) W3School : This Java tutorial series will help you get started learning Java programming from the basics. It covers most of the aspects of Java programming language used by a novice programmer. Begining with the history of the evolution of Java, it moves on to describe the various features of Java, which would help you learn to write efficient application program.
+250) https://www.w3schools.in/java-tutorial/
+
+Python
+251) Tutorials point:This tutorial is designed for software programmers who need to learn Python programming language from scratch.
+252) https://www.tutorialspoint.com/python/index.htm
+
+253) W3schools: This Python tutorial series will help you to get started in Python programming language by brushing up your basic concepts of programming language.
+254) https://www.w3schools.in/python-tutorial/
+
+255) Java T Point: This tutorial covers the topics such as python programming, features, history, versions, how to install, example, how to execute, variables, keywords, identifiers, literals, operators and comments.
+256) https://www.javatpoint.com/python-tutorial
+
+Artificial Intelligence
+Deep Learning
+257) Analytics vidhya :This tutorial will give you a basic understanding about deep learning. You will also learn about different kind of models, why & when to choose each one of them. Then it will provide you hands on experience on deep learning with different use cases. 
+258) https://www.analyticsvidhya.com/blog/2016/12/21-deep-learning-videos-tutorials-courses-on-youtube-from-2016/
+259) Intel AI Academy: Explore deep learning fundamentals, including neural, convolutional, and recurrent network architectures Through this  tutorials
+260) https://software.intel.com/en-us/ai-academy?cid=sem43700014909768398&intel_term=deep+learning+tutorial&gclid=EAIaIQobChMI6oKV7_bh2QIVRR0rCh2oAwQcEAAYASAAEgLlRvD_BwE&gclsrc=aw.ds
+Data Science
+261) Tutorials point: In this tutorial, we will discuss the most fundamental concepts and methods of Data science.
+262) https://www.tutorialspoint.com/big_data_analytics/data_scientist.htm
+263) intellipaat : In this free Data Science tutorial you will have the introduction to Data Scientist roles and responsibilities, machine learning algorithms,data analysis, data manipulation, data frame, random forest, linear and logistic regression, decision trees, neural networks, Python language, Python libraries, data model, variable, set, and more.There are plenty of Data Science use cases and practical examples. 
+264) https://intellipaat.com/tutorial/data-science-tutorial/
+
+Machine Learning
+265) pythonprogramming : The objective of this tutorial is to give you a wholistic understanding of machine learning, covering theory, application, and inner workings of supervised, unsupervised, and deep learning algorithms.
+266) https://pythonprogramming.net/machine-learning-tutorial-python-introduction/
+267) datacamp: Explore the field of machine learning through this tutorial.
+268) https://www.datacamp.com/community/open-courses
+269) java t point: In this tutorial, you will be able to understand the robotics tutorial better by robotics projects: Obstacle Avoider Robot, Line Follower Robot, Hand Gesture Controlled Robot and DTMF based Controlled Robot.
+270) https://www.javatpoint.com/artificial-intelligence-research-areas
+
+
+Computer Graphics
+Photoshop
+271) Photoshop tutorials: Browse the latest Adobe Photoshop CC tutorials, video tutorials, hands-on projects, and more. Ranging from beginner to advanced, these tutorials provide basics, new features, plus tips and techniques.
+272) https://www.photoshoptutorials.ws/
+273) Adobe: Learn the basics, or refine your skills with tutorials designed to inspire. Create anything you can imagine.
+274) https://helpx.adobe.com/photoshop/tutorials.html
+275) Creative Bloq: Master Adobe's image editing software with these free Photoshop tutorials for beginners and pros.
+276) https://www.creativebloq.com/graphic-design-tips/photoshop-tutorials-1232677
+Adobe Illustrator
+277) Adobe: Learn the basics, or refine your skills with tutorials designed to inspire. Create beautiful vector art.
+278) https://helpx.adobe.com/illustrator/tutorials.html
+279) Creative Bloq: Boost your skills with these top tutorials for Adobe Illustrator
+280) https://www.creativebloq.com/digital-art/illustrator-tutorials-1232697
+281) envatotuts+: This tutorials will train you regarding Design & Illustrations through Adobe Illustrator.  
+282) https://design.tutsplus.com/categories/adobe-illustrator
+Corel
+283) CorelDraw: This Tutorials delivers in depth knowledge regarding CorelDRAW Graphics Suite Tutorials
+ 284) https://www.coreldraw.com/en/pages/800382.html
+285) Discovery Center: This collection of tutorials will guide you through what is new and what is awesome with CorelDRAW X7.
+286) http://learn.corel.com/graphics-tutorials/coreldraw-tutorials/coreldraw-x7-tutorials/ (not secured)
+287) envatotuts+: This tutorials will train you regarding Design & Illustrations through Corel Draw.  
+288) https://www.lynda.com/CorelDRAW-training-tutorials/178-0.html
+
+After Effects
+289) Creative Bloq: Ranging from beginner to expert, creative bloq round up the best After Effects tutorials around.
+290) https://www.creativebloq.com/after-effects/tutorials-1232661
+291) Motion Array: Want to learn how to seamlessly put a new screen on your device? No problem! Learn how to do an After Effects Screen Replacement through this tutorial.
+292) https://motionarray.com/tutorials/after-effects-tutorials
+293) Lynda: Watch this After Effects tutorials and learn to design motion graphics and create animations. Ranging from beginner to advanced, these courses demonstrate how to composite video and create special effects—even how to use After Effects to design lower third graphics.
+294) https://www.lynda.com/After-Effects-training-tutorials/150-0.html
+Network Security
+Cisco
+295) Cisco Networking Academy: Learn the basics for using Cisco Packet Tracer to simulate network configurations in this tutorial.
+296) https://www.netacad.com/courses/intro-packet-tracer/
+Wireshark
+297) Lifewire: This is a complete tutorial on how to use Wireshark to capture and view the data traveling back and forth on your network, providing the ability to drill down and read the contents of each packet – filtered to meet your specific needs
+298)  https://www.lifewire.com/wireshark-tutorial-4143298
+299) Guru 99: This tutorials will introduce common network sniffing techniques and tools used to sniff networks
+300) https://www.guru99.com/wireshark-passwords-sniffer.html
+Ethical Hacking & Cyber Security
+301) Tutorials point: This tutorial has been prepared for professionals aspiring to learn the basics of Ethical Hacking and make a career as an ethical hacker. Before proceeding with this tutorial, you should have a good grasp over all the fundamental concepts of a computer and how it operates in a networked environment.
+302) https://www.tutorialspoint.com/ethical_hacking/index.htm
+303) guru99: In this course, you learn all about Ethical hacking with loads of live hacking examples to make the subject matter clear.
+304) https://www.guru99.com/ethical-hacking-tutorials.html
+305) JTD Digital courses: This tutorial will take you from beginner to expert hacker. It will begin with the very basics showing you how to setup your environment, and move on to password cracking, WiFi hacking, Dos attacks, SQL injections, and much more!
+306) https://josephdelgadillo.com/ethical-hacking-course-free/
+307) Tutorials point:In this tutorial, we will treat the concept of computer security which can be a laptop, a workstation, a server or even a network device. This is an introductory tutorial that covers the basics of Computer Security and how to deal with its various components and sub-components.
+308) https://www.tutorialspoint.com/computer_security/index.htm
+Database
+Sql/PlSql
+Tutorials point:
+309) This tutorial will give you great understanding on PL/SQL to proceed with Oracle database and other advanced RDBMS concepts.
+310) https://www.tutorialspoint.com/plsql/index.htm
+311) java t point: PL/SQL tutorial provides basic and advanced concepts of SQL. Our PL/SQL tutorial is designed for beginners and professionals. This PL/SQL tutorial includes all topics of PL/SQL language such as conditional statements, loops, arrays, string, exceptions, collections, records, triggers, functions, procedures, cursors etc. There are also given PL/SQL interview questions and quizzes to help you better understand the PL/SQL language.
+312) https://www.javatpoint.com/pl-sql-tutorial
+
+313) w3schools: This  SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.
+314) https://www.w3schools.com/sql/
+Sql Server
+315) Tutorials point: This tutorial explains some basic and advanced concepts of SQL Server such as how to create and restore data, create login and backup, assign permissions, etc. Each topic is explained using examples for easy understanding.
+316) https://www.tutorialspoint.com/ms_sql_server/index.htm
+317) Java T point: SQL Server Tutorial provides basic and advanced concepts of SQL Server. Our SQL Server Tutorial is designed for beginners and professionals both.
+318) https://www.javatpoint.com/sql-server-tutorial
+Database Management
+319) Tutorials point:  This tutorial explains the basics of DBMS such as its architecture, data models, data schemas, data independence, E-R model, relation model, relational database design, and storage and file structure and much more.
+320) https://www.tutorialspoint.com/dbms/index.htm
+321) w3schools: This DBMS tutorial is designed to describe Advanced Database Management System concepts. The good understanding of data structures and algorithms will help you to understand the DBMS quickly.
+322) https://www.w3schools.in/dbms/
+323) studytonight: DBMS Tutorial for Beginners is an amazing tutorial series to understand about Database Management System, its architecture and various techniques related to DBMS. In the SQL Tutorial, you will learn how to use SQL queries to fetch, insert, delete, update data in a Database.
+324) https://www.studytonight.com/dbms/
+
+Web Development
+HTML
+325) W3schools: With HTML you can create your own Website. This tutorial teaches you everything about HTML. HTML is easy to learn - You will enjoy it.
+326) https://www.w3schools.com/html/
+327) tutorials point: This tutorial is designed for the aspiring Web Designers and Developers with a need to understand the HTML in enough detail along with its simple overview, and practical examples. 
+328) https://www.tutorialspoint.com/html/index.htm
+329) java t point: HTML tutorial or HTML 5 tutorial provides basic and advanced concepts of html. Our HTML tutorial is developed for beginners and professionals.
+330) https://www.javatpoint.com/html-tutorial
+CSS
+331) W3schools: CSS is a language that describes the style of an HTML document.
+CSS describes how HTML elements should be displayed.
+This tutorial will teach you CSS from basic to advanced.
+332) https://www.w3schools.com/css/default.asp
+333) java t point: CSS tutorial or CSS 3 tutorial provides basic and advanced concepts of CSS technology. Our CSS tutorial is developed for beginners and professionals
+334) https://www.javatpoint.com/css-tutorial
+335) tutorials point: This tutorial covers both the versions CSS1,CSS2 and CSS3, and gives a complete understanding of CSS, starting from its basics to advanced concepts.
+336) https://www.tutorialspoint.com/css/index.htm
+JavaScript
+337) W3schools: JavaScript is the programming language of HTML and the Web.
+JavaScript is easy to learn.
+This tutorial will teach you JavaScript from basic to advanced.
+338) https://www.w3schools.com/js/default.asp
+339) java t point: JavaScript Tutorial for beginners and professionals is a solution of client side dynamic pages.
+340) https://www.javatpoint.com/javascript-tutorial
+PHP
+341) W3schools: PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. So explore php5 tutorials through this tutorials. 
+342) https://www.w3schools.com/php/default.asp
+343) Java t point: This PHP tutorial covers all the topics of PHP such as introduction, control statements, functions, array, string, file handling, form handling, regular expression, date and time, object-oriented programming in PHP, math, PHP mysql, PHP with ajax, PHP with jquery and PHP with XML.
+344) https://www.javatpoint.com/php-tutorial
+345) tutorials point: This tutorial is designed for PHP programmers who are completely unaware of PHP concepts but they have basic understanding on computer programming.
+346) https://www.tutorialspoint.com/php/index.htm
+
+.NET framework
+347) W3schools: ASP is a development framework for building web pages.Explore it through this tutorial.
+348) https://www.w3schools.com/asp/default.asp
+349) java t point: ASP.NET Tutorial includes all topics of ASP.NET Tutorial such as ASP.Net introduction, features, project, example, server controls, labels, textbox, button, hyperlink, radiobutton, calender, checkbox, fileupload, events handling, authentication, webforms model binding, html server control, compare validdator, range validator, validation summary, mvc introduction, mvc project, view, validation, entity framework, authentication etc.
+350) https://www.javatpoint.com/asp-net-tutorial
+351) guru99: This tutorial covers some important aspect of ASP.NET like reusable code, deploying the .net application on the server, testing web application, debugging and so on.
+352) https://www.guru99.com/asp-net-tutorial.html
+
+
+
+
