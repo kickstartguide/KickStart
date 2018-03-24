@@ -1,0 +1,177 @@
+﻿Mechanical Engineering
+
+Fluid Mechanics:
+Fluid Mechanics is the study of fluids at rest (fluid statics) and in motion (fluid dynamics).
+A fluid is defined as a substance that continually deforms (flows) under an applied shear stress regardless of the magnitude of the applied stress. Whereas a solid can resist an applied force by static deformation.
+
+Deformation of a solid and a fluid exposed to an applied force
+Liquids, gases, plasma and, to some extent, plastic solids are accepted to be fluids. A perfect fluid offers no internal resistance to change in shape and, consequently, they take on the shape of their containers. Liquids form a free surface (that is, a surface not created by their container) whereas gases and plasmas do not, but, instead, they expand and occupy the entire volume of the container.
+MOOCS:
+https://www.coursera.org/learn/fluid-power
+https://www.coursera.org/learn/fluid-solid-interaction
+https://www.udemy.com/basics-of-fluid-mechanics-and-machinary/
+https://www.udemy.com/introduction-to-thermodynamics-and-fluid-mechanics/
+
+Textbook:
+By Dr. R K Bansal:
+A TextBook of Fluid Mechanics and Hydraulic Machines
+https://drive.google.com/file/d/0B9_2yANiGJ12aWJrSGJZVjlxbHM/view?pli=1
+Introduction to Fluid Mechanics and Fluid Machines by S.K. Som, Gautam Biswas
+http://bit.ly/2HTOAJx
+Fluid Mechanics by Yunus A. Cengel, John M. Cimbala
+https://yidnekachew.files.wordpress.com/2012/05/cengel-cimbala-fluid-mechanics-fundamentals-applications-1st-text-sol.pdf
+Tutorials:
+Tutorial point : https://www.tutorialspoint.com/fluid_mechanics/index.asp
+
+Video Tutorials:
+Ekeeda Video Lectures on Introduction to fluid mechanics .
+In this subject you will learn: Fluid Definition and properties, Newton’s law of viscosity concept of continuum, Classification of fluids, Fluid Statics: Definition of body and surface forces, Pascal’s law, Basic hydrostatic equation, Forces on surfaces due to hydrostatic pressure, Buoyancy hydrostatic equation, Forces on surfaces due to hydrostatic pressure, Buoyancy and Archimedes’ principle, Fluid Kinematics: Eulerian and Lagrangian approach to solutions and various other topics.
+https://www.youtube.com/playlist?list=PLm_MSClsnwm-3P9zRcXPyyEBvz3qGycHV
+Fluid Mechanics by Prof. S.K. Som, Department of Mechanical Engineering, IITKharagpur.
+https://www.youtube.com/playlist?list=PLbMVogVj5nJTZJHsH6uLCO00I-ffGyBEm
+UCI Engineering MAE 130A covers the following topics: fluid statics; fluid dynamics; Bernoulli's equation; control-volume analysis; basic flow equations of conservation of mass, momentum, and energy; differential analysis; potential flow; viscous incompressible flow.
+https://www.youtube.com/playlist?list=PLVEA9JIiyOh0l8AwGxsaYrp5o7uUl-0JK
+
+
+Theory of Machine:
+The subject Theory of Machines may be defined as that branch of Engineering-science, which deals with the study of relative motion between the various parts of a machine, and forces which act on them. The knowledge of this subject is very essential for an engineer in designing the various parts of a machine.
+MOOCS:
+https://www.coursera.org/learn/engineering-mechanics-statics
+https://www.coursera.org/learn/engineering-mechanics-statics-2
+
+Textbook:
+Theory of Machines PDF by R.S. Khurmi
+http://mechanical-engineering-books-pdf.blogspot.in/2017/09/theory-of-machines-pdf-by-rs-khurmi-pdf.html
+Theory of Machine by S S Rattan
+https://docs.google.com/file/d/0B5dLUIZfysmqMXBhakRyODhublU/edit
+
+
+Tutorials:
+Tutorial points :https://www.tutorialspoint.com//theory_of_machines/index.asp
+Video Tutorials:
+Ekeeda Video Lectures on Subject Theory of Mechanics. 
+The subject Theory of Machines may be defined as that branch of Engineering-science, which deals with the study of relative motion between the various parts of a machine, and forces which act on them. The knowledge of this subject is very essential for an engineer in designing the various parts of a machine.
+https://www.youtube.com/playlist?list=PLm_MSClsnwm8pENhoKtxXhY_uo6lhW6Ab
+Mech Zone Video Lectures on Subject Theory of Mechanics. 
+Gyroscope and gyroscopic effect, derivation of gyroscopic torque, effect of gyroscopic torque on aero planes taking a left or right turn, effect of gyroscopic torque on naval ships during steering, pitching and rolling motion.
+https://www.youtube.com/playlist?list=PLRJTmEvFf-ONNrtsOT2WkV04RZrDeC9_y
+GAGAN BANSAL Video Lectures on Subject Theory of Mechanics.
+https://www.youtube.com/playlist?list=PLdLe0dTcWW-vQA21ScFV7ppLRVeGp44lR
+Theory of Machines for GATE by Exergic.
+https://www.youtube.com/playlist?list=PLTRDqk5yPSk3PfFaOiQLiS9I9UMFswK50
+
+
+Thermodynamics:
+Thermodynamics is heart of mechanical engineering. Be it any processes or any engines, all follow some or the other thermodynamics laws.
+Mechanical engineering can be broadly think as a branch which accumulates the study of Automobiles, Refrigeration, Power plants, Heat transfer, machine design, strength of materials and metallurgical processes.
+
+MOOCS:
+https://www.coursera.org/learn/thermodynamics-intro
+https://www.coursera.org/learn/statistical-thermodynamics-cm
+https://www.coursera.org/learn/statistical-thermodynamics
+https://www.edx.org/course/thermodynamics-iitbombayx-me209-1x-1
+
+Textbook:
+Thermodynamics by Tarik Al-Shemmeri:
+http://varunkamboj.typepad.com/files/engineering-thermodynamics.pdf
+Thermodynamics by Max Plank:
+https://docs.google.com/file/d/0B5dLUIZfysmqMXBhakRyODhublU/edit
+Schaum’s Outline of Thermodynamics for Engineers by Merle C. Potter:
+http://ow.ly/OKjZ309ojoy
+
+Tutorials:
+Tutorial Point :https://www.tutorialspoint.com/thermodynamics_and_power_plant/index.asp
+
+Video Tutorials:
+Lecture Series on Basic Thermodynamics by Prof.S.K. Som, Department of Mechanical Engineering, IIT Kharagpur.
+https://www.youtube.com/playlist?list=PLD8E646BAB3366BC8
+Thermodynamics Lecture for Mechanical Engineering for GATE , IES, PSU, SSC JE by Ujjwal Kumar Sen
+Cyclic Process in Thermodynamics- Cyclic Process is one of the most important topic in whole thermodynamics because its a base for cycles
+https://www.youtube.com/playlist?list=PLtB42jHF38Z9lULVFcu9vRZ0AC5RzVPBF
+Thermodynamics Lecture for Mechanical Engineering by Moungi Bawendi and Keith Nelson
+OCW is a free and open online publication of material from thousands of MIT courses, covering the entire MIT curriculum, ranging from the introductory to the most advanced graduate courses.
+https://www.youtube.com/playlist?list=PLF6C6594F42ECEE0D
+
+Strength of Materials:
+Strength of materials, also called mechanics of materials, is a subject which deals with the behavior of solid objects subject to stresses and strains. The complete theory began with the consideration of the behavior of one and two dimensional members of structures, whose states of stress can be approximated as two dimensional, and was then generalized to three dimensions to develop a more complete theory of the elastic and plastic behavior of materials. An important founding pioneer in mechanics of materials was Stephen Timoshenko.
+The study of strength of materials often refers to various methods of calculating the stresses and strains in structural members, such as beams, columns, and shafts. The methods employed to predict the response of a structure under loading and its susceptibility to various failure modes takes into account the properties of the materials such as its yield strength, ultimate strength, Young's modulus, and Poisson's ratio; in addition the mechanical element's macroscopic properties (geometric properties), such as its length, width, thickness, boundary constraints and abrupt changes in geometry such as holes are considered.
+
+
+MOOCS:
+https://www.coursera.org/learn/materials-science
+https://www.coursera.org/learn/materials-science
+https://www.coursera.org/learn/material-informatics
+https://www.edx.org/course/mechanics-deformable-structures-part-1-mitx-2-02-1x
+
+Textbook:
+
+RK Bansal Strength of materials pdf
+http://mechanical-engineering-books-pdf.blogspot.in/2017/09/strength-of-materials-by-rk-bansal-pdf.html
+strength of materials By G. H. Ryder
+https://www.researchgate.net/profile/Osama_Suleiman_Khayal/publication/306207559_strength_of_materials_By_G_H_Ryder/links/59264f09aca27295a8f261b0/strength-of-materials-By-G-H-Ryder.pdf
+
+Tutorials:
+https://www.tutorialspoint.com/strength_of_materials/index.asp
+
+Video Tutorials:
+Strength of Materials Vedio Tutorials by Ekeeda.
+Strength of materials, also called mechanics of materials, is a subject which deals with the behavior of solid objects subject to stresses and strains. The complete theory began with the consideration of the behavior of one and two dimensional members of structures, whose states of stress can be approximated as two dimensional, and was then generalized to three dimensions to develop a more complete theory of the elastic and plastic behavior of materials. An important founding pioneer in mechanics of materials was Stephen Timoshenko.
+https://www.youtube.com/playlist?list=PLm_MSClsnwm9j0syYD13UsLAUQEqiBX3v
+Lecture Series on Strength of Materials by Dr.S.P.Harsha, Department of Mechanical & Industrial Engineering, IIT Roorkee.
+https://www.youtube.com/playlist?list=PL521D094C8752CE67
+Strength of Materials last lecture 31 for GATE, SSC JE, ESE and PSU by Mech Zone playlist.
+https://www.youtube.com/playlist?list=PLRJTmEvFf-OOI_6XiF_z3lJTCTDrId9O7
+
+
+Machine Design:
+A Machine design is the process of engineering design. A machine is made up of mechanisms that work together to satisfy the requirements of what the machine needs to accomplish.
+MOOCS:
+https://www.coursera.org/learn/machine-design1
+
+
+Textbook:
+Machine Design by RS Khurmi pdf
+http://mechanical-engineering-books-pdf.blogspot.in/2017/10/machine-design-by-rs-khurmi-pdf.html
+Andrzej Golenko  :
+Reviewed by Dr Michał Banaś, Wroclaw University of Technology
+http://www.dbc.wroc.pl/Content/7154/Golenko_Fundamentals%20of%20Machine%20Design.pdf
+Design of Machinery, An Introduction to Synthesis and Analysis of Mechanisms of Machines
+http://bit.ly/2ciA1OV
+
+Tutorials:
+
+Video Tutorials:
+Ekeeda Video Lectures on Introduction to Machine Desgine.
+A Machine design is the process of engineering design. A machine is made up of mechanisms that work together to satisfy the requirements of what the machine needs to accomplish.
+https://www.youtube.com/playlist?list=PLHpC4_VH4uh0bIKMtFg0hXFckep6sBzwi
+Machine Design Video Lectures by Mech Zone.
+https://www.youtube.com/playlist?list=PLRJTmEvFf-OMO4GmP59DmWrRyX5VKz7XF
+Video Lectures on Introduction to Machine Desgine by Sunil Mohod.
+https://www.youtube.com/playlist?list=PL6HQVc8_tFGI0dfOxFioOdm-QmcPxiv85&pbjreload=10
+
+
+
+Refrigeration and Air-Conditioner:
+Refrigeration is a process of removing heat from a low-temperature reservoir and transferring it to a high-temperature reservoir. The work of heat transfer is traditionally driven by mechanical means, but can also be driven by heat, magnetism, electricity, laser, or other means. Refrigeration has many applications, including, but not limited to: household refrigerators, industrial freezers, cryogenics, and air conditioning.
+Air conditioning (often referred to as AC, A/C) is the process of removing heat and moisture from the interior of an occupied space, to improve the comfort of occupants. Air conditioning can be used in both domestic and commercial environments. This process is most commonly used to achieve a more comfortable interior environment, typically for humans or animals; however, air conditioning is also used to cool/dehumidify rooms filled with heat-producing electronic devices, such as computer servers, power amplifiers, and even to display and store artwork.
+MOOCS:
+https://www.coursera.org/learn/intro-indoor-air-quality
+https://onlinecourses.nptel.ac.in/noc16_me12
+
+Textbook:
+Air Conditioning and Refrigeration by Rex Miller, Mark R. Miller
+http://bit.ly/2cKqGkg
+Air Conditioning and Refrigeration by McGraw-Hill
+http://books.mhprofessional.com/engineering/PDFs/Miller.pdf
+
+Tutorials:
+Video Tutorials:
+Lecture Series on Refrigeration & Air-conditioning by Prof. Ravi Kumar, Department of Mechanical & Industrial Engineering, Indian Institute of Technology Roorkee, Uttarakhand, India
+https://www.youtube.com/playlist?list=PLEaHqdgEVu6rgimtDDFGVeCfMPLp1q-TQ&disable_polymer=true
+Lectures of Refrigeration and air-conditioning by Prof.M.Ramgopal Department of Mechanical Engineering IIT Kharagpur
+https://www.youtube.com/playlist?list=PLE2DA184A2E479885
+Refrigeration and Air Conditioning Lectures for GATE by Ujjwal Kumar Sen, Basic Concepts, in Hindi as well as in English, RAC (Refrigeration and Air Conditioning) is one of the important subject for Mechanical Engineering students, that's why I have covered almost all topics of this subject.
+https://www.youtube.com/playlist?list=PLtB42jHF38Z8vHQMsKjsu8zmtWrVAFRZb
+
+
+
