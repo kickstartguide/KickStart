@@ -1,0 +1,157 @@
+﻿1. Organic Chemistry
+Organic Chemistry involves the study branch of chemistry dealing with the effect of carbon with living things. This type of chemistry also concern the study of the structure integrity, behaviors, ingredients, reactivity, and initiation of carbon-making elements, which involve not only hydrogens but also elements with any size of another chemicals, including oxygen (most elements consists of at least one carbon–peroxide bond).
+Organical elements are founded on the theories about chemistry of carbon. Carbon is primary in the variety of reason and to the expand of structures integrity that can bring upon the effects from the dimensional interconnections of its atoms. The process of photosynthesis converts carbon dioxide and water to oxygen and chemical elements known as peroxides. Both cellular activity also involves in the making of the substance that gives structural rigidity to plants and tree.
+Meanwhile, there are a few sub-branches of Organic chemistry and will be explain below:
+2. Stereochemistry
+Stereochemistry is a study about molecules in three dimensions- that is how atoms in a molecule are arranged in a space relative to the other. Three aspect about stereochemistry are:
+1. Geometric Isomers : how rigidity in molecule could cause isomerism
+2. Conformation of Molecules: the shape and how a form could be change
+3. Chirality of Molecules : how the structure of right or left around carbon atoms could cause isomerism
+MOOCs:
+https://ocw.mit.edu/courses/chemistry/5-13-organic-chemistry-ii-fall-2003/
+https://www.udemy.com/orgochem1finalexamreview/?siteID=JDY5HzN9pN0-9G22_WA6KKJbEYVVgv5ZbQ&LSNPUBID=JDY5HzN9pN0
+https://oyc.yale.edu/chemistry/chem-125a/lecture-28
+https://www.mooc-list.com/course/intermediate-organic-chemistry-part-1-coursera
+BOOKs:
+This volume is devoted entirely to inorganic and organometallic stereochemical subjects. Discusses the systematic notations that have been developed to satisfy the needs for a rational and systematic stereochemical nomenclature. Reviews the stereochemical aspects of the changes of bonding at carbon centers induced by metals, either catalytically or stoiciometrically. Also reviews the major achievements in current stereochemical research—the synthesis of asymmetric compounds mediated by transition metals.
+https://onlinelibrary.wiley.com/doi/book/10.1002/9780470147214
+Since it was first published in 1967, the highly regarded Topics in Stereochemistry series has consistently reflected the state of the art in the field and provided readers with a coherent framework for the conceptual, theoretical, and practical aspects of modern stereochemistry.
+https://onlinelibrary.wiley.com/doi/book/10.1002/9780470147313
+Topics in Stereochemistry, previously edited by "the father of stereochemistry" Ernest L. Eliel, is a longstanding, successful series covering the most important advances in the field. The much-anticipated Volume 26 on stereochemical aspects of organolithium compounds includes chapters on the following topics: 
+* Asymmetric Deprotonations Using Chiral Lithium Amide Bases
+https://onlinelibrary.wiley.com/doi/book/10.1002/9783906390628
+
+Tutorials:
+http://www.chemeddl.org/resources/stereochem/introduction1.htm
+http://www.chemhelper.com/enantiomers.html
+Video tutorials:
+Just like how your left foot doesn't quite fit your right shoe, molecules also can have properties that depend on their handedness! This property is called chirality. We will go over what makes a molecule chiral, stereoisomer, assigning configurations using the R,S system, optical activity and Fischer projections.
+https://www.khanacademy.org/science/organic-chemistry/stereochemistry-topic
+Organic chemistry: Stereochemistry. Chiral carbons ("stereocenters", "asymmetric carbons") vs. chiral molecules. Meso molecules. Enantiomers and diastereomers. R and S naming
+https://www.youtube.com/watch?v=yCHoloPgTYg
+
+
+
+3. Organometallic Chemistry
+Organometallic was developed by Louis C. Cadet in synthesizing methyl arsenic compound but the ultimate recognition of organometallic as a culminated subfield was in Ernst Fischer and Geoffrey Wilkinson earned Nobel Prizes for work of Metallocenes. Organometallic chemistry is a study about chemical compound contains at least one bond between metal and carbon atom of an organic compounds, the term metal element in this compounds includes elements like silicon, or boron which not actually a metal but metalloids.
+Organometallic compound is defined as a compound in which carbon is bonded directly to a metallic atom, the examples of organometallic compounds are mercury, zinc, lead, magnesium or lithium and as mention above metalloids. Organomettalic compounds are also found naturally, some of them are hazardous for human life such as organolead and organomercury compound.
+MOOCs:
+https://ocw.mit.edu/courses/chemistry/5-44-organometallic-chemistry-fall-2004/
+https://onlinecourses.nptel.ac.in/noc18_cy09/preview
+https://www.class-central.com/tag/organometallic%20chemistry
+BOOKS:
+Organometallic Chemistry , a product of extensive and wide range research, illustrates the synthetic methods of organo compounds of transition and non-transition metals. The book targets all kinds of specialists in inorganic chemistry. Throughout the book you will witness how the author concentrates on the applications of organometallic compounds work as superior catalysts. In addition, this book describes fullerene chemistry, and its applications, especially in material science, electronics and nanotechnology. 
+Available from: https://www.researchgate.net/publication/242330312_Organometallic_Chemistry 
+Fully updated and expanded to reflect recent advances, this Fourth Edition of the classic text provides students and professional chemists with an excellent introduction to the principles and general properties of organometallic compounds, as well as including practical information on reaction mechanisms and detailed descriptions of contemporary applications.
+https://onlinelibrary.wiley.com/doi/book/10.1002/0471718769
+A series of critical reviews and perspectives focussing on specific aspects of organometallic chemistry interfacing with other fields of study are provided. For this volume, the critical reviews cover topics such as the activation of "inert" carbon-hydrogen bonds, ligand design and organometallic radical species. For example, Charlie O'Hara discusses how mixed-metal compounds may perform the highly selective activation of C-H bonds and, in particular, how synergic relationships between various metals
+https://books.google.co.in/books?id=kHIoDwAAQBAJ
+TUTORIALS:
+Paul J. Chirik (Editor-in-Chief Organometallics)
+Department of Chemistry, Princeton University, Princeton, New Jersey 08544, United State
+https://pubs.acs.org/doi/abs/10.1021/acs.organomet.5b00815
+VIDEO TUTORIALS:
+Organic Chemistry with Todd Rothman
+https://www.youtube.com/watch?v=uJ2A0f_1DB0
+Organometallic chemistry
+https://www.youtube.com/watch?v=SSs6H1uhUeE
+
+4. Polymer Chemistry
+Polymer chemistry first introduced in 1777 for Henri Braconnot work which produced nitrocellulose and developed by Christian Schönbein in 1846 which led to the discovery of celluloid. Even though has been studied over decades it did need some longer time for universities introduced teaching and researching it until 1940 when an “Institut fur Makromolekulare Chemie” was founded in Freiburg, Germany which concentrate in study of Polymer Chemistry or known macromolecular chemistry. A year later PRI (Polymer Research Intitute) was established in America.
+Polymer chemistry it self is a multi-disciplinary study focusing on chemical synthesis , chemical structures, and macromolecule. Polymer study explain the characteristic of a material, according to IUPAC(International Union of Pure and Applied Chemistry) macromolecules refer to individual molecule chain that is domain of chemistry.
+There are two major classification of polymer first is biopolymers which naturally can be found in human life such as structural protein, enzym, hormones, cellulose, DNA,RNA etc. The other one is synthetic polymer which is developed in laboratory such as thermoplastic, teflon, polystyrene, thermosetting plastic such as kevlar,bakelite, vulcanized rubber etc.
+MOOCs:
+https://ocw.mit.edu/courses/chemical-engineering/10-569-synthesis-of-polymers-fall-2006/
+http://nptel.ac.in/courses/104105039/
+https://www.coursera.org/learn/high-throughput/lecture/m41pN/chemical-structure-of-polymers
+BOOKS:
+The subject of this book is covered in seven chapters. The chapters are arranged in an attempt to reflect the three pillars of materials science and technology: in materials, there is a strong link between processing, microstructure and properties. Changing one affects the others and this has enabled scientists/engineers to tailor materials to suit purposes.
+http://197.14.51.10:81/pmb/CHIMIE/introduction-to-polymer-science-and-technology.pdf
+Polymer Science and Technology, Third Edition, provides new and expanded coverage in a number of areas of contemporary interest in polymer science and technology. In particular, Chapter 2 on polymer synthesis provides new coverage of controlled radical polymerization, polymerization in ionic liquids, and the use of click chemistry and green chemistry.
+
+http://ptgmedia.pearsoncmg.com/images/9780137039555/samplepages/9780137039555.pdf
+
+TUTORIALS:
+https://www.tutorialspoint.com/polymer/index.htm
+https://www.lynda.com/Polymer-tutorials/Learning-Polymer/540536-2.html
+
+VIDEO TUTORIALS:
+Chemistry Polymers part 1 (Introduction) CBSE class 12 XII
+
+https://www.youtube.com/watch?v=vZ02XIyflJY
+
+Introduction to Polymer science
+https://www.youtube.com/watch?v=k5ohG8Lrntg
+
+
+
+5. Inorganic Chemistry
+Inorganic Chemistry is the branch of chemistry that deals with the structure and interactions between inorganic compounds, which are any compounds that aren’t based in carbon-hydrogen bonds. Inorganic chemistry is concerned with the properties and behavior of inorganic compounds, which include metals, minerals, and organometallic compounds. While organic chemistry is defined as the study of carbon-containing compounds and inorganic chemistry is the study of the remaining subset of compounds other than organic compounds, there is overlap between the two fields (such as organometallic compounds, which usually contain a metal or metalloid bonded directly to carbon).
+Inorganic chemistry:
+MOOCs:
+http://nptel.ac.in/courses/104103069/
+https://byjus.com/chemistry/inorganic-chemistry/
+http://ocw.uci.edu/courses/chem_107_inorganic_chemistry.html
+https://ocw.mit.edu/courses/chemistry/5-05-principles-of-inorganic-chemistry-iii-spring-2005/
+BOOKS:
+For more than a quarter century, Cotton and Wilkinson's Advanced Inorganic Chemistry has been the source that students and professional chemists have turned to for the background needed to understand current research literature in inorganic chemistry and aspects of organometallic chemistry. This book is organized around the periodic table of elements and provides a systematic treatment of the chemistry of all chemical elements and their compounds. It incorporates important recent developments with an emphasis on advances in the interpretation of structure, bonding, and reactivity.
+http://web.uni-plovdiv.bg/plamenpenchev/mag/books/inorgchem/Cotton-Wilkinson%20-%20Advanced%20Inorganic%20Chemistry_file1.pdf
+Now in its fourth edition, Housecroft & Sharpe's Inorganic Chemistry is a well-respected and leading international textbook. Inorganic Chemistry is primarily designed to be a student text but is well-received as a reference book for those working in the field of inorganic chemistry. Inorganic Chemistry provides both teachers and students with a clearly written and beautifully-illustrated introduction to core physical-inorganic principles
+http://31.210.87.4/ebook/pdf/Inorganic_Chemistry_4th_Edition.pdf
+
+Tutorials:
+ https://chemistry.boisestate.edu/richardbanks/inorganic/introchem.html
+http://www.internetchemistry.com/chemistry/inorganic_chemistry.htm
+Video tutorials:
+UCI Chemistry: Inorganic Chemistry (Fall 2014)
+https://www.youtube.com/watch?v=OUj4j6td1es
+Helios Educore Pvt. Ltd.
+ Sunshine Business Park, Plot - 5A, Sector-94, Noida (UP) INDIA-201301 
+Chemistry Video Lectures.
+https://www.youtube.com/watch?v=QDtXbZc1zJI
+
+
+
+6. Bioengineering:
+Biological engineering or bio-engineering (including biological systems engineering) is the application of concepts and methods of biology (and secondarily of physics, chemistry, mathematics, and computer science) to solve real-world problems related to life sciences or the application thereof, using engineering's own analytical and synthetic methodologies and also its traditional sensitivity to the cost and practicality of the solution(s) arrived at. In this context, while traditional engineering applies physical and mathematical sciences to analyze, design and manufacture inanimate tools, structures and processes, biological engineering uses primarily the rapidly developing body of knowledge known as molecular biology to study and advance applications of organisms and to create biotechnology.
+MOOCs:
+https://ocw.mit.edu/courses/biological-engineering/
+http://www.courses.com/biomedical-engineering
+http://nptel.ac.in/course.php
+https://oyc.yale.edu/biomedical-engineering/beng-100/lecture-19
+BOOKS:
+The technological approach and the high level of innovation make bioengineering extremely dynamic and this forces researchers to continuous updating. It involves the publication of the results of the latest scientific research. This book covers a wide range of aspects and issues related to advances in bioengineering research with a particular focus on innovative technologies and applications.
+https://www.intechopen.com/books/advances-in-bioengineering
+Substantial yet reader-friendly, this introduction examines the living system from the molecular to the human scale–presenting bioengineering practice via some of the best engineering designs provided by nature, from a variety of perspectives. Domach makes the field more accessible, helping readers to pick up the jargon and determine where their skill sets may fit in.
+http://bookfreenow.com/download/introduction-to-biomedical-engineering-by-michael-m-domach/
+Chapters are written to provide some historical perspective of the major developments in a specific biomedical engineering domain as well as the fundamental principles that underlie biomedical engineering design, analysis, and modeling procedures in that domain.
+https://ia801205.us.archive.org/2/items/IntroductionToBiomedicalEngineeringThirdEdition/Introduction%20to%20Biomedical%20Engineering%20-%20Third%20Edition.pdf
+Tutorials:
+http://web.aeromech.usyd.edu.au/ENGG1960/Documents/Week12/ENGG1960%20Engineering%20Drawing%20Tutorial%20Week%2012.pdf
+https://www.slideshare.net/BruceSlutsky/biomedical-engineeringtutorialspring2012
+Video tutorials:
+Lectures recorded in 2014 and 2015 from the master course "Fundamentals in Biomedical Imaging" given in spring semester at EPFL.
+https://www.youtube.com/playlist?list=PLTCZivgYYpFpVnxdGrxcuL5YOvPwespXy
+Basics of Biomedical engineering
+https://www.youtube.com/playlist?list=PLMvZfgj5qHP6v3hFl8vHKMU-KrbaHtvde
+
+7. Physical Chemistry
+Branches of Physical Chemistry involves the branching of chemical elements that pertaining physics to the study of chemistry. Quantum theories and thermodynamics nuclear are the byproduct of physical chemical subject. Physical chemistry is the study of how matter behaves on a molecular and ionic level and how chemical reactions happened. Based on their research, physical chemists may built new application, such as how complex integrity are tied together.
+MOOCs:
+https://ocw.mit.edu/courses/chemistry/5-61-physical-chemistry-fall-2007/
+https://www.coursera.org/learn/physical-chemistry
+https://www.mooc-list.com/course/physical-chemistry-i-saylororg
+https://www.mooc-list.com/course/physical-chemistry-ii-saylororg
+BOOKs:
+The approach taken here is the opposite to that in most other books of physical chemistry: each small section starts with an example from everyday life, i.e. both the world around us and also those elementary observations that a chemist can be certain to have pondered upon while attending a laboratory class.
+
+https://astro.ins.urfu.ru/sites/default/files/upload_files/temp/1/%5BPaul_M._S._Monk%5D_Physical_Chemistry_Understandin(BookSee.org).pdf
+TUTORIALS:
+http://www.chem1.com/chemed/tutorial.shtml
+https://chem.libretexts.org/Core/Physical_and_Theoretical_Chemistry
+Video tutorials:
+Physical chemistry lessons.
+https://www.youtube.com/playlist?list=PLojn6vK2nM0VP8cmDcjf-6oq3iV-zFXno
+Physical chemistry by IIT Bombay.
+https://www.youtube.com/playlist?list=PLf4Dr0ouPNP5ebOhBBVusyZCwItKcigz5
+
