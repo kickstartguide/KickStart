@@ -1,0 +1,229 @@
+﻿ELECTRICAL ENGINEERING
+SOFTWARES
+AUTOCAD ELECTRICAL
+OVERVIEW:
+• AutoCAD Electrical is a Different software from Autodesk that is specially designed for Electrical Industrial Designing.
+• AutoCAD Electrical is used to draw power single line diagrams, motor control circuit schematics, switchboard general arrangements, and so on.
+MOOCS:
+(1)LYNDA:
+This course demos the user interface and leads you step-by-step through learning how to draw the kind of precise, measured electrical drawings and schematics that form the basis of design communication in electrical engineering the world over.
+(2)https://www.lynda.com/AutoCAD-tutorials/Exploring-user-interface/456354/500818-4.html
+TYPE: PAID
+(3)AUTODESK UNIVERSITY:
+This class will show you how to use enough of the conversion tools to get you on the right circuit to energize those individual drawings into a project that recognizes all of the drawings that represent your product. This session features AutoCAD Electrical and AutoCAD.
+(4)http://au.autodesk.com/au-online/classes-on-demand/class-catalog/classes/year-2016/autocad-electrical/gen21060#chapter=0
+TYPE: FREE
+BOOKS:
+(5)AUTOCAD ELECTRICAL 2016 BLACK BOOK BY GAURAV VERMA AND MATT WEBER
+This book is written to help professionals as well as learners in performing various tedious jobs in Electrical control designing. The book follows a step by step methodology. The book covers use of right tool at right places. The book covers almost all the information required by a learner to master the AutoCAD Electrical.
+(6)https://nganhdien.files.wordpress.com/2016/01/autocad_electrical_2016.pdf
+TUTORIALS:
+(7)THE HITCHHIKER'S GUIDE TO AUTOCAD ELECTRICAL
+This guide is a great place to get started with AutoCAD Electrical
+(8)https://knowledge.autodesk.com/support/autocad-electrical/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/AutoCAD-Electrical/files/GUID-54861097-CA39-4D32-AB52-DCE2972D7C24-htm.html
+(9)AUTOCAD ELECTRICAL TUTORIAL BY AUTODESK
+This tutorial contains advanced uses of the software.
+(10)https://knowledge.autodesk.com/support/autocad-electrical/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/AutoCAD-Electrical/files/GUID-4E5A0A7F-72C6-4866-AAA5-6825BA874EF5-htm.html
+VIDEO TUTORIALS:
+(11)AUTOCAD ELECTRICAL TRAINING BY SOFTWARE TUTORIALS:
+This video series provides complete guide for the software.
+(12)https://www.youtube.com/playlist?list=PLAeLusi6vp3Ubq5A8XNj0mFRJ0tOAhP4-
+(13)AUTOCAD ELECTRICAL TUTORIALS BY AUTOCAD ELECTRICAL 2016
+This video series provides detailed guide for the software.
+(14)https://www.youtube.com/playlist?list=PLPC7jt6m8zOl4moq_nn4XM1AvmayZ3F0c
+(15) AUTOCAD ELECTRICAL FOR BEGINNERS BY AUTOCAD ELECTRICAL 2016
+This video series covers basic guide to the software.
+(16)https://www.youtube.com/playlist?list=PLPC7jt6m8zOlLGnnS_p2gWx5eCEXeVIeK
+
+MATLAB
+OVERVIEW:
+• MATLAB (matrix laboratory) is a fourth-generation high-level programming language and interactive environment for numerical computation, visualization and programming.
+
+MOOCS:
+(17)INTRODUCTION TO PROGRAMMING WITH MATLAB BY COURSERA
+This course teaches computer programming to those with little to no previous experience. It uses the programming system and language called MATLAB to do so because it is easy to learn, versatile and very useful for engineers and other professionals. MATLAB is a special-purpose language that is an excellent choice for writing moderate-size programs that solve problems involving the manipulation of numbers. The design of the language makes it possible to write a powerful program in a few lines. The problems may be relatively complex, while the MATLAB programs that solve them are relatively simple: relative, that is, to the equivalent program written in a general-purpose language, such as C++ or Java. As a result, MATLAB is being used in a wide variety of domains from the natural sciences, through all disciplines of engineering, to finance, and beyond, and it is heavily used in industry.
+(18)https://www.coursera.org/learn/matlab?action=enroll
+TYPE: FREE
+(19)EDX:
+Take an exciting crash course in MATLAB and Octave programming. Both languages allow users to experiment with advanced mathematical functions and produce exciting matrix visualizations.
+(20)https://www.edx.org/course/matlab-octave-beginners-epflx-matlabeoctavebeginnersx
+TYPE: FREE
+BOOKS:
+(21)INTRODUCTION TO MATLAB: APPLICATION TO ELECTRICAL ENGINEERING BY HOUSSEM RAFIK EL HANA BOUCHEKARA
+Matlab is an interactive system for doing numerical computations. The aim of this book is to help the student to be familiar with Matlab. The emphasis here is "learning by doing".
+(22)https://curentysputk.files.wordpress.com/2013/05/introduction_to_matlab_application_to_electrical_engineering.pdf
+(23)MATLAB FOR ENGINEERS – APPLICATIONS IN CONTROL, ELECTRICAL ENGINEERING, IT AND ROBOTICS BY KAREL PERUTKA
+This book presents interesting topics from the area of control theory, robotics, power systems, motors and vehicles, for which the MATLAB software was used. The book consists of six parts.
+(24)http://zums.ac.ir/files/research/site/ebooks/computer%20science%20and%20engineering/matlab_for_engineers_-_applications_in_control,_electrical_engineering,_it_and_robotics.pdf
+TUTORIALS:
+(25)TUTORIAL’S POINT
+This tutorial has been prepared for the beginners to help them understand basic to advanced functionality of MATLAB. After completing this tutorial you will find yourself at a moderate level of expertise in using MATLAB from where you can take yourself to next levels.
+(26)https://www.tutorialspoint.com/matlab/index.htm
+(27)NORTHWESTERN UNIVERSITY
+This tutorial is used for freshmen classes at Northwestern University. This document is not a comprehensive introduction or a reference manual. Instead, it focuses on the speciﬁc features of MATLAB that are useful for engineering classes. The lab sessions are used with one main goal: to allow students to become familiar with computer software (e.g., MATLAB) to solve application problems.
+(28)https://www.mccormick.northwestern.edu/documents/students/undergraduate/introduction-to-matlab.pdf
+(29)LOYOLA COLLEGE
+This guide deals with the MATLAB programming and its features in details and also focusses on various aspects in MATLAB Programming.
+(30)http://homen.vsb.cz/~lud0016/nm/matlab_guide.pdf
+VIDEO TUTORIALS:
+(31)THE COMPLETE MATLAB COURSE:
+This video series deals with the complete set of tutorials required for learning MATLAB and brushing common concepts.
+(32)https://www.youtube.com/watch?v=T_ekAD7U-wU
+(33)MATLAB TUTORIALS:
+This video series is meant for beginners to MATLAB programming.
+(34)https://www.youtube.com/playlist?list=PLRWKj4sFG7-6_Xr9yqg6SMr_F80KdFVhN
+(35)MATLAB AND SIMULINK
+This video series deals with all the concepts linked with MATLAB and Simulink. Both of these are very useful for students pursuing Electrical Engineering.
+(36)https://www.youtube.com/playlist?list=PLcgIaTuuWp3kWI8d1C1wZDl0SfQDxm-CK
+
+SCADA
+OVERVIEW:
+o SCADA systems are used to automate complex industrial processes where human control is impractical.
+o Scada systems are also used where there are more control factors, and more fast moving control factors than human can comfortably manage.
+
+MOOCS:
+(37)NPTEL
+Complete course for learning aspects of SCADA.
+(38)http://www.nptel.ac.in/courses/108106022/8
+TYPE: FREE
+BOOKS:
+(39)PRACTICAL SCADA SYSTEMS FOR INDUSTRY
+This Part of the SCADA manual introduces the fundamental concepts and the practical issues
+needed for wide area SCADA systems. These systems are used by Utilities for monitoring and
+controlling remote facilities such as pumping stations or electricity substations located across large
+geographical areas. Particular emphasis has been placed on the practical aspects of SCADA
+systems with a view to the future. Formulae and details that can be found in specialised
+manufacturer manuals have been purposely omitted in favour of concepts and definitions.
+(40)http://www.idc-online.com/downloads/SX_IDCBookextract_Rev3.1.pdf
+(41)SCADA SYSTEM FUNDAMENTALS
+This book deals with all the fundamentals of SCADA systems, their signals and practical usage.
+(42)https://www.cedengineering.com/userfiles/SCADA%20System%20Fundamentals.pdf
+
+TUTORIALS:
+(43)ENGINEERING HOUSE
+This tutorial will explain essentials of SCADA technology and gives you guidelines for ecaluating SCADA technology.
+(44)http://eng-electric.blogspot.in/2012/07/scada-tutorial.html
+(45)DPS
+This Tutorial  will explain the keys of SCADA technology, give you guidelines for rating various technology and help you decide what kind of SCADA system is best for your needs.
+(46)http://www.dpstele.com/scada/introduction-fundamentals-implementation.php
+(It contains videos as well)
+VIDEO TUTORIALS:
+(47)THE COMPLETE SCADA TUTORIAL:
+This Video Series will explain the keys of SCADA technology, give you guidelines for rating various technology and help you decide what kind of SCADA system is best for your needs.
+(48)https://www.youtube.com/playlist?list=PLBphQnXcO9n8aB2J6WtUfRejXSuhHNYCL
+CONTROL ENGINEERING
+OVERVIEW:
+• Control engineering or control systems engineering is an engineering discipline that applies automatic control theory to design systems with desired behaviors in control environments. The discipline of controls overlaps and is usually taught along with electrical engineering at many institutions around the world.
+MOOCS:
+(49)NPTEL:
+This course deals with all the concepts used in Control Systems. This course also helps with all the queries related to GATE examination.
+(50)http://nptel.ac.in/courses/108101037/#
+TYPE: FREE
+(51)MIT OPEN COURSEWARE:
+This engineering course will introduce you to the theory and practice of feedback control and provide a glimpse into this rich and beautiful subject.Each week the course will begin with a mathematical description of a fundamental feedback concept, combined with on-line exercises to test your understanding, and will finish with you designing, implementing, measuring, and analyzing a hardware system, that you build, for controlling a propeller-levitated-arm feedback system.
+(52)https://www.edx.org/course/introduction-control-system-design-first-mitx-6-302-0x
+TYPE: FREE
+BOOKS:
+(53)CONTROL SYSTEMS:
+This book will discuss the topic of Control Systems, which is an interdisciplinary engineering topic. Methods considered here will consist of both "Classical" control methods, and "Modern" control methods. Also, discretely sampled systems (digital/computer systems) will be considered in parallel with the more common analog methods.
+(54)https://upload.wikimedia.org/wikipedia/commons/e/e4/Control_Systems.pdf
+(55)INTRODUCTION TO CONTROL SYSTEMS:
+This book contains, a general process for designing a control system. A control system consisting of interconnected components is designed to achieve a desired purpose.
+(56)http://www.ent.mrt.ac.lk/~rohan/teaching/EN5001/Reading/DORFCH1.pdf
+VIDEO TUTORIALS:
+(57)NPTEL
+This video series deals with both "Classical" control methods, and "Modern" control methods.
+(58)https://www.youtube.com/playlist?list=PLPC7jt6m8zOl4moq_nn4XM1AvmayZ3F0c
+(59)ENGINEERING FUNDA
+This Playlist includes complete course regarding Control Engineering.
+(60)https://www.youtube.com/playlist?list=PLgwJf8NK-2e43et6qbo4IqYSJCv-6kN90
+TUTORIALS:
+(61)ELECTRONICS- TUTORIALS
+This tutorial deals with complete guide regarding Control Engineering.
+(62)http://www.electronics-tutorial.net/control-systems/
+(63)TUTORIALS POINT
+This guide deals with all the concepts which are used in designing the Control Systems and all the formulae regarding it.
+(64)https://www.tutorialspoint.com/control_systems/control_systems_quick_guide.htm
+(65)ECE TUTORIALS
+This tutorial is a detailed tutorial for Control Systems. This tutorial is meant for beginners and thos who want to clear their basics again.
+(66)http://ecetutorials.com/control-systems/
+MICROELECTRONICS
+OVERVIEW:
+• Microelectronics relates to the study and manufacture (or microfabrication) of very small electronic designs and components.
+MOOCS:
+(67)MIT OCW:
+The topics covered include: modeling of microelectronic devices, basic microelectronic circuit analysis and design, physical electronics of semiconductor junction and MOS devices, relation of electrical behavior to internal physical processes, development of circuit models, and understanding the uses and limitations of various models. The course uses incremental and large-signal techniques to analyze and design bipolar and field effect transistor circuits, with examples chosen from digital circuits, single-ended and differential linear amplifiers, and other integrated circuits.
+(68)https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-012-microelectronic-devices-and-circuits-fall-2005/
+TYPE: FREE
+(69)TUDELFT OPEN COURSEWARE:
+The course includes modeling of microelectronic devices, basic microelectronic circuit analysis and design, physical electronics of semiconductor junction and MOS devices, relation of electrical behavior to internal physical processes, development of circuit models, and understanding the uses and limitations of various models.
+(70)https://ocw.tudelft.nl/programs/master/microelectronics/
+TYPE: FREE
+BOOKS:
+(71)MICROELECTRONIC DEVICES AND CIRCUITS:
+This book spans a range of topics from semiconductor physics to
+device function and modeling to circuit analysis and design. It is a basic premise
+of this text that it is important in a first course on semiconductor electronics to
+address this broad range of topics
+(72)http://www2.units.it/carrato/didatt/doc/Fonstad_MicroelecDevCkt_2006EEd.pdf
+(73)MICRO ELECTRONICS:
+Sophisticated control systems allow us to operate equipment by remote control in hazardous
+situations, such as the handling of radioactive materials. We can remotely pilot aircraft from takeoff to
+landing. We can make course corrections to spacecraft millions of miles from Earth. Space flight,
+computers, and even video games would not be possible except for the advances made in
+microelectronics. This book features all these qualities. 
+(74)http://www2.elo.utfsm.cl/~lsb/elo102/datos/microelectronics.pdf
+VIDEO TUTORIALS:
+(75)Micro Electronics:
+This series features the designing of Micro Electronic Circuits
+(76)https://www.youtube.com/playlist?list=PLrvM8liesdtWYiLshwnqcLuDvEscu1Jsr
+(77)MICROELECTRONIC CIRCUITS
+This series features all the videos related to Microelectronics
+(78)https://www.youtube.com/playlist?list=PLwiR6dzRV_7qvjOkgzUWajnfkD-pEIPuu
+TUTORIALS:
+(79)MIT OCW
+This section provides a complete set of lecture notes for the course. Most of the lectures also include an annotated lecture file. The annotated lecture files include comments that the professor uses to demonstrate how the material progresses.
+(80)https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-012-microelectronic-devices-and-circuits-fall-2005/lecture-notes/
+(81)MICROELECTRONICS LECTURE NOTES
+This section provides lecture notes from Pun Kong Yong
+(82)http://doctord.dyndns.org/Courses/Textbooks/JegerBlalock/MicroelectronicsLectureNotes.htm
+POWER SYSTEMS
+OVERVIEW:
+• Power Systems deals with the generation, transmission, distribution and utilization of electric power, and the electrical apparatus connected to such systems.
+MOOCS:
+(83)MIT OCW:
+This course is an introductory subject in the field of electric power systems and electrical to mechanical energy conversion. Electric power has become increasingly important as a way of transmitting and transforming energy in industrial, military and transportation uses. Electric power systems are also at the heart of alternative energy systems, including wind and solar electric, geothermal and small scale hydroelectric generation.
+(84)https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-061-introduction-to-electric-power-systems-spring-2011/
+TYPE: FREE
+(85)NPTEL:
+This course is mainly for undergraduate third-year as well as fourth year Electrical Engineering students, which will introduce and explain the fundamental concepts in the field of electrical power system engineering. The basic concepts of underground cables, overhead line insulators, transient overvoltages and insulation coordination will be covered in detail. In addition to that, corona, sag and tension of transmission line will also be covered.
+(86)https://onlinecourses.nptel.ac.in/noc18_ee09/preview
+TYPE: FREE
+BOOKS:
+(87)ELECTRIC POWER SYSTEMS:
+This book is intended to bridge the gap between formal engineering texts and more
+popularly accessible descriptions of electric power technology.
+(88)http://personal.psu.edu/sab51/vls/vonmeier.pdf
+(89)POWER SYSTEM ENGINEERING:
+The book covers the complete undergraduate syllabus of Power System course. All topics are supported with examples employing two/three/four bus structures. 
+(90)http://www.engineeringbookspdf.com/download/?file=5490
+(91)PRINCIPLES OF POWER SYSTEM BY V. K. MEHTA:
+This book contains brief concept about tariff and power factor improving, Mechanical and electrical design of overhead lines, Underground power system with its advantages and disadvantages., Difference between AC and DC distribution, Symmetrical and unsymmetrical calculations, Introduction to fuses, switchgear, circuit breakers, and protective relays. 
+(92)http://www.eenotes.com/2017/09/principles-of-power-system-by-v-k.html
+VIDEO TUTORIALS:
+(93)Power Systems:
+This series features the designing of Power Systems
+(94)https://www.youtube.com/playlist?list=PLrvM8liesdtWYiLshwnqcLuDvEscu1Jsr
+(95)POWER SYSTEM ENGINEERING
+This series features all the videos related to Power Systems
+(96)https://www.youtube.com/playlist?list=PLwiR6dzRV_7qvjOkgzUWajnfkD-pEIPuu
+TUTORIALS:
+(97)IEEE
+This section provides a complete set tutorials needed for power system stabilization. 
+(98)http://resourcecenter.ieee-pes.org/pes/product/tutorials/PES09TP250
+(99)ENGINEERING TUTORIALS
+This section provides tutorials on all kind of power systems and power generation.
+(100)https://engineeringtutorial.com/category/electrical-engineering/power-systems/
+
+11
+
