@@ -7,7 +7,7 @@
   <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-app.js"></script>
   <script src="js/auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase-database.js"></script>
-  
+  <script src="js/demo.js"></script>
   <title></title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	
@@ -51,7 +51,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
 	</style>
 </head>
 <body>
-
+<p id="ove"></p>
   <section class="back">
     <div class="container">
           <div class="row">
@@ -73,8 +73,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
                      <option class="city" value="Gandhinagar">Gandhinagar</option>
                     </select>
                     <div class="modal-footer">
-                     <label class="btn btn-success next4">Skip</label>
-                     <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>
+                     <label class="btn btn-success next4" style="background-color:#A9A9A9;">Skip</label>
                      <label class="btn btn-success next4" style="background-color:#c33538;">Next</label>
                     </div>
                   </div>
@@ -86,7 +85,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
                     <label for="com" class="col-sm-4"><input type="checkbox" class="disciplines" name="com" value="Commerce">&nbsp;Commerce&nbsp;    </label>
                     <div class="modal-footer">
                      <label class="btn btn-default next1">Skip</label>					
-
+                     <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>
                      <label class="btn btn-success next1" onclick="getDiscipline()" style="background-color:#c33538;">Next</label>
                     </div>
                   </div>
@@ -97,7 +96,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
                     <label for="it" class="col-sm-4"><input type="checkbox" class="branches" name="it" value="IT">&nbsp;It&nbsp;         </label>
                     <label for="ec" class="col-sm-4"><input type="checkbox" class="branches" name="ec" value="EC">&nbsp;EC&nbsp;         </label>
                     <div class="modal-footer">
-                     <label class="btn btn-default next2">Skip</label>
+                     <label class="btn btn-default next2" style="background-color:#A9A9A9;">Skip</label>
                      <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>
                      <label class="btn btn-success next2" style="background-color:#c33538;">Next</label> 
                     </div>
@@ -111,7 +110,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
                     <label for="it" class="col-sm-4"><input type="checkbox" class="branches" name="it" value="IT">&nbsp;MDS&nbsp;         </label>
                     <label for="ec" class="col-sm-4"><input type="checkbox" class="branches" name="ec" value="EC">&nbsp;Dentist&nbsp;         </label>
                     <div class="modal-footer">
-                     <label class="btn btn-default next2">Skip</label>
+                     <label class="btn btn-default next2" style=" background-color:#A9A9A9;">Skip</label>
                      <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>                
                      <label class="btn btn-success next2" style="background-color:#c33538;">Next</label> 
                     </div>
@@ -126,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
                       <option class="skill" value="Expert">Expert</option>
                     </select>
                     <div class="modal-footer">
-                     <label class="btn btn-success next3">Skip</label>
+                     <label class="btn btn-success next3" style="background-color:#A9A9A9;">Skip</label>
                      <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>
                      <label class="btn btn-success next3" style="background-color:#c33538;">Next</label>
                     </div>
@@ -134,7 +133,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', end
                   <div class="section5 hidden">
                     We are modifying your content.
                     <div class="modal-footer">
-                      <button href="home.html" type="button" class="btn btn-default" data-dismiss="modal" style="align-items: center;background-color:#c33538;" onclick="getData()">OK</button> 
+                      <button href="login.html" type="button" class="btn btn-default" data-dismiss="modal" style="align-items: center;background-color:#c33538;" onclick="getData()">OK</button> 
                     </div>
                   </div>
                 </div>

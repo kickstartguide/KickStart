@@ -1,0 +1,432 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script type="text/javascript" src="js/auth.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
+  
+
+<title>KickStart</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/temp.css">
+
+
+</head>
+
+<body>
+  
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation" style="background: black!important;">
+    
+
+    <!-- navbar header -->
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+      </button>
+      <a href="" class="navbar-brand">
+        <img src="images/loader.png" style="position: fixed;overflow: hidden!important;  top: 1%;left: 1%; width: 11%;"></img></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+      <ul class="nav navbar-nav navbar-right navbar-pills text-center">
+        <li><a href="#Xintro">Home</a></li>
+        <li><a href="#Xoverview">Overview</a></li>
+        
+        <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Career Options <span class="caret"></span></a>
+        
+           <ul class="dropdown-menu bounceIn multi-level text-center" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut" role="menu" aria-labelledby="dropdownMenu">
+              
+              <li class="dropdown-submenu">
+                <a href="tech_events.php">Engineering</a>
+                
+                <ul class="dropdown-menu" style="padding: 0;;">
+                  <li class="dropdown-submenu">
+                    <a href="comp_events.php">Computer/IT</a>
+                    <ul class="dropdown-menu" style="padding: 0;">
+                        <li><a>Data Science</a></li>
+               
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="civil_events.php">Mechanical</a>
+                    <ul class="dropdown-menu" style="padding: 0;">
+                        <li><a>Data Science</a></li>
+                        
+                 </ul>
+              </li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+  <li><a href="#doubt" class="smoothScroll">Any Question?</a></li>
+        <li><a href="#contact" class="smoothScroll">Contact Us</a></li>
+        <li><a href="#about" class="smoothScroll">About Us</a></li>
+        <li><a href="#login" class="smoothScroll">Login</a></li>
+
+    </div>
+
+  </div>
+</div>
+
+<br><br><br><br>
+
+
+  
+  
+<!--<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <form>
+ 
+    <select  id="field" c >
+      <option value="Engineering">Engineering</option>
+      <option value="Management">Management</option>
+      <option value="Medical">Medical</option>
+    <option value="Law">Law</option>
+    <option value="Commerce">Commerce</option>
+    <option value="Arts">Arts</option>
+ </select><br>
+  
+    <select id="subfield" c>
+      <option value="EC">EC</option>
+      <option value="Mechanical">Mechanical</option>
+      <option value="CE">CE</option>
+    <option value="EC">Electrical</option>
+    <option value="EC">Chemical</option>
+    <option value="EC">Civil</option>
+ </select><br>
+ 
+    <select id="tab" c>
+      <option value="Signal">Signal Processing</option>
+      <option value="Signal">Telecommunication</option>
+      <option value="Signal">Instumentation</option>
+    <option value="Signal">Control Engineering</option>
+    <option value="Signal">VLSI Design</option>
+     </select><br>
+
+    <select id="topic" c>
+      <option value="overview">Overview</option>
+      <option value="overview">MOOC Resources</option>
+      <option value="overview">Book Resources</option>
+    <option value="overview">Tutorials</option>
+    <option value="overview">Video Tutorials</option>
+ </select><br>  
+    <div class="form-group">
+      
+      <input type="textarea" id="content">
+    </div>
+    <div class="form-group">
+    <a type="button" class="btn btn-primary submit" onclick="submitcontent()">Submit</a>
+  </div> 
+  </form>  
+</div>
+  </div></div>
+</section>-->
+<style type="text/css">
+.btn-group-vertical a{
+  border:none;
+}
+  .btn-group-vertical a {
+    background: #D9D9D9;
+  }
+  .btn-group-vertical a:hover,
+  .btn-group-vertical a:active,
+  .btn-group-vertical a:focus{
+    background: #c33538;
+    color: white;
+  }
+</style>
+<div class="container" style="margin-left: 15px;">
+    <div class="row">
+      <div class="container-fluid wrapper col-md-3" style="margin-left: 0; text-align: center;">
+        <div class="row flex-xl-nowrap">
+            <div id="sidebar" class="sw-sidebar " style="position: fixed; width: 15%; background: #ecebeb;height: 100vh; ">
+              <div class="btn-group-vertical btn-block ">
+                  <a href="#dash" class="btn btn-block">DashBoard</a>  
+                  <a href="#contentchange" type="button" class="btn btn-block">Modify Content</a>
+                  <a href="#faq" type="button" class="btn btn-block">Ques_Ans Panel</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-md-offset-3" >
+
+    <section class="parallax-section" id="dash" style="height: 100vh;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <h2 class="wow bounceIn" data-wow-delay="0.9s">Admin Login</h2>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <div style="height:100vh;" id="contentchange"><br><br><br><br><br>
+      <form >
+      <p>Select your Field :</p>
+    <select  id="field" class="dropdown btn btn-block " style="border: black solid 1px;" >
+      <option value="Engineering">Engineering</option>
+      <option value="Management">Management</option>
+      <option value="Medical">Medical</option>
+    <option value="Law">Law</option>
+    <option value="Commerce">Commerce</option>
+    <option value="Arts">Arts</option>
+ </select><br>
+  <p>Select your Branch :</p>
+    <select id="subfield" class="dropdown btn btn-block " style="border: black solid 1px;">
+      <option value="EC">EC</option>
+      <option value="Mechanical">Mechanical</option>
+      <option value="CE">CE</option>
+    <option value="EC">Electrical</option>
+    <option value="EC">Chemical</option>
+    <option value="EC">Civil</option>
+ </select><br>
+ <p>Select your Topic :</p>
+    <select id="tab" class="dropdown btn btn-block " style="border: black solid 1px;">
+      <option value="Signal">Signal Processing</option>
+      <option value="Signal">Telecommunication</option>
+      <option value="Signal">Instumentation</option>
+    <option value="Signal">Control Engineering</option>
+    <option value="Signal">VLSI Design</option>
+     </select><br>
+<p>Select your Area to change :</p>
+    <select id="topic" class="dropdown btn btn-block " style="border: black solid 1px;">
+      <option value="overview">Overview</option>
+      <option value="overview">MOOC Resources</option>
+      <option value="overview">Book Resources</option>
+    <option value="overview">Tutorials</option>
+    <option value="overview">Video Tutorials</option>
+ </select><br>  
+    <div class="form-group">
+      <p>Modify content :</p>
+      <textarea rows="5" id="content" class="btn btn-block" style="border: black solid 1px;"></textarea>
+    </div>
+    <div class="form-group">
+    <a type="button" class="btn btn-primary submit" onclick="submitcontent()">Submit</a>
+  </div> 
+  </form>  
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+<script type="text/javascript" >
+  $(".submit").click(function(){
+    console.log("hi");
+  var field = document.getElementById("field").value;
+  console.log(field);
+  var subfield = document.getElementById("subfield").value;
+  console.log(subfield);
+  var tab = document.getElementById("tab").value;
+  console.log(tab);
+  var topic = document.getElementById("topic").value;
+  console.log(topic)
+  var content = document.getElementById('content').value;
+  console.log(content);
+  
+  var contentvalue = firebase.database().ref("contents/"+field+"/"+subfield + "/" + tab+"/");
+
+  contentvalue.update ({
+      overview:content
+  });
+
+});
+</script>
+<footer>
+  <br>
+  <footer class="footer1" style="background-color:;justify-content: justify;">
+<div class="container">
+
+<div class="row"><!-- row -->
+
+        <div class="col-lg-3 col-md-3 animated fadeInLeft">
+              <img src="images/loader.png" style="width: 60%;">
+              <br><br>
+                
+            </div>
+            
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Useful links</h1>
+                                
+                                <ul>
+                                  <li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQs </a></li>
+                                   
+                                
+                                </ul>
+                    
+              </li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Career Options</h1>
+                                
+                                <ul>
+                  <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Engineering </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Medical </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Commerse </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Arts </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Law </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Management </a></li>
+                                   
+                                    
+                                </ul>
+                    
+              </li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column center -->
+                
+                   
+                    
+                        <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                          <li class="widget-container widget_recent_news"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Contact Detail </h1>
+                                
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">KickStart Career</h2>
+                                <div class="input-group">
+                
+                <form>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search here.."></form>
+                <span class="input-group-btn" style="justify-content: justify;">
+                    <button class="btn btn-default" type="button"><span><i class="fa fa-search" aria-hidden="true"></i>
+</span></button>
+                </span>
+            </div>
+            <br>
+                                <p><b>Helpline Numbers </b>
+
+    <b style="color:#ffc106;">(8AM to 10PM):</b>  +91-9601369815, +91-9924677710  </p>
+    
+    <p><b>Folow Us on :</b></p>
+    
+                                </div>
+                                
+                                <div class="social-icons">
+                                
+                                  <ul class="nomargin">
+                                    
+                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+              <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+              <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+              <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div>
+                        </li>
+                          </ul>
+                       </div>
+                </div>
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+        <div class="copyright">
+
+          © 2018, KickStart, All rights reserved
+
+        </div>
+
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+        <div class="design">
+
+           <a href="#">Thanks for visiting our site. </a> |  <a target="_blank" href="http://www.webenlance.com">Career Guidance & courses provided by KickStart</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+</footer>
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+
+</body>
+</html>
