@@ -17,7 +17,7 @@
 			display: none;
 		}
     .back{
-      background-color: #b8d1f9;
+      background-color: white;
       display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -29,8 +29,25 @@
     height: 100vh;
     }
     .back1{
-      background-color: #efefef;
+      background-color: #ecebeb;
     }
+	.login h1{
+  margin: -28px -28px 25px;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 1 2px red;
+  background: rgb(195,53,56);
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+  background: rgb(195,53,56); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: rgb(195,53,56);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+}
 	</style>
 </head>
 <body>
@@ -39,12 +56,10 @@
     <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-8 col-md-offset-2 back1"> 
-              <div class="alert alert-success" style="text-transform: uppercase;">Please Help us to find your best preferences.
-               <br><br>
-               <div class="alert alert-danger"">
+              <div class="login" class="col-sm-12 col-md-8 col-md-offset-2 back1"><h1>Please Help us to find your best preferences.</h1>
             
-                 Please note that your location might be required to communicate you with the people currently interested in similar fields and for finding the best  institutes near you.
-                </div>
+                <p> Please note that your location might be required to communicate you with the people currently interested in similar fields and for finding the best  institutes near you.</p>
+            
               </div>
 
               <form method="post" action="login.html">
@@ -58,31 +73,32 @@
                      <option class="city" value="Gandhinagar">Gandhinagar</option>
                     </select>
                     <div class="modal-footer">
-                     <label class="btn btn-success next4">Skip</label>
-                     <label class="btn btn-success next4">Next</label>
+                     <label class="btn btn-success next4" style="background-color:#A9A9A9;">Skip</label>
+                     <label class="btn btn-success next4" style="background-color:#c33538;">Next</label>
                     </div>
                   </div>
 
                   <div class="section1">
                     <h3>Select the discipline you want to persue</h3>
-                    <label for="eng">&nbsp;Engineering &nbsp;<input type="checkbox" class="disciplines" name="eng" value="Engineering"></label>
-                    <label for="med">&nbsp;Medical&nbsp;     <input type="checkbox" class="disciplines" name="med" value="Medical"></label>
-                    <label for="com">&nbsp;Commerce&nbsp;    <input type="checkbox" class="disciplines" name="com" value="Commerce"></label>
-                    <div class="modal-footer" style="width: 50%;">
-                     <label class="btn btn-default next1">Skip</label>
-                     <label class="btn btn-success next1" onclick="getDiscipline()">Next</label>
+                    <label for="eng" class="col-sm-4"><input type="checkbox" class="disciplines" name="eng" value="Engineering">&nbsp;Engineering &nbsp;</label>
+                    <label for="med" class="col-sm-4"><input type="checkbox" class="disciplines" name="med" value="Medical">&nbsp;Medical&nbsp;     </label>
+                    <label for="com" class="col-sm-4"><input type="checkbox" class="disciplines" name="com" value="Commerce">&nbsp;Commerce&nbsp;    </label>
+                    <div class="modal-footer">
+                     <label class="btn btn-default next1">Skip</label>					
+                     <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>
+                     <label class="btn btn-success next1" onclick="getDiscipline()" style="background-color:#c33538;">Next</label>
                     </div>
                   </div>
-
                   <div class="section2 hidden">
                     <div class="eng">
                     <h3>Select the branch you are interested in</h3>
-                    <label for="comp">&nbsp;Computer &nbsp;<input type="checkbox" class="branches" name="comp" value="Computer"></label>
-                    <label for="it">&nbsp;It&nbsp;         <input type="checkbox" class="branches" name="it" value="IT"></label>
-                    <label for="ec">&nbsp;EC&nbsp;         <input type="checkbox" class="branches" name="ec" value="EC"></label>
-                    <div class="modal-footer" style="width: 50%;">
-                     <label class="btn btn-default next2">Skip</label>
-                     <label class="btn btn-success next2">Next</label> 
+                    <label for="comp" class="col-sm-4"><input type="checkbox" class="branches" name="comp" value="Computer">&nbsp;Computer &nbsp;</label>
+                    <label for="it" class="col-sm-4"><input type="checkbox" class="branches" name="it" value="IT">&nbsp;It&nbsp;         </label>
+                    <label for="ec" class="col-sm-4"><input type="checkbox" class="branches" name="ec" value="EC">&nbsp;EC&nbsp;         </label>
+                    <div class="modal-footer">
+                     <label class="btn btn-default next2" style="background-color:#A9A9A9;">Skip</label>
+                     <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>
+                     <label class="btn btn-success next2" style="background-color:#c33538;">Next</label> 
                     </div>
                   </div>
                   </div>
@@ -90,12 +106,13 @@
                   <div class="section2 hidden">
                     <div class="med">
                     <h3>Select the branch you are interested in</h3>
-                    <label for="comp">&nbsp;MBBS &nbsp;<input type="checkbox" class="branches" name="comp" value="Computer"></label>
-                    <label for="it">&nbsp;MDS&nbsp;         <input type="checkbox" class="branches" name="it" value="IT"></label>
-                    <label for="ec">&nbsp;Dentist&nbsp;         <input type="checkbox" class="branches" name="ec" value="EC"></label>
-                    <div class="modal-footer" style="width: 50%;">
-                     <label class="btn btn-default next2">Skip</label>
-                     <label class="btn btn-success next2">Next</label> 
+                    <label for="comp" class="col-sm-4"><input type="checkbox" class="branches" name="comp" value="Computer">&nbsp;MBBS &nbsp;</label>
+                    <label for="it" class="col-sm-4"><input type="checkbox" class="branches" name="it" value="IT">&nbsp;MDS&nbsp;         </label>
+                    <label for="ec" class="col-sm-4"><input type="checkbox" class="branches" name="ec" value="EC">&nbsp;Dentist&nbsp;         </label>
+                    <div class="modal-footer">
+                     <label class="btn btn-default next2" style=" background-color:#A9A9A9;">Skip</label>
+                     <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>                
+                     <label class="btn btn-success next2" style="background-color:#c33538;">Next</label> 
                     </div>
                   </div>
                   </div>
@@ -107,15 +124,16 @@
                       <option class="skill" value="Intermediate">Intermediate</option>
                       <option class="skill" value="Expert">Expert</option>
                     </select>
-                    <div class="modal-footer" style="width: 50%;">
-                     <label class="btn btn-success next3">Skip</label>
-                     <label class="btn btn-success next3">Next</label>
+                    <div class="modal-footer">
+                     <label class="btn btn-success next3" style="background-color:#A9A9A9;">Skip</label>
+                     <label class="btn btn-success next1" style="background-color:#c33538; float:left">Previous</label>
+                     <label class="btn btn-success next3" style="background-color:#c33538;">Next</label>
                     </div>
                   </div>
                   <div class="section5 hidden">
                     We are modifying your content.
-                    <div class="modal-footer" style="width: 50%;">
-                      <button href="home.html" type="button" class="btn btn-default" data-dismiss="modal" style="align-items: center;" onclick="getData()">OK</button> 
+                    <div class="modal-footer">
+                      <button href="home.html" type="button" class="btn btn-default" data-dismiss="modal" style="align-items: center;background-color:#c33538;" onclick="getData()">OK</button> 
                     </div>
                   </div>
                 </div>
