@@ -1,18 +1,26 @@
 var map;
 var GTU  = {lat: 23.106167, lng: 72.593713};
-var mapInitializer = {center: GTU,zoom: 15};
+var mapInitializer = {center: GTU,zoom: 14};
 var mapOnDoc = document.getElementById('map');
 var places= ["chandkheda","maninagar"];
 
 function initMap() 
 {
-  
-  map = new google.maps.Map(mapOnDoc, mapInitializer);
-  for (var i = places.length - 1; i >= 0; i--) 
-  {
-    if(places[i]=="chandkheda")
+  firebase.auth().onAuthStateChanged(function(user) {
+  var user = firebase.auth().currentUser;
+  if (user) {
+    
+    var userId = user.uid;
+
+var ref = firebase.database().ref("users/"+userId+"/");
+ref.on("value", function(snapshot) {
+    var c=snapshot.val().city;
+    console.log(c);
+    map = new google.maps.Map(mapOnDoc, mapInitializer);
+
+    if(c=="chandkheda")
     {
-      console.log( "hi chandkheda");
+      console.log(c);
       IANT={lat:23.109284,lng: 72.584291};
       CADD={lat:23.109174,lng: 72.590597};
       TEKSUN={lat:23.104338,lng:72.593939};
@@ -31,10 +39,10 @@ function initMap()
       addMarker(ARENA);
       addMarker(TOPS);
       addMarker(INFOBIT);
-      map.setCenter({lat: 22.995107,lng: 72.603119});
+      map.setCenter({lat: 23.111567,lng: 72.572762});
     }  
 
-    if (places[i]=="maninagar") 
+    if (c=="maninagar") 
     {
       console.log( "hi maninagar");
       var NIITMAN={lat:22.997670, lng: 72.605415};
@@ -46,7 +54,14 @@ function initMap()
       map.setCenter({lat: 23.108123,lng: 72.594643});
     }
     
-  }
+  
+  
+},  function (error) {
+    alert("Error: " + error.code);
+});
+}});
+  
+
   
 
       
