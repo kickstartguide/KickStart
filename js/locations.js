@@ -13,9 +13,9 @@ function initMap()
     if(places[i]=="chandkheda")
     {
       console.log( "hi chandkheda");
-      IANT={lat:23.109284,lng: 72.584291};
-      CADD={lat:23.109174,lng: 72.590597};
-      TEKSUN={lat:23.104338,lng:72.593939};
+      IANT={lat:23.109284,lng: 72.584291};//ChIJhz5ZnsqDXjkRxa7vRZostaE
+      CADD={lat:23.109174,lng: 72.590597};//ChIJS7LS9r-DXjkRIMlbUXtymUk
+      TEKSUN={lat:23.104338,lng:72.593939};//ChIJi4sSGLiDXjkRIQx6vX6FXE0
       ITS={lat:23.054430,lng:72.553570};
       ALPHA={lat:23.117866,lng:72.600426};
       JAMSAB={lat:23.066010,lng:72.561974};
