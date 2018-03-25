@@ -2,22 +2,13 @@
 <html lang="en">
 <head>
 
-  <script src="js/jquery.js"></script>
-<script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-app.js"></script>
+  <script type="text/javascript" src="js/auth.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-database.js"></script>
-  <script src="js/auth.js"></script>
-  <script type="text/javascript">
-    var ref = firebase.database().ref();
 
-ref.on("value", function(snapshot) {
-   console.log(snapshot.val());
-}, function (error) {
-   console.log("Error: " + error.code);
-});
-  </script>
- 
 <title>KickStart</title>
 <meta name="description" content="">
 <meta name="author" content="">
@@ -185,6 +176,197 @@ signout.addEventListener("click",function(){
    
 </section>
 
+<!-- <section id="preference" class="parallax-section">
+  <div class="container">
+    <div class="row">
+
+      <! Section title
+      ================================================== -->
+      <!-- <div class="wow bounceIn col-sm-12 col-md-12 ">
+        <div class="section-title">
+          <h2>Fields of Engineering</h2>
+        </div>
+      </div>
+      <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                         Computer Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <p>In Computer Science & Engineering the student will go through the algorithms, programming languages, operating systems, database management systems, computer network, computer graphics and artificial intelligence. You can choose the Computer Science & Engineering, after 12th Science.</p>
+
+  
+<a href="compeng.html"><button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button></a>
+                  </div>
+               </div>
+          </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Electronics & Communication
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                      <p>Electronic communications engineering is the utilization of science and math applied to practical problems in the field of communications. Electronic communications engineers engage in research, design, development and testing of the electronic equipment used in various communications systems. It is due to electrical engineers that we enjoy such modern communication devices as cellular telephones, radios and television.</p> 
+<button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+          </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Industrial Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>Industrial Engineering is concerned with the design, improvement, and installation of integrated systems of people, 
+                      materials, equipment and energy. It draws upon specialized knowledge and skill in the mathematical, physical and the social science together with the principles and methods of engineering analysis and design 
+                      to specify, predict, and evaluate the results to be obtained from such systems.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Electrical Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>In electrical engineering one learns to design and develop new electrical equipment, solve problems and test equipment. An electrical engineer work with all kinds of electronic devices, from the smallest pocket devices to large supercomputers. Electrical engineering deals with electricity, electro-magnetism and electronics.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Mechanical Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>The mechanical engineering field requires an understanding of core areas including mechanics, dynamics, thermodynamics, materials science, structural analysis, and electricity. Mechanical engineering is the discipline that applies engineering, physics, and materials science principles to design, analyze, manufacture, and maintain mechanical systems.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Chemical Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>Chemical engineering is a discipline influencing numerous areas of technology. In broad terms, chemical engineers conceive and design processes to produce, transform and transport materials — beginning with experimentation in the laboratory followed by implementation of the technology in full-scale production.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Civil Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>Civil engineering takes place in the public sector from municipal through to national governments, and in the private sector from individual homeowners through to international companies.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Aerospace Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>Aerospace engineering is the primary field of engineering concerned with the development of aircraft and spacecraft.It has two major and overlapping branches: Aeronautical engineering and Astronautical Engineering. Avionics engineering is similar, but deals with the electronics side of aerospace engineering.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Biomedical Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>Biomedical engineering, or bioengineering, is the application of engineering principles to the fields of biology and health care. Bioengineers work with doctors, therapists and researchers to develop systems, equipment and devices in order to solve clinical problems.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Food-Process Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>Food-process engineering is a multidisciplinary field which combines microbiology, applied physical sciences, chemistry and engineering for food and related industries. Food engineering includes, but is not limited to, the application of agricultural engineering, mechanical engineering and chemical engineering principles to food materials. Food-process engineers provide the technological knowledge transfer essential to the cost-effective production and commercialization of food products and services.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+           <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Environmental Engineering
+                    </a>
+                  </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                      <p>Environmental engineers use the principles of engineering, soil science, biology, and chemistry to develop solutions to environmental problems. They work to improve recycling, waste disposal, public health, and water and air pollution control. They also address global issues, such as unsafe drinking water, climate change, and environmental sustainability.</p>
+                    <button style="margin-left: 85%;width: 15%;" class=" btn btn-default">Explore</button>
+                  </div>
+               </div>
+           </div>
+
+         </div>
+      </div>
+
+    </div>
+  </div>
+</section> --> 
 <!-- =========================
     CareerOption SECTION   
 ============================== -->
@@ -248,14 +430,14 @@ signout.addEventListener("click",function(){
 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
 					<div class="CareerOption-wrapper">
-						<a class="eng" href="engineering.html" onmouseenter="eeng()" onclick="eng()"><img src="images/engineering.jpg" s class="img-responsive" alt="CareerOption">
+						<a class="eng" href="engineering.html" onclick="eng()"><img src="images/engineering.jpg" s class="img-responsive" alt="CareerOption">
 							</a>
 					</div>
 				</div>
 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
 					<div class="CareerOption-wrapper">
-						<a class="med" href="#medical" onmouseenter="emed()" onclick="med()"><img src="images/medical.jpg"  class="img-responsive" alt="CareerOption">
+						<a class="med" href="#medical" onclick="med()"><img src="images/medical.jpg"  class="img-responsive" alt="CareerOption">
 							</a>
 					</div>
 				</div>
@@ -293,7 +475,7 @@ signout.addEventListener("click",function(){
 					<script type="text/javascript">
 				function eng() {
 					
-            	 var hr = $(".eng").attr("href");
+            	var hr = $(".eng").attr("href");
               window.localStorage.setItem('link',hr);
             }
 function med() {
@@ -305,22 +487,22 @@ function med() {
 function arts() {
               var hr = $(".arts").attr("href");
               window.localStorage.setItem('link',hr);
-            window.open(hr);
+           
             }
 function law() {
               var hr = $(".law").attr("href");
               window.localStorage.setItem('link',hr);
-            window.open(hr);
+            
             }
 function manage() {
               var hr = $(".manage").attr("href");
               window.localStorage.setItem('link',hr);
-            window.open(hr);
+            
             }
 function com() {
               var hr = $(".com").attr("href");
               window.localStorage.setItem('link',hr);
-            window.open(hr);
+           
             }
 			</script>
 					
@@ -332,17 +514,24 @@ function com() {
     <div class="row">
       <div class="col-sm-12 col-md-12">
         <h2>Your History</h2>
-      <div class="cookie hidden">
-        
-          <a class="last" href="#"><p class="link1">Last session</p></a>
+        <br><br>
+          <div class="">
+          <a id="mainlink" href="" class="btn btn-default">Go to Your Last Session</a>
           </div>
           <script type="text/javascript">
-            if(localStorage.getItem('link')!=null)
-            {
-              $('.cookie').removeClass('hidden');
-               var li=window.localStorage.getItem('link');
-                    $('.last').attr("href",li);
-                    $('.link1').innerHTML=localStorage.getItem('link');
+            $("#session").addClass('hidden');
+            if(typeof(Storage)!=="undefined")
+            { 
+              var li=window.localStorage.getItem('link');
+              if(li!==null)
+              {
+                
+                $("#session").removeClass('hidden');
+                $('#mainlink').attr("href",li);
+            }
+          }
+            else{
+              $("#session").addClass('hidden');
             }
           </script>
         </div>

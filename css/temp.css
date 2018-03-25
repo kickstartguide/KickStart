@@ -130,7 +130,7 @@ h5 {
 }
 
 p {
-    color: #707070;
+    color: #4D4D4D;
     font-size: 14px;
     line-height: 24px;
 }
@@ -345,9 +345,9 @@ border-bottom: #C33538 solid 1px;
     height: 100vh;
 }
 #subintrocomp {
-    background: url('../images/comp.jpg') center no-repeat !important;
-    background-size: cover;
-    height: 100vh;
+    background: url('../images/1.jpg') center no-repeat !important;
+    background-size: fill !important;
+    height: 50vh;
 }
 
 #intro h3 {

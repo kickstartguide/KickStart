@@ -43,3 +43,16 @@ video tutorials
 P.S :: start numbering from (1) and continue.....
 Description should always precede links
 
+
+
+
+
+Edit preference form to have ONLY Maninagar , Satellite , Chandkheda.
+Fetch location-> based on location,construct map
+
+preference front end Almost Done	
+
+Admin Login UI	Hrishikesh
+
+
+
