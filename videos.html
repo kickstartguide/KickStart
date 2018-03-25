@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Videos</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link href="./font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/temp.css">
+
+
+  <style>
+  </style>
+</head>
+<body>
+    <!-- Page Header -->
+    <header class="navbar navbar-expand flex-column flex-md-row sw-navbar">
+        
+<div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+        <span class="icon icon-bar"></span>
+      </button>
+      <a href="" class="navbar-brand">
+        <img src="images/loader.png" style="position: fixed;overflow: hidden!important;  top: 1%;left: 1%; width: 11%;"></img></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+      <ul class="nav navbar-nav navbar-right navbar-pills text-center">
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#overview">Overview</a></li>
+        
+        <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Career Options <span class="caret"></span></a>
+        
+           <ul class="dropdown-menu bounceIn multi-level text-center" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut" role="menu" aria-labelledby="dropdownMenu">
+              
+              <li class="dropdown-submenu">
+                <a href="">Engineering</a>
+                
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a href="">Computer / IT</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="">Mechanical</a>
+                  </li>
+               <li class="dropdown-submenu">
+                    <a href="">Electrical</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">Civil</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">Chemical</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">EC</a>
+                </li>
+                <li class="dropdown-submenu">
+                    <a href="">Auronotical</a>
+                </li>
+          </ul>
+        </li>
+      </ul>
+  </li>
+  <li><a href="#doubt" class="smoothScroll">Any Question?</a></li>
+                <li><a href="#contact" class="smoothScroll">Contact Us</a></li>
+                <li><a href="#about" class="smoothScroll">About Us</a></li>
+                <li><a id="login" href="login.html" class="hidden smoothScroll">Login</a></li>
+
+         <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown"  data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false"
+                id="textelement" style="text-transform: uppercase; "></a>
+           <ul class="dropdown-menu bounceIn multi-level text-center" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut" role="menu" aria-labelledby="dropdownMenu">
+              
+              <li class="dropdown-submenu">
+                <a href="" id="signout" class="hidden">Sign Out</a>
+        </li>
+        <li class="dropdown-submenu">
+                <a href="preference.html" id="" class="">Preferences</a>
+        </li>
+      </ul>
+  </li>
+        
+          
+          <script type="text/javascript">
+        var signout=document.getElementById("signout");
+signout.addEventListener("click",function(){
+  firebase.auth().signOut().then(function() {
+    alert("successfully SignOut");
+  // Sign-out successful.
+}).catch(function(error) {
+  alert("Error occur.Please Try Again.")
+  // An error happened.
+});
+},false);</script>
+    </div>
+
+  </div>
+</div>
+
+<!-- <script type="text/javascript">
+  firebase.auth().onAuthStateChanged(firebaseUser => {
+        if(!firebaseUser){
+           $('#login').removeClass('hidden');
+           $('#signup').removeClass('hidden');
+           $('#textelement').addClass('hidden');
+           $('.caret').addClass('hidden');
+            $('#signout').addClass('hidden');
+            $('#doubt .container').addClass('authstyle');
+           
+           }
+           else
+           {
+             $('.authstyle_element').addClass('hidden');
+            $('#login').addClass('hidden');
+           $('#signup').addClass('hidden');
+            $('#textelement').removeClass('hidden');
+            $('.caret').removeClass('hidden');
+            $('#signout').removeClass('hidden');
+            var user = firebase.auth().currentUser;
+            if(user!=null)
+            {var name=user.displayName;
+              document.getElementById("textelement").innerHTML = name +" <span class='caret'></span>";
+            console.log("Welcome " + name);
+
+            
+          }
+          }
+});
+</script>
+ -->    </header>
+
+    <!-- Page Content Holder -->
+    <div class="container" style="margin-left: 15px;">
+      <div class="row">
+    <div class="container-fluid wrapper col-md-4 col-sm-4" style="width: 15%; margin-left: 0; background: #efefef; text-align: center;">
+        <div class="row flex-xl-nowrap">
+            <!-- Sidebar Holder -->
+
+            <div id="sidebar" class="sw-sidebar " style="position: fixed;">
+                
+                   <button class="btn btn-info" style="width: 100%;">Playlist</button>
+                    
+                  <div class="btn-group-vertical btn-block ">
+  <button type="button" id="1" class="btn btn-block videoButton" onclick="changeSource(1)" >video 1</button>
+  <button type="button" id="2" class="btn btn-block videoButton" onclick="changeSource(2)" >video 2</button>
+  <button type="button" id="3" class="btn btn-block videoButton" onclick="changeSource(3)" >video 3</button>
+  <button type="button" id="4" class="btn btn-block videoButton" onclick="changeSource(4)" >video 4</button>
+  <button type="button" id="5" class="btn btn-block videoButton" onclick="changeSource(5)" >video 5</button>
+  <button type="button" id="6" class="btn btn-block videoButton" onclick="changeSource(6)" >video 6</button>
+  <button type="button" id="7" class="btn btn-block videoButton" onclick="changeSource(7)" >video 7</button>
+  <button type="button" id="8" class="btn btn-block videoButton" onclick="changeSource(8)" >video 8</button>
+  <button type="button" id="9" class="btn btn-block videoButton" onclick="changeSource(9)" >video 9</button>
+  <button type="button" id="10" class="btn btn-block videoButton" onclick="changeSource(10)">video 10</button>
+
+
+
+</div></div></div></div>
+
+<!-- <div class="row btn-group" style="float: right;margin-left: 10%;" id="vd1">
+  <div class="col-md-10 col-sm-10" >
+     
+
+</div>
+  </div> -->
+ <div class="row btn-group" style="float: right;margin-left: 10%;" id="vd2">
+  <div class="col-md-10 col-sm-10" >
+     <video controls width="110%">
+  <source id="sourceFile" src="videos\2.mp4" type="video/mp4" >
+  
+</video> 
+<div class="row btn-group" style="float: right;">
+ 
+<button type="button" class="btn btn-lg">Previous</button>
+
+<button type="button" class="btn btn-info btn-lg" ">Next</button>
+</div>
+</div>
+  </div>
+
+
+<!-- <script type="text/javascript">
+  function videofun()
+  {
+    var i=document.getElementsByClassName('vdsrc2').getAttribute('src');
+
+    alert(i); 
+  }  
+  function videofun() {
+    var vids = document.getElementsByTagName("source").src;
+    var vidSrcs = [];
+
+    for (var i = 0; i < vids.length; i++) {
+        imgSrcs.push(imgs[i].src);
+    }
+
+    return imgSrcs;
+}
+
+</script>
+
+</div>
+  </div>
+
+</div>
+<br><br>
+    <footer>
+    <br>
+    <footer class="footer1" style="background-color:;justify-content: justify;">
+<div class="container">
+
+<div class="row"><!-- row -->
+
+                <div class="col-lg-3 col-md-3 animated fadeInLeft">
+                <img src="images/loader.png" style="width: 60%;">
+                <br><br>
+                
+            </div>
+            
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                            <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Useful links</h1>
+                                
+                                <ul>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i> FAQs </a></li>
+                                   
+                                
+                                </ul>
+                    
+                            </li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column left -->
+            
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                            <li class="widget-container widget_nav_menu"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Career Options</h1>
+                                
+                                <ul>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Engineering </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Medical </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Commerse </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Arts </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Law </a></li>
+                                    <li><a  href="#"><i class="fa fa-angle-double-right"></i>  Management </a></li>
+                                   
+                                    
+                                </ul>
+                    
+                            </li>
+                            
+                        </ul>
+                         
+                      
+                </div><!-- widgets column left end -->
+                
+                
+                
+                
+                
+                
+                <div class="col-lg-3 col-md-3"><!-- widgets column center -->
+                
+                   
+                    
+                        <ul class="list-unstyled clear-margins"><!-- widgets -->
+                        
+                            <li class="widget-container widget_recent_news"><!-- widgets list -->
+                    
+                                <h1 class="title-widget" style="padding-top: 10px;">Contact Detail </h1>
+                                
+                                <div class="footerp"> 
+                                
+                                <h2 class="title-median">KickStart Career</h2>
+                                <div class="input-group">
+                
+                <form>
+                <input type="hidden" name="search_param" value="all" id="search_param">         
+                <input type="text" class="form-control" name="x" placeholder="Search here.."></form>
+                <span class="input-group-btn" style="justify-content: justify;">
+                    <button class="btn btn-default" type="button"><span><i class="fa fa-search" aria-hidden="true"></i>
+</span></button>
+                </span>
+            </div>
+            <br>
+                                <p><b>Helpline Numbers </b>
+
+    <b style="color: white;">(8AM to 10PM):</b>  +91-9601369815, +91-9924677710  </p>
+    
+    <p><b>Folow Us on :</b></p>
+    
+                                </div>
+                                
+                                <div class="social-icons">
+                                
+                                    <ul class="nomargin">
+                                    
+                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+                <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+                <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+                <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                    
+                                    </ul>
+                                </div>
+                            </li>
+                          </ul>
+                       </div>
+                </div>
+</div>
+</footer>
+<!--header-->
+
+<div class="footer-bottom">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+                <div class="copyright">
+
+                    © 2018, KickStart, All rights reserved
+
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+                <div class="design">
+
+                     <a href="#">Thanks for visiting our site. </a> |  <a target="_blank" href="http://www.webenlance.com">Career Guidance & courses provided by KickStart</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</footer>
+
+   
+
+    
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+
+  <a href="#back-top" class="go-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/video.js"></script>
+
+</body>
+
+</html>
