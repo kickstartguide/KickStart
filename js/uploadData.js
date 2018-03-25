@@ -23,26 +23,26 @@ var getData = function()
 
 	for (var i = branchTag.length - 1; i >= 0; i--) {
 		if(branchTag[i].checked)
-			branches.push(branchTag[i].value)
+			branches.push(branchTag[i].value);
 	}
 
 	for (var i = skillTag.length - 1; i >= 0; i--) 
 	{
 		if(skillTag[i].selected)
-			skillLevel=skillTag[i].value
+			skillLevel=skillTag[i].value;
 	}
+
 firebase.auth().onAuthStateChanged(function(user) {
 	var user = firebase.auth().currentUser;
-  if (user) {
-    
+  	if (user) {
     var userId = user.uid;
     var name = user.displayName;
     var email = user.email;
-
-var usersRef = firebase.database().ref("users/");
-var prefvalues = firebase.database().ref("users/"+userId+"/");
-prefvalues.set ({
-     "city":city,
+    
+	var usersRef = firebase.database().ref("users/");
+	var prefvalues = firebase.database().ref("users/"+userId+"/");
+	prefvalues.set ({
+     	"city":city,
 		"disciplines":disciplines,
 		"branches":branches,
 		"skill level":skillLevel
@@ -50,6 +50,7 @@ prefvalues.set ({
 
 }
 });
+window.location="login.html";
 }
 var getDiscipline = function()
 {
